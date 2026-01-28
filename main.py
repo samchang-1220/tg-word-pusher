@@ -4,41 +4,47 @@ import re
 from deep_translator import GoogleTranslator
 import os
 import nltk
+import time
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 
-# 下載還原單字所需的數據包
-nltk.download('wordnet')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('omw-1.4')
+# 補齊所有必要的 NLTK 數據包
+try:
+    nltk.download('wordnet')
+    nltk.download('averaged_perceptron_tagger')
+    nltk.download('averaged_perceptron_tagger_eng') # 新版 nltk 可能需要這個
+    nltk.download('omw-1.4')
+    nltk.download('punkt')     # 這是最容易漏掉的！
+    nltk.download('punkt_tab') # 針對新環境的補丁
+except:
+    pass
 
-# 從 GitHub Secrets 讀取資訊
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
 def get_wordnet_pos(word):
-    """將 nltk 的詞性標籤轉為 wordnet 可用的標籤"""
-    tag = nltk.pos_tag([word])[0][1][0].upper()
-    tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
-    return tag_dict.get(tag, wordnet.NOUN)
+    """將詞性轉為 wordnet 可用的格式"""
+    try:
+        tag = nltk.pos_tag([word])[0][1][0].upper()
+        tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
+        return tag_dict.get(tag, wordnet.NOUN)
+    except:
+        return wordnet.NOUN
 
 def lemmatize_word(word):
-    """詞形還原：動詞變原型、名詞變單數，但保留 -ed 形容詞"""
-    lemmatizer = WordNetLemmatizer()
-    
-    # 取得詞性
-    tag = nltk.pos_tag([word])[0][1]
-    
-    # 如果已經是形容詞 (JJ)，則直接回傳不處理 (符合你提到的 ed 是形容詞沒關係)
-    if tag.startswith('JJ'):
+    """還原單字形態"""
+    try:
+        lemmatizer = WordNetLemmatizer()
+        tag = nltk.pos_tag([word])[0][1]
+        if tag.startswith('JJ'): # 如果是形容詞則不變
+            return word
+        pos = get_wordnet_pos(word)
+        return lemmatizer.lemmatize(word, pos)
+    except:
         return word
-    
-    # 否則根據詞性還原
-    pos = get_wordnet_pos(word)
-    return lemmatizer.lemmatize(word, pos)
 
 def get_phonetic(word):
-    """獲取音標 (IPA)"""
+    """獲取音標"""
     try:
         url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
         response = requests.get(url, timeout=5)
@@ -56,10 +62,13 @@ def get_phonetic(word):
 
 def get_cnn_data(limit=10):
     url = "https://edition.cnn.com/"
-    headers = {'User-Agent': 'Mozilla/5.0'}
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    headlines = [h.get_text().strip() for h in soup.find_all(['span', 'h3'], class_='container__headline-text')]
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        headlines = [h.get_text().strip() for h in soup.find_all(['span', 'h3'], class_='container__headline-text')]
+    except:
+        return []
     
     results = []
     used_words = set()
@@ -68,7 +77,7 @@ def get_cnn_data(limit=10):
     for sentence in headlines:
         raw_words = re.findall(r'\b[a-z]{9,}\b', sentence.lower())
         for raw_word in raw_words:
-            # 執行詞形還原 (名詞去s, 動詞回原型)
+            # 詞形還原
             word = lemmatize_word(raw_word)
             
             if word not in used_words and len(results) < limit:
@@ -79,13 +88,14 @@ def get_cnn_data(limit=10):
                     
                     results.append({
                         'word': word.capitalize(),
-                        'raw_word': raw_word, # 保留原始出現的樣子
                         'phonetic': phonetic,
                         'translation': word_cn,
                         'context_en': sentence,
                         'context_cn': context_cn
                     })
                     used_words.add(word)
+                    print(f"Success: {word}")
+                    time.sleep(0.5) # 稍微停頓，避免被 API 判定為攻擊
                 except:
                     continue
         if len(results) >= limit: break
@@ -95,8 +105,8 @@ def send_to_telegram(items):
     if not items: return
     message = "<b>今日 CNN 時事單字推播</b> 📚\n--------------------------------\n\n"
     for i, item in enumerate(items, 1):
-        phonetic_display = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
-        message += f"{i}. <b>{item['word']}</b>{phonetic_display}\n"
+        p_display = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
+        message += f"{i}. <b>{item['word']}</b>{p_display}\n"
         message += f"   🔹 中文：{item['translation']}\n"
         message += f"   📝 原句：<i>{item['context_en']}</i>\n"
         message += f"   💡 翻譯：{item['context_cn']}\n\n"
