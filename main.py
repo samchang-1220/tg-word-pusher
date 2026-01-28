@@ -8,61 +8,67 @@ import os
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-def get_kk(word):
-    """從 Yahoo 字典抓取 KK 音標 (強化版)"""
+def get_phonetic(word):
+    """使用 Dictionary API 獲取標準音標 (IPA)"""
     try:
-        url = f"https://tw.dictionary.search.yahoo.com/search?p={word}"
-        # 模擬更真實的瀏覽器行為
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-        }
-        res = requests.get(url, headers=headers, timeout=5)
-        soup = BeautifulSoup(res.text, 'html.parser')
-        
-        # 尋找包含 KK 字樣的區塊
-        comp_list = soup.find_all('span', class_='compList')
-        for item in comp_list:
-            text = item.get_text()
-            if 'KK' in text:
-                # 只留下音標部分，例如 [æ...]
-                return text.replace('KK', '').strip()
+        # 使用免費的 Dictionary API
+        url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
+        response = requests.get(url, timeout=5)
+        if response.status_code == 200:
+            data = response.json()
+            # 優先嘗試取得外層的 phonetic 欄位
+            phonetic = data[0].get('phonetic')
+            if phonetic:
+                return phonetic
+            # 如果沒有，從 phonetics 列表尋找包含 text 的項目
+            phonetics = data[0].get('phonetics', [])
+            for p in phonetics:
+                if p.get('text'):
+                    return p.get('text')
         return ""
-    except Exception as e:
-        print(f"音標抓取錯誤 ({word}): {e}")
+    except:
         return ""
 
 def get_cnn_data(limit=10):
     url = "https://edition.cnn.com/"
     headers = {'User-Agent': 'Mozilla/5.0'}
-    response = requests.get(url, headers=headers)
-    soup = BeautifulSoup(response.text, 'html.parser')
-    # 抓取 CNN 標題
-    headlines = [h.get_text().strip() for h in soup.find_all(['span', 'h3'], class_='container__headline-text')]
+    try:
+        response = requests.get(url, headers=headers)
+        soup = BeautifulSoup(response.text, 'html.parser')
+        # 抓取 CNN 標題
+        headlines = [h.get_text().strip() for h in soup.find_all(['span', 'h3'], class_='container__headline-text')]
+    except Exception as e:
+        print(f"CNN 抓取失敗: {e}")
+        return []
     
     results = []
     used_words = set()
     translator = GoogleTranslator(source='en', target='zh-TW')
 
     for sentence in headlines:
-        # 抓取 9 個字母以上的單字
+        # 篩選 9 個字母以上的單字
         words_in_sentence = re.findall(r'\b[a-z]{9,}\b', sentence.lower())
         for word in words_in_sentence:
             if word not in used_words and len(results) < limit:
                 try:
+                    # 翻譯單字
                     word_cn = translator.translate(word)
-                    kk = get_kk(word)
+                    # 獲取音標 (IPA)
+                    phonetic = get_phonetic(word)
+                    # 翻譯原句
                     context_cn = translator.translate(sentence)
                     
                     results.append({
                         'word': word.capitalize(),
-                        'kk': kk,
+                        'phonetic': phonetic,
                         'translation': word_cn,
                         'context_en': sentence,
                         'context_cn': context_cn
                     })
                     used_words.add(word)
-                    print(f"成功處理: {word}") # 這是為了讓你在 GitHub Action Log 裡看得到進度
-                except:
+                    print(f"成功處理: {word} {phonetic}")
+                except Exception as e:
+                    print(f"處理單字 {word} 時出錯: {e}")
                     continue
                     
         if len(results) >= limit: break
@@ -77,9 +83,10 @@ def send_to_telegram(items):
     message += "--------------------------------\n\n"
     
     for i, item in enumerate(items, 1):
-        # 這裡修正了讀取音標的寫法
-        kk_display = f" {item['kk']}" if item['kk'] else ""
-        message += f"{i}. <b>{item['word']}</b>{kk_display}\n"
+        # 組合音標顯示：如果有音標就顯示，沒有就空白
+        phonetic_display = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
+        
+        message += f"{i}. <b>{item['word']}</b>{phonetic_display}\n"
         message += f"   🔹 中文：{item['translation']}\n"
         message += f"   📝 原句：<i>{item['context_en']}</i>\n"
         message += f"   💡 翻譯：{item['context_cn']}\n\n"
