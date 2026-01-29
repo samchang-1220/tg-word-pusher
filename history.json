@@ -1,19 +1,44 @@
 {
   "2026-01-29": [
     {
-      "word": "reject",
-      "phonetic": "",
-      "translation": "拒絕"
+      "word": "potato",
+      "phonetic": "/pəˈteɪ.təʊ/",
+      "translation": "馬鈴薯"
     },
     {
-      "word": "ecuador",
-      "phonetic": "",
-      "translation": "厄瓜多"
+      "word": "warn",
+      "phonetic": "/wɔːn/",
+      "translation": "警告"
     },
     {
-      "word": "swap",
-      "phonetic": "/swɒp/",
-      "translation": "交換"
+      "word": "bumper",
+      "phonetic": "",
+      "translation": "保險槓"
+    },
+    {
+      "word": "lurk",
+      "phonetic": "/lɜːk/",
+      "translation": "潛伏"
+    },
+    {
+      "word": "breath",
+      "phonetic": "/bɹɛθ/",
+      "translation": "氣息"
+    },
+    {
+      "word": "documentary",
+      "phonetic": "/ˌdɒk.jəˈmɛn.tɹi/",
+      "translation": "記錄"
+    },
+    {
+      "word": "polar",
+      "phonetic": "/ˈpəʊ̯lə(ɹ)/",
+      "translation": "極性"
+    },
+    {
+      "word": "negotiation",
+      "phonetic": "/nɪˌɡəʊʃiˈeɪʃən/",
+      "translation": "談判"
     },
     {
       "word": "grapple",
@@ -21,34 +46,9 @@
       "translation": "抓鉤"
     },
     {
-      "word": "aftermath",
-      "phonetic": "/ˈæf.təˌmæθ/",
-      "translation": "後果"
-    },
-    {
-      "word": "prosperity",
-      "phonetic": "/pɹɒˈspɛɹ.ɪ.ti/",
-      "translation": "繁榮"
-    },
-    {
-      "word": "eternal",
-      "phonetic": "/ɪˈtɜːnəl/",
-      "translation": "永恆"
-    },
-    {
-      "word": "consulate",
-      "phonetic": "/ˈkɒnsjʊlət/",
-      "translation": "領事館"
-    },
-    {
-      "word": "tackle",
-      "phonetic": "/ˈtækəl/",
-      "translation": "處理"
-    },
-    {
-      "word": "judged",
-      "phonetic": "/dʒʌdʒd/",
-      "translation": "判斷的"
+      "word": "execute",
+      "phonetic": "/ˈɛksɪˌkjuːt/",
+      "translation": "執行"
     }
   ]
 }
