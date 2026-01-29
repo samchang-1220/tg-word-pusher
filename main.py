@@ -24,8 +24,9 @@ MANUAL_BLACKLIST = {
     'people', 'should', 'would', 'could', 'actually', 'really', 'behind',
     'self-service', 'visa-free', '30-year', 'take-off', 'play-offs', 'offs',
     'warns', 'announces', 'widen', 'dominate', 'collapse', 'fatal', 'voter',
-    'loses', 'sends', 'drought', 'typhoon', 'insists'
-           
+    'loses', 'sends', 'drought', 'typhoon', 'insists', 'chaos', 'protester',
+    'lawmaker', 'gather', 'gunfire', 'blast', 'tear', 'shutdown', 'refuse',
+    'comeback', 'scenario', 'executes', 'rocket', 'launcher'           
 }
 
 def get_common_words(limit=5000):
