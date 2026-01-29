@@ -10,7 +10,7 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk import ne_chunk, pos_tag, word_tokenize
 
-# 下載 NER 必要的數據包
+# --- 修正處：補齊所有可能的 NLTK 數據包 ---
 try:
     nltk.download('wordnet')
     nltk.download('averaged_perceptron_tagger')
@@ -18,23 +18,28 @@ try:
     nltk.download('omw-1.4')
     nltk.download('punkt')
     nltk.download('punkt_tab')
-    nltk.download('maxent_ne_chunker') # NER 核心模型
-    nltk.download('words')             # NER 比對用詞庫
+    nltk.download('maxent_ne_chunker')
+    nltk.download('maxent_ne_chunker_tab') # 補上這行解決報錯
+    nltk.download('words')
 except:
     pass
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-BASIC_WORDS = {
-    'people', 'should', 'really', 'before', 'things', 'because', 'around', 'another',
-    'through', 'between', 'against', 'country', 'without', 'program', 'problem',
-    'system', 'during', 'number', 'public', 'states', 'government', 'president',
-    'believe', 'present', 'million', 'billion', 'company', 'service', 'support',
-    'information', 'technology', 'reported', 'morning', 'evening', 'together',
-    'children', 'national', 'business', 'started', 'provide', 'however', 'whether',
-    'general', 'possible', 'increase', 'actually', 'experience', 'political', 'economic'
-}
+def get_common_words(limit=2000):
+    try:
+        url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            all_words = response.text.lower().splitlines()
+            return set(all_words[:limit])
+        return set()
+    except:
+        return set()
+
+COMMON_WORDS_2000 = get_common_words(2000)
+MANUAL_BLACKLIST = {'people', 'should', 'without', 'government', 'president'}
 
 def get_wordnet_pos(word):
     try:
@@ -60,7 +65,7 @@ def get_phonetic(word):
         response = requests.get(url, timeout=5)
         if response.status_code == 200:
             data = response.json()
-            phonetic = data[0].get('phonetic')
+            phonetic = data[0].get('phonetic') or ""
             if not phonetic:
                 phonetics = data[0].get('phonetics', [])
                 for p in phonetics:
@@ -83,37 +88,33 @@ def get_cnn_data(target_count=10):
     word_pool = {}
     
     for sentence in headlines:
-        # 使用 NER 分析句子
-        tokens = word_tokenize(sentence)
-        tags = pos_tag(tokens)
-        chunks = ne_chunk(tags)
-        
-        # 找出哪些是人名，哪些是國家
-        person_names = set()
-        for chunk in chunks:
-            if hasattr(chunk, 'label'):
-                # 如果標籤是 PERSON，記住這個名字
-                if chunk.label() == 'PERSON':
+        try:
+            tokens = word_tokenize(sentence)
+            tags = pos_tag(tokens)
+            chunks = ne_chunk(tags)
+            
+            person_names = set()
+            for chunk in chunks:
+                if hasattr(chunk, 'label') and chunk.label() == 'PERSON':
                     for leaf in chunk:
                         person_names.add(leaf[0].lower())
-                # 如果標籤是 GPE (Geopolitical Entity)，通常是國家或城市，我們不排除
 
-        # 提取一般單字
-        raw_words = re.findall(r'\b[a-z]{6,}\b', sentence.lower())
-        
-        for raw_word in raw_words:
-            # 1. 排除人名 2. 排除基礎字
-            if raw_word in person_names or raw_word in BASIC_WORDS:
-                continue
-            
-            word_base = lemmatize_word(raw_word)
-            if word_base not in BASIC_WORDS and len(word_base) >= 6:
-                if word_base not in word_pool:
-                    word_pool[word_base] = sentence
+            raw_words = re.findall(r'\b[a-z]{6,}\b', sentence.lower())
+            for raw_word in raw_words:
+                if raw_word in person_names or raw_word in COMMON_WORDS_2000 or raw_word in MANUAL_BLACKLIST:
+                    continue
+                
+                word_base = lemmatize_word(raw_word)
+                if word_base not in COMMON_WORDS_2000 and len(word_base) >= 6:
+                    if word_base not in word_pool:
+                        word_pool[word_base] = sentence
+        except:
+            continue
 
     candidate_list = list(word_pool.keys())
+    if not candidate_list: return []
+    
     selected_keys = random.sample(candidate_list, min(len(candidate_list), target_count))
-
     results = []
     translator = GoogleTranslator(source='en', target='zh-TW')
 
@@ -139,7 +140,7 @@ def get_cnn_data(target_count=10):
 
 def send_to_telegram(items):
     if not items: return
-    message = "<b>今日 CNN 精選單字庫 (排除人名版)</b> 🎲\n--------------------------------\n\n"
+    message = "<b>今日 CNN 挑戰單字庫 (精準過濾版)</b> 🎓\n--------------------------------\n\n"
     for i, item in enumerate(items, 1):
         p_display = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
         message += f"{i}. <b>{item['word']}</b>{p_display}\n"
