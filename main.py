@@ -18,17 +18,23 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 強制排除的疑問詞與代名詞
-HARD_FORBIDDEN = {'why', 'how', 'when', 'where', 'which', 'who', 'whom', 'whose', 'what', 'that', 'this', 'these', 'those'}
+# 新增：新聞常見但「太簡單」或「沒意義」的單字黑名單
+NEWS_JUNK_WORDS = {
+    'mayor', 'police', 'official', 'officials', 'sends', 'gather', 'gathers', 
+    'roof', 'offs', 'behind', 'across', 'against', 'around', 'without', 
+    'people', 'should', 'would', 'could', 'years', 'months', 'weeks', 
+    'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
+    'report', 'reports', 'breaking', 'latest', 'news', 'actually', 'really'
+}
 
-def get_common_words(limit=4000):
+def get_common_words(limit=4500): # 稍微提高到 4500，介於 4000 與 5000 之間
     try:
         url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
         res = requests.get(url, timeout=10)
         return res.text.lower().splitlines()[:limit]
     except: return []
 
-COMMON_SET = set(get_common_words(4000))
+COMMON_SET = set(get_common_words(4500))
 
 def lemmatize_word(word):
     try:
@@ -55,51 +61,40 @@ def get_news_data():
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, 'html.parser')
         headlines = list(set([h.get_text().strip() for h in soup.find_all(['h2', 'h3']) if len(h.get_text().strip()) > 15]))
-        print(f"--- 抓取到 {len(headlines)} 則標題 ---")
+        print(f"--- 步驟 1: 成功抓取到 {len(headlines)} 則標題 ---")
 
         word_pool = {}
         excluded_entities = set()
 
-        # 1. 深度辨識實體 (人名、地名、組織)
         for sentence in headlines:
             tokens = word_tokenize(sentence)
             for chunk in ne_chunk(pos_tag(tokens)):
-                if hasattr(chunk, 'label'):
-                    # 排除 PERSON (人名), GPE (地名/國名), ORGANIZATION (組織), FAC (建築物)
-                    if chunk.label() in ['PERSON', 'GPE', 'ORGANIZATION', 'FAC']:
-                        for leaf in chunk: 
-                            excluded_entities.add(leaf[0].lower())
+                if hasattr(chunk, 'label') and chunk.label() in ['PERSON', 'GPE', 'ORGANIZATION']:
+                    for leaf in chunk: excluded_entities.add(leaf[0].lower())
 
-        # 2. 開始篩選
         for sentence in headlines:
-            # 修正後的正則：只抓純英文字母
             raw_tokens = re.findall(r'\b[a-zA-Z]+\b', sentence)
-            
             for token in raw_tokens:
                 word_clean = token.lower()
                 
-                # 排除邏輯
-                if len(word_clean) < 4: continue
-                if word_clean in HARD_FORBIDDEN: continue
-                if word_clean in excluded_entities or word_clean in COMMON_SET: continue
-                
-                # 詞性過濾 (排除代名詞等)
-                tag = pos_tag([word_clean])[0][1]
-                if tag in ['PRP', 'PRP$', 'WP', 'WP$']: continue 
+                # 排除邏輯：
+                # 1. 排除人名/地名 2. 排除 4500 常用字 3. 排除新聞贅詞 4. 長度過短
+                if len(word_clean) < 5: continue # 既然你覺得 stun(4字) 太簡單，我們拉到 5 字以上
+                if word_clean in NEWS_JUNK_WORDS or word_clean in COMMON_SET or word_clean in excluded_entities:
+                    continue
                 
                 base = lemmatize_word(word_clean)
-                # 再次確認還原後的字
-                if base not in COMMON_SET and base not in excluded_entities and base not in HARD_FORBIDDEN:
-                    if base not in word_pool:
+                
+                # 最終檢查：還原後也不能在常用字或贅詞清單中
+                if base not in COMMON_SET and base not in NEWS_JUNK_WORDS and base not in excluded_entities:
+                    if len(base) >= 5:
                         word_pool[base] = sentence
 
         candidate_keys = list(word_pool.keys())
-        print(f"篩選完成：符合標準的難詞數 {len(candidate_keys)}")
+        print(f"篩選完成：符合難度標準的單字數為 {len(candidate_keys)}")
         
-        # 保底機制維持 2000 字
-        if len(candidate_keys) < 10:
-            backup_set = set(ALL_COMMON[:2000]) if 'ALL_COMMON' in globals() else set()
-            # ... (保底邏輯同前，但加入 excluded_entities 排除)
+        # 顯示前 10 個篩選出的字作為 Debug 參考
+        print(f"預選清單參考: {candidate_keys[:10]}")
 
         selected_keys = random.sample(candidate_keys, min(len(candidate_keys), 10))
         results = []
@@ -119,11 +114,11 @@ def get_news_data():
             except: continue
         return results
     except Exception as e:
-        print(f"Error: {e}"); return []
+        print(f"發生錯誤: {e}"); return []
 
 def send_to_telegram(items):
     if not items: return
-    message = "<b>今日時事精選單字 (嚴選版)</b> 🎓\n" + "-"*20 + "\n\n"
+    message = "<b>今日時事精選單字 (品質精煉版)</b> 🎓\n" + "-"*20 + "\n\n"
     for i, item in enumerate(items, 1):
         p = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
         message += f"{i}. <b>{item['word']}</b>{p}\n   🔹 {item['translation']}\n   📝 <i>{item['context_en']}</i>\n   💡 {item['context_cn']}\n\n"
