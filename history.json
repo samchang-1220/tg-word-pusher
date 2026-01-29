@@ -1,24 +1,9 @@
 {
   "2026-01-29": [
     {
-      "word": "grapple",
-      "phonetic": "",
-      "translation": "抓鉤"
-    },
-    {
-      "word": "revival",
-      "phonetic": "/ɹɪˈvaɪvəl/",
-      "translation": "復興"
-    },
-    {
-      "word": "safer",
-      "phonetic": "",
-      "translation": "更安全"
-    },
-    {
-      "word": "friendship",
-      "phonetic": "/ˈfɹɛndʃɪp/",
-      "translation": "友誼"
+      "word": "relax",
+      "phonetic": "/ɹɪˈlæks/",
+      "translation": "放鬆"
     },
     {
       "word": "ecuador",
@@ -31,24 +16,39 @@
       "translation": "黑手黨"
     },
     {
-      "word": "warship",
-      "phonetic": "/wɔːˌʃɪp/",
-      "translation": "軍艦"
+      "word": "swap",
+      "phonetic": "/swɒp/",
+      "translation": "交換"
     },
     {
-      "word": "receives",
-      "phonetic": "/ɹɪˈsiːvz/",
-      "translation": "收到"
+      "word": "tsar",
+      "phonetic": "/tsɐː/",
+      "translation": "沙皇"
     },
     {
-      "word": "prosperity",
-      "phonetic": "/pɹɒˈspɛɹ.ɪ.ti/",
-      "translation": "繁榮"
-    },
-    {
-      "word": "atonio",
+      "word": "grapple",
       "phonetic": "",
-      "translation": "阿托尼奧"
+      "translation": "抓鉤"
+    },
+    {
+      "word": "rodeo",
+      "phonetic": "/ɹoʊ.ˈdeɪ.oʊ/",
+      "translation": "牛仔競技表演"
+    },
+    {
+      "word": "ramp",
+      "phonetic": "/ɹæmp/",
+      "translation": "坡道"
+    },
+    {
+      "word": "tackle",
+      "phonetic": "/ˈtækəl/",
+      "translation": "處理"
+    },
+    {
+      "word": "tribute",
+      "phonetic": "/ˈtɹɪbjuːt/",
+      "translation": "貢"
     }
   ]
 }
