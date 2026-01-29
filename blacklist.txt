@@ -1,48 +1,8 @@
-30-year
-actually
-announces
-behind
-blast
-chaos
-collapse
-comeback
-could
-dominate
-drought
-executes
-fatal
-gather
-gunfire
-how
-insists
-launcher
-lawmaker
-loses
-month
-months
-offs
-people
-play-offs
-protester
-really
-refuse
-robot
-rocket
-scenario
-self-service
-sends
-should
-shutdown
-take-off
-tear
-time
-typhoon
-visa-free
-voter
-warns
-what
-why
-widen
-would
-year
-years
+# --- 常用排除詞 ---
+actually, behind, could, how, month, months, people, really, robot, scenario, should, time, what, why, would, year, years
+
+# --- 新聞贅詞 ---
+announces, blast, chaos, collapse, comeback, dominate, drought, executes, fatal, gather, gunfire, insists, launcher, lawmaker, loses, protester, refuse, rocket, sends, shutdown, tear, typhoon, voter, warns, widen
+
+# --- 複合詞與特殊標點 ---
+30-year, self-service, take-off, play-offs, visa-free, offs
