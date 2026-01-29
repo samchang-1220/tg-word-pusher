@@ -195,5 +195,5 @@ if __name__ == "__main__":
         save_to_history(data)
     
     # 週日判定發送週報 (0=Mon, 6=Sun)
-    if datetime.now().weekday() == 6:
+    if datetime.now().weekday() == TRUE:
         send_weekly_summary()
