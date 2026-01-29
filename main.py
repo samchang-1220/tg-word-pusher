@@ -19,7 +19,7 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-def get_common_words(limit=1000):
+def get_common_words(limit=2000):
     print(f"正在載入前 {limit} 個常用字排除表...")
     try:
         url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
@@ -30,7 +30,7 @@ def get_common_words(limit=1000):
         return set()
 
 # 改回 1000 確保成功率
-COMMON_FILTER = get_common_words(1000)
+COMMON_FILTER = get_common_words(2000)
 
 def lemmatize_word(word):
     try:
