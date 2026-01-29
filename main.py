@@ -18,25 +18,24 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 手動攔截清單：包含新聞基本職業、行為、以及常見地名人名
-MANUAL_BLOCK = {
-    'lawmaker', 'lawmakers', 'voter', 'voters', 'protester', 'protesters', 'gather', 'gathers',
-    'protest', 'protests', 'strike', 'strikes', 'attack', 'attacks', 'blast', 'blasts',
-    'warns', 'insists', 'insist', 'claim', 'claims', 'actually', 'really', 'behind',
-    'police', 'official', 'officials', 'government', 'president', 'minister', 'mayor',
-    'palace', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
-    'celebrity', 'famous', 'everything', 'something', 'another', 'himself', 'herself',
-    'comeback', 'outside', 'inside', 'through', 'across', 'against', 'without'
+# 【新增】手動黑名單：把你覺得簡單到不行的字通通丟進來
+MANUAL_BLACKLIST = {
+    'robot', 'time', 'why', 'how', 'what', 'year', 'years', 'month', 'months',
+    'people', 'should', 'would', 'could', 'actually', 'really', 'behind',
+    'self-service', 'visa-free', '30-year', 'take-off', 'play-offs'
 }
 
-def get_common_words(limit=5000): # 難度提升至 5000 字
+def get_common_words(limit=5000):
     try:
         url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
         res = requests.get(url, timeout=10)
-        return set(res.text.lower().splitlines()[:limit])
-    except: return set()
+        return res.text.lower().splitlines()[:limit]
+    except: return []
 
-COMMON_SET = get_common_words(5000)
+# 預載入兩個等級的過濾器
+ALL_WORDS_SOURCE = get_common_words(5000)
+FILTER_5000 = set(ALL_WORDS_SOURCE)
+FILTER_3000 = set(ALL_WORDS_SOURCE[:3000])
 
 def lemmatize_word(word):
     try:
@@ -46,14 +45,31 @@ def lemmatize_word(word):
         return lemmatizer.lemmatize(word, tag_dict.get(tag[0].upper(), wordnet.NOUN))
     except: return word
 
-def get_phonetic(word):
-    try:
-        url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
-        res = requests.get(url, timeout=5)
-        if res.status_code == 200:
-            return res.json()[0].get('phonetic', "")
-    except: pass
-    return ""
+def filter_vocabulary(headlines, common_set):
+    """通用的單字篩選邏輯"""
+    word_pool = {}
+    person_names = set()
+
+    for sentence in headlines:
+        # NER 辨識人名與地名
+        tokens = word_tokenize(sentence)
+        for chunk in ne_chunk(pos_tag(tokens)):
+            if hasattr(chunk, 'label') and chunk.label() in ['PERSON', 'GPE', 'ORGANIZATION']:
+                for leaf in chunk: person_names.add(leaf[0].lower())
+
+        # 抓取 4 個字母以上的純英文字單字
+        raw_words = re.findall(r'\b[a-zA-Z]{4,}\b', sentence)
+        for rw in raw_words:
+            word_clean = rw.lower().strip("'\"") # 徹底清除引號
+            
+            if word_clean in person_names or word_clean in common_set or word_clean in MANUAL_BLACKLIST:
+                continue
+            
+            base = lemmatize_word(word_clean)
+            if base not in common_set and base not in MANUAL_BLACKLIST and len(base) >= 4:
+                if base not in word_pool:
+                    word_pool[base] = sentence
+    return word_pool
 
 def get_news_data():
     url = "https://www.bbc.com/news"
@@ -63,48 +79,27 @@ def get_news_data():
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, 'html.parser')
         headlines = list(set([h.get_text().strip() for h in soup.find_all(['h2', 'h3']) if len(h.get_text().strip()) > 15]))
-        print(f"--- 步驟 1: 抓取到 {len(headlines)} 則標題 ---")
+        
+        # --- 第一層：5000 字過濾 ---
+        current_mode = "第一層 (5000字級別)"
+        word_pool = filter_vocabulary(headlines, FILTER_5000)
 
-        word_pool = {}
-        for sentence in headlines:
-            tokens = word_tokenize(sentence)
-            tagged = pos_tag(tokens)
-            
-            for i, (word, tag) in enumerate(tagged):
-                word_lower = word.lower()
-                
-                # 1. 基礎長度門檻 (4字以上)
-                if len(word_lower) < 4: continue
-                
-                # 2. 實體排除邏輯 (大寫通常是地名人名)
-                # 如果單字開頭大寫，且不在我們常用字的前 1000 名(避免標題第一個字被誤殺)，就排除
-                if word[0].isupper() and word_lower not in list(COMMON_SET)[:1000]:
-                    continue
-                
-                # 3. 詞性排除 (代名詞、數詞)
-                if tag.startswith('PRP') or tag == 'CD': continue
-                
-                # 4. 手動黑名單 & 5000字常用字排除
-                if word_lower in MANUAL_BLOCK or word_lower in COMMON_SET:
-                    continue
-                
-                # 5. 詞形還原後再次過濾
-                base = lemmatize_word(word_lower)
-                if base in COMMON_SET or base in MANUAL_BLOCK or len(base) < 4:
-                    continue
-                
-                if base not in word_pool:
-                    word_pool[base] = sentence
+        # --- 第二層：如果不到 10 個，改用 3000 字過濾 ---
+        if len(word_pool) < 10:
+            current_mode = "第二層 (3000字級別 - 難詞不足自動降級)"
+            word_pool = filter_vocabulary(headlines, FILTER_3000)
 
         candidate_keys = list(word_pool.keys())
-        print(f"篩選完成：符合 5000 字標準的單字數為 {len(candidate_keys)}")
-        print(f"難詞候選池預覽: {candidate_keys[:10]}")
+        
+        # --- Debug 機制：秀出所有抓到的單字 ---
+        print(f"--- 系統診斷報告 ---")
+        print(f"當前模式: {current_mode}")
+        print(f"標題總數: {len(headlines)}")
+        print(f"候選單字總數: {len(candidate_keys)}")
+        print(f"完整候選清單: {candidate_keys}")
+        print(f"--------------------")
 
-        # 如果 5000 字太嚴格導致單字不夠 10 個，退而求其次用 3000 字保底
-        if len(candidate_keys) < 10:
-            print("難詞不足，啟動保底補充...")
-            backup_set = set(list(COMMON_SET)[:3000])
-            # ... (保底邏輯)
+        if not candidate_keys: return []
 
         selected_keys = random.sample(candidate_keys, min(len(candidate_keys), 10))
         results = []
@@ -112,13 +107,19 @@ def get_news_data():
         
         for word in selected_keys:
             try:
-                print(f"正在處理: {word}")
+                dict_url = f"https://api.dictionaryapi.dev/api/v2/entries/en/{word}"
+                phonetic = ""
+                d_res = requests.get(dict_url, timeout=5)
+                if d_res.status_code == 200:
+                    phonetic = d_res.json()[0].get('phonetic', "")
+
                 results.append({
                     'word': word.capitalize(),
-                    'phonetic': get_phonetic(word),
+                    'phonetic': phonetic,
                     'translation': translator.translate(word),
                     'context_en': word_pool[word],
-                    'context_cn': translator.translate(word_pool[word])
+                    'context_cn': translator.translate(word_pool[word]),
+                    'mode': current_mode # 紀錄來源模式
                 })
                 time.sleep(0.3)
             except: continue
@@ -128,7 +129,8 @@ def get_news_data():
 
 def send_to_telegram(items):
     if not items: return
-    message = "<b>今日時事精選：深度難詞 (5000字版)</b> 🎓\n" + "-"*20 + "\n\n"
+    mode_info = items[0]['mode']
+    message = f"<b>今日時事單字庫 ({mode_info})</b> 🎓\n" + "-"*20 + "\n\n"
     for i, item in enumerate(items, 1):
         p = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
         message += f"{i}. <b>{item['word']}</b>{p}\n   🔹 {item['translation']}\n   📝 <i>{item['context_en']}</i>\n   💡 {item['context_cn']}\n\n"
