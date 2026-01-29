@@ -1,9 +1,14 @@
 {
   "2026-01-29": [
     {
-      "word": "prosperity",
-      "phonetic": "/pɹɒˈspɛɹ.ɪ.ti/",
-      "translation": "繁榮"
+      "word": "grapple",
+      "phonetic": "",
+      "translation": "抓鉤"
+    },
+    {
+      "word": "revival",
+      "phonetic": "/ɹɪˈvaɪvəl/",
+      "translation": "復興"
     },
     {
       "word": "safer",
@@ -11,29 +16,19 @@
       "translation": "更安全"
     },
     {
+      "word": "friendship",
+      "phonetic": "/ˈfɹɛndʃɪp/",
+      "translation": "友誼"
+    },
+    {
       "word": "ecuador",
       "phonetic": "",
       "translation": "厄瓜多"
     },
     {
-      "word": "swap",
-      "phonetic": "/swɒp/",
-      "translation": "交換"
-    },
-    {
-      "word": "starmer",
-      "phonetic": "",
-      "translation": "斯塔默"
-    },
-    {
-      "word": "atonio",
-      "phonetic": "",
-      "translation": "阿托尼奧"
-    },
-    {
-      "word": "consulate",
-      "phonetic": "/ˈkɒnsjʊlət/",
-      "translation": "領事館"
+      "word": "mafia",
+      "phonetic": "/ˈmæfi.ə/",
+      "translation": "黑手黨"
     },
     {
       "word": "warship",
@@ -41,14 +36,19 @@
       "translation": "軍艦"
     },
     {
-      "word": "rugby",
-      "phonetic": "/ˈɹʌɡbi/",
-      "translation": "橄欖球"
+      "word": "receives",
+      "phonetic": "/ɹɪˈsiːvz/",
+      "translation": "收到"
     },
     {
-      "word": "ramp",
-      "phonetic": "/ɹæmp/",
-      "translation": "坡道"
+      "word": "prosperity",
+      "phonetic": "/pɹɒˈspɛɹ.ɪ.ti/",
+      "translation": "繁榮"
+    },
+    {
+      "word": "atonio",
+      "phonetic": "",
+      "translation": "阿托尼奧"
     }
   ]
 }
