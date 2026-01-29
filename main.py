@@ -59,7 +59,6 @@ def get_manual_blacklist():
     blacklist = set()
     file_path = 'blacklist.txt'
     
-    # 內建絕對排除
     internal_list = {'why', 'how', 'what', 'herself', 'himself'}
     blacklist.update(internal_list)
     
@@ -67,17 +66,18 @@ def get_manual_blacklist():
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 for line in f:
-                    # 先去除空白與註釋
                     clean_line = line.strip().lower()
                     if not clean_line or clean_line.startswith('#'):
                         continue
                     
-                    # 關鍵：同時處理「逗號分隔」與「空格分隔」
-                    # 先把逗號換成空格，再用 split() 切開
+                    # 關鍵修正：這裡也要 strip("'\"")，把你在 txt 裡寫的引號去掉
                     words = clean_line.replace(',', ' ').split()
                     for w in words:
-                        blacklist.add(w.strip())
-            print(f"成功載入 {len(blacklist)} 個黑名單單字。")
+                        # 脫掉引號再存入 set
+                        safe_word = w.strip().strip("'\"")
+                        if safe_word:
+                            blacklist.add(safe_word)
+            print(f"成功載入 {len(blacklist)} 個黑名單單字 (已進行去引號處理)。")
         except Exception as e:
             print(f"讀取失敗: {e}")
     return blacklist
