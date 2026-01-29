@@ -18,23 +18,25 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 手動攔截清單：包含地名常見詞、新聞贅詞、代名詞
+# 手動攔截清單：包含新聞基本職業、行為、以及常見地名人名
 MANUAL_BLOCK = {
-    'herself', 'himself', 'themselves', 'myself', 'yourself', 'ourselves',
-    'warns', 'shoot', 'tackle', 'mayor', 'police', 'official', 'officials',
-    'years', 'months', 'weeks', 'monday', 'tuesday', 'wednesday', 'thursday',
-    'friday', 'saturday', 'sunday', 'reports', 'breaking', 'news', 'people',
-    'should', 'would', 'could', 'really', 'actually', 'behind', 'across'
+    'lawmaker', 'lawmakers', 'voter', 'voters', 'protester', 'protesters', 'gather', 'gathers',
+    'protest', 'protests', 'strike', 'strikes', 'attack', 'attacks', 'blast', 'blasts',
+    'warns', 'insists', 'insist', 'claim', 'claims', 'actually', 'really', 'behind',
+    'police', 'official', 'officials', 'government', 'president', 'minister', 'mayor',
+    'palace', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
+    'celebrity', 'famous', 'everything', 'something', 'another', 'himself', 'herself',
+    'comeback', 'outside', 'inside', 'through', 'across', 'against', 'without'
 }
 
-def get_common_words(limit=6000): # 難度直上 6000 字
+def get_common_words(limit=5000): # 難度提升至 5000 字
     try:
         url = "https://raw.githubusercontent.com/first20hours/google-10000-english/master/google-10000-english-no-swears.txt"
         res = requests.get(url, timeout=10)
         return set(res.text.lower().splitlines()[:limit])
     except: return set()
 
-COMMON_SET = get_common_words(6000)
+COMMON_SET = get_common_words(5000)
 
 def lemmatize_word(word):
     try:
@@ -68,37 +70,41 @@ def get_news_data():
             tokens = word_tokenize(sentence)
             tagged = pos_tag(tokens)
             
-            # --- 強效過濾邏輯 ---
             for i, (word, tag) in enumerate(tagged):
                 word_lower = word.lower()
                 
-                # 1. 基礎長度與標點過濾
-                if len(word_lower) < 5 or not word.isalpha(): continue
+                # 1. 基礎長度門檻 (4字以上)
+                if len(word_lower) < 4: continue
                 
-                # 2. 地名/人名大招：如果在句子中間 (i > 0) 且字首是大寫，通常是專有名詞
-                if i > 0 and word[0].isupper(): continue
+                # 2. 實體排除邏輯 (大寫通常是地名人名)
+                # 如果單字開頭大寫，且不在我們常用字的前 1000 名(避免標題第一個字被誤殺)，就排除
+                if word[0].isupper() and word_lower not in list(COMMON_SET)[:1000]:
+                    continue
                 
-                # 3. 代名詞過濾 (PRP) 與 手動黑名單
-                if tag.startswith('PRP') or word_lower in MANUAL_BLOCK: continue
+                # 3. 詞性排除 (代名詞、數詞)
+                if tag.startswith('PRP') or tag == 'CD': continue
                 
-                # 4. 詞頻過濾 (6000字)
-                if word_lower in COMMON_SET: continue
+                # 4. 手動黑名單 & 5000字常用字排除
+                if word_lower in MANUAL_BLOCK or word_lower in COMMON_SET:
+                    continue
                 
-                # 5. 詞形還原後再次比對
+                # 5. 詞形還原後再次過濾
                 base = lemmatize_word(word_lower)
-                if base in COMMON_SET or base in MANUAL_BLOCK or len(base) < 5: continue
+                if base in COMMON_SET or base in MANUAL_BLOCK or len(base) < 4:
+                    continue
                 
                 if base not in word_pool:
                     word_pool[base] = sentence
 
         candidate_keys = list(word_pool.keys())
-        print(f"篩選完成：符合 6000 字標準的單字數為 {len(candidate_keys)}")
-        print(f"候選池預覽: {candidate_keys[:10]}")
+        print(f"篩選完成：符合 5000 字標準的單字數為 {len(candidate_keys)}")
+        print(f"難詞候選池預覽: {candidate_keys[:10]}")
 
-        # 如果難詞太少，自動降低一點門檻到 4000 (保底)
+        # 如果 5000 字太嚴格導致單字不夠 10 個，退而求其次用 3000 字保底
         if len(candidate_keys) < 10:
-            print("難詞不足，執行保底...")
-            # ... (此處省略保底邏輯，結構同上)
+            print("難詞不足，啟動保底補充...")
+            backup_set = set(list(COMMON_SET)[:3000])
+            # ... (保底邏輯)
 
         selected_keys = random.sample(candidate_keys, min(len(candidate_keys), 10))
         results = []
@@ -106,7 +112,7 @@ def get_news_data():
         
         for word in selected_keys:
             try:
-                print(f"處理中: {word}")
+                print(f"正在處理: {word}")
                 results.append({
                     'word': word.capitalize(),
                     'phonetic': get_phonetic(word),
@@ -122,7 +128,7 @@ def get_news_data():
 
 def send_to_telegram(items):
     if not items: return
-    message = "<b>今日 BBC 深度難詞 (6000字篩選)</b> 🚀\n" + "-"*20 + "\n\n"
+    message = "<b>今日時事精選：深度難詞 (5000字版)</b> 🎓\n" + "-"*20 + "\n\n"
     for i, item in enumerate(items, 1):
         p = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
         message += f"{i}. <b>{item['word']}</b>{p}\n   🔹 {item['translation']}\n   📝 <i>{item['context_en']}</i>\n   💡 {item['context_cn']}\n\n"
