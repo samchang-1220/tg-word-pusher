@@ -8,8 +8,9 @@ import time
 import random
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
+from nltk import ne_chunk, pos_tag, word_tokenize
 
-# 下載必要資源
+# 下載 NER 必要的數據包
 try:
     nltk.download('wordnet')
     nltk.download('averaged_perceptron_tagger')
@@ -17,13 +18,14 @@ try:
     nltk.download('omw-1.4')
     nltk.download('punkt')
     nltk.download('punkt_tab')
+    nltk.download('maxent_ne_chunker') # NER 核心模型
+    nltk.download('words')             # NER 比對用詞庫
 except:
     pass
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 擴大基礎字黑名單 (過濾 6 字母以上但太簡單的字)
 BASIC_WORDS = {
     'people', 'should', 'really', 'before', 'things', 'because', 'around', 'another',
     'through', 'between', 'against', 'country', 'without', 'program', 'problem',
@@ -46,7 +48,7 @@ def lemmatize_word(word):
     try:
         lemmatizer = WordNetLemmatizer()
         tag = nltk.pos_tag([word])[0][1]
-        if tag.startswith('JJ'): return word # 保留 ed 形容詞
+        if tag.startswith('JJ'): return word
         pos = get_wordnet_pos(word)
         return lemmatizer.lemmatize(word, pos)
     except:
@@ -70,7 +72,7 @@ def get_phonetic(word):
 
 def get_cnn_data(target_count=10):
     url = "https://edition.cnn.com/"
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+    headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         response = requests.get(url, headers=headers, timeout=10)
         soup = BeautifulSoup(response.text, 'html.parser')
@@ -78,16 +80,30 @@ def get_cnn_data(target_count=10):
     except:
         return []
     
-    # 建立候選單字池
-    word_pool = {} # 使用 dictionary 確保單字唯一，且能對應回原句
+    word_pool = {}
     
     for sentence in headlines:
-        # 抓取 6 個字母以上的單字
+        # 使用 NER 分析句子
+        tokens = word_tokenize(sentence)
+        tags = pos_tag(tokens)
+        chunks = ne_chunk(tags)
+        
+        # 找出哪些是人名，哪些是國家
+        person_names = set()
+        for chunk in chunks:
+            if hasattr(chunk, 'label'):
+                # 如果標籤是 PERSON，記住這個名字
+                if chunk.label() == 'PERSON':
+                    for leaf in chunk:
+                        person_names.add(leaf[0].lower())
+                # 如果標籤是 GPE (Geopolitical Entity)，通常是國家或城市，我們不排除
+
+        # 提取一般單字
         raw_words = re.findall(r'\b[a-z]{6,}\b', sentence.lower())
         
         for raw_word in raw_words:
-            # 過濾基礎字
-            if raw_word in BASIC_WORDS:
+            # 1. 排除人名 2. 排除基礎字
+            if raw_word in person_names or raw_word in BASIC_WORDS:
                 continue
             
             word_base = lemmatize_word(raw_word)
@@ -95,14 +111,11 @@ def get_cnn_data(target_count=10):
                 if word_base not in word_pool:
                     word_pool[word_base] = sentence
 
-    # 從池子裡隨機選出 10 個單字 (如果池子不夠大就全選)
     candidate_list = list(word_pool.keys())
     selected_keys = random.sample(candidate_list, min(len(candidate_list), target_count))
 
     results = []
     translator = GoogleTranslator(source='en', target='zh-TW')
-
-    print(f"從 {len(candidate_list)} 個候選詞中隨機選出了 {len(selected_keys)} 個。")
 
     for word in selected_keys:
         try:
@@ -118,7 +131,7 @@ def get_cnn_data(target_count=10):
                 'context_en': sentence,
                 'context_cn': context_cn
             })
-            time.sleep(0.3) # 防止請求過快
+            time.sleep(0.3)
         except:
             continue
             
@@ -126,7 +139,7 @@ def get_cnn_data(target_count=10):
 
 def send_to_telegram(items):
     if not items: return
-    message = "<b>今日 CNN 精選單字庫 (隨機挑選)</b> 🎲\n--------------------------------\n\n"
+    message = "<b>今日 CNN 精選單字庫 (排除人名版)</b> 🎲\n--------------------------------\n\n"
     for i, item in enumerate(items, 1):
         p_display = f" <code>{item['phonetic']}</code>" if item['phonetic'] else ""
         message += f"{i}. <b>{item['word']}</b>{p_display}\n"
