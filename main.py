@@ -7,7 +7,7 @@ import nltk
 import time
 import random
 import json
-from datetime import datetime, timedelta
+from datetime import datetime
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk import ne_chunk, pos_tag, word_tokenize
@@ -93,6 +93,7 @@ def save_to_history(items):
     if not items: return
     file_path = 'history.json'
     today = datetime.now().strftime('%Y-%m-%d')
+    # 儲存單字、音標、翻譯
     daily_record = [{'word': i['word'], 'phonetic': i['phonetic'], 'translation': i['translation']} for i in items]
     history = {}
     if os.path.exists(file_path):
@@ -100,41 +101,12 @@ def save_to_history(items):
             with open(file_path, 'r', encoding='utf-8') as f:
                 history = json.load(f)
         except: history = {}
+    
+    # 覆蓋當天紀錄
     history[today] = daily_record
     with open(file_path, 'w', encoding='utf-8') as f:
         json.dump(history, f, ensure_ascii=False, indent=2)
     print(f"--- 歷史紀錄更新完成 ({today}) ---")
-
-def send_weekly_summary():
-    """週報功能：含缺漏值防呆"""
-    file_path = 'history.json'
-    if not os.path.exists(file_path): return
-    try:
-        with open(file_path, 'r', encoding='utf-8') as f:
-            history = json.load(f)
-    except: return
-
-    today = datetime.now()
-    past_7_days = [(today - timedelta(days=i)).strftime('%Y-%m-%d') for i in range(7)]
-    past_7_days.reverse()
-
-    message = "<b>📊 每週單字複習總匯 (過去 7 天)</b>\n" + "="*20 + "\n\n"
-    found_any = False
-    for d in past_7_days:
-        if d in history:
-            found_any = True
-            message += f"📅 <b>{d}</b>\n"
-            for item in history[d]:
-                p = f" {item['phonetic']}" if item['phonetic'] else ""
-                message += f"• <code>{item['word']}</code>{p} : {item['translation']}\n"
-            message += "\n"
-        else:
-            message += f"📅 <b>{d}</b>\n⚠️ <i>本日無紀錄</i>\n\n"
-    
-    if found_any:
-        requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", 
-                      data={"chat_id": CHAT_ID, "text": message, "parse_mode": "HTML"})
-        print("--- 週報已發送 ---")
 
 def get_news_data():
     url = "https://www.bbc.com/news"
@@ -151,7 +123,7 @@ def get_news_data():
             word_pool = filter_vocabulary(headlines, FILTER_3000)
 
         candidate_keys = list(word_pool.keys())
-        print(f"--- 診斷報告 ---\n候選總數: {len(candidate_keys)}\n清單: {candidate_keys}\n---------------")
+        print(f"--- 診斷報告 ---\n當前模式: {mode}\n候選總數: {len(candidate_keys)}\n清單: {candidate_keys}\n---------------")
 
         if not candidate_keys: return []
         selected_keys = random.sample(candidate_keys, min(len(candidate_keys), 10))
@@ -164,7 +136,7 @@ def get_news_data():
                 d_res = requests.get(dict_url, timeout=5)
                 phonetic = d_res.json()[0].get('phonetic', "") if d_res.status_code == 200 else ""
                 results.append({
-                    'word': word, # 首字不轉大寫
+                    'word': word, # 首字小寫
                     'phonetic': phonetic,
                     'translation': translator.translate(word),
                     'context_en': word_pool[word],
@@ -181,7 +153,7 @@ def get_news_data():
 if __name__ == "__main__":
     data = get_news_data()
     if data:
-        # 發送今日單字
+        # 1. 發送今日單字到 TG
         mode_info = data[0]['mode']
         message = f"<b>今日時事單字庫 ({mode_info})</b> 🎓\n" + "-"*20 + "\n\n"
         for i, item in enumerate(data, 1):
@@ -191,9 +163,5 @@ if __name__ == "__main__":
         requests.post(f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage", 
                       data={"chat_id": CHAT_ID, "text": message, "parse_mode": "HTML"})
         
-        # 儲存歷史
+        # 2. 儲存歷史紀錄到 history.json
         save_to_history(data)
-    
-    # 週日判定發送週報 (0=Mon, 6=Sun)
-    if datetime.now().weekday() == TRUE:
-        send_weekly_summary()
