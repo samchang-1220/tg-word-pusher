@@ -1,9 +1,9 @@
 {
   "2026-01-29": [
     {
-      "word": "relax",
-      "phonetic": "/ɹɪˈlæks/",
-      "translation": "放鬆"
+      "word": "reject",
+      "phonetic": "",
+      "translation": "拒絕"
     },
     {
       "word": "ecuador",
@@ -11,19 +11,9 @@
       "translation": "厄瓜多"
     },
     {
-      "word": "mafia",
-      "phonetic": "/ˈmæfi.ə/",
-      "translation": "黑手黨"
-    },
-    {
       "word": "swap",
       "phonetic": "/swɒp/",
       "translation": "交換"
-    },
-    {
-      "word": "tsar",
-      "phonetic": "/tsɐː/",
-      "translation": "沙皇"
     },
     {
       "word": "grapple",
@@ -31,14 +21,24 @@
       "translation": "抓鉤"
     },
     {
-      "word": "rodeo",
-      "phonetic": "/ɹoʊ.ˈdeɪ.oʊ/",
-      "translation": "牛仔競技表演"
+      "word": "aftermath",
+      "phonetic": "/ˈæf.təˌmæθ/",
+      "translation": "後果"
     },
     {
-      "word": "ramp",
-      "phonetic": "/ɹæmp/",
-      "translation": "坡道"
+      "word": "prosperity",
+      "phonetic": "/pɹɒˈspɛɹ.ɪ.ti/",
+      "translation": "繁榮"
+    },
+    {
+      "word": "eternal",
+      "phonetic": "/ɪˈtɜːnəl/",
+      "translation": "永恆"
+    },
+    {
+      "word": "consulate",
+      "phonetic": "/ˈkɒnsjʊlət/",
+      "translation": "領事館"
     },
     {
       "word": "tackle",
@@ -46,9 +46,9 @@
       "translation": "處理"
     },
     {
-      "word": "tribute",
-      "phonetic": "/ˈtɹɪbjuːt/",
-      "translation": "貢"
+      "word": "judged",
+      "phonetic": "/dʒʌdʒd/",
+      "translation": "判斷的"
     }
   ]
 }
