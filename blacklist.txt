@@ -2,7 +2,7 @@
 actually, behind, could, how, month, months, people, really, robot, scenario, should, time, what, why, would, year, years
 
 # --- 新聞贅詞 ---
-announces, blast, chaos, collapse, comeback, dominate, drought, executes, fatal, gather, gunfire, insists, launcher, lawmaker, loses, protester, refuse, rocket, sends, shutdown, tear, typhoon, voter, warns, widen, 'friendship', 'atonio', 'minneapolis', 'arrive', 'safer', 'revival', 'receives', 'soldier'
+announces, blast, chaos, collapse, comeback, dominate, drought, executes, fatal, gather, gunfire, insists, launcher, lawmaker, loses, protester, refuse, rocket, sends, shutdown, tear, typhoon, voter, warns, widen, friendship, atonio, minneapolis, arrive, safer, revival, receives, soldier, relax, warship, tension
 
 # --- 複合詞與特殊標點 ---
 30-year, self-service, take-off, play-offs, visa-free, offs
