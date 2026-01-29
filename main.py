@@ -22,7 +22,10 @@ CHAT_ID = os.environ.get('CHAT_ID')
 MANUAL_BLACKLIST = {
     'robot', 'time', 'why', 'how', 'what', 'year', 'years', 'month', 'months',
     'people', 'should', 'would', 'could', 'actually', 'really', 'behind',
-    'self-service', 'visa-free', '30-year', 'take-off', 'play-offs'
+    'self-service', 'visa-free', '30-year', 'take-off', 'play-offs', 'offs',
+    'warns', 'announces', 'widen', 'dominate', 'collapse', 'fatal', 'voter',
+    'loses', 'sends', 'drought', 'typhoon', 'insists'
+           
 }
 
 def get_common_words(limit=5000):
