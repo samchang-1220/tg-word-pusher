@@ -137,7 +137,7 @@ def get_news_data():
                     phonetic = d_res.json()[0].get('phonetic', "")
 
                 results.append({
-                    'word': word.capitalize(),
+                    'word': word,
                     'phonetic': phonetic,
                     'translation': translator.translate(word),
                     'context_en': word_pool[word],
