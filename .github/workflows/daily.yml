@@ -1,19 +1,41 @@
-name: Daily Push
+name: Daily Word Pusher
+
 on:
   schedule:
-    - cron: '37 22 * * *' # 每天台灣時間早上 8 點
-  workflow_dispatch: # 讓你可以按按鈕手動測試
+    - cron: '37 22 * * *'  # 你的定時設定
+  workflow_dispatch:      # 手動執行
+
+permissions:
+  contents: write         # 重要：給予 Actions 寫入倉庫的權限
+
 jobs:
   run-bot:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
-      - run: pip install -r requirements.txt
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
       - name: Run Scraper
         env:
           BOT_TOKEN: ${{ secrets.BOT_TOKEN }}
           CHAT_ID: ${{ secrets.CHAT_ID }}
         run: python main.py
+
+      # --- 新增：自動將 history.json 推回 GitHub ---
+      - name: Commit and Push History
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add history.json
+          # 只有在檔案有變動時才 commit，避免報錯
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update daily history [skip ci]" && git push)
