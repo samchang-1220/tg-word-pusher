@@ -9,6 +9,8 @@ import random
 from nltk.stem import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk import ne_chunk, pos_tag, word_tokenize
+import json
+from datetime import datetime
 
 # --- 環境初始化 ---
 for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng', 
@@ -17,6 +19,41 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
+
+def save_to_history(items):
+    if not items:
+        return
+    
+    file_path = 'history.json'
+    # 取得今天日期 (格式如 2023-10-27)
+    today = datetime.now().strftime('%Y-%m-%d')
+    
+    # 準備今天要儲存的資料格式
+    daily_record = []
+    for item in items:
+        daily_record.append({
+            'word': item['word'],
+            'phonetic': item['phonetic'],
+            'translation': item['translation']
+        })
+
+    # 讀取現有的歷史紀錄
+    history = {}
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                history = json.load(f)
+        except:
+            history = {}
+
+    # 更新或覆蓋當天的資料
+    history[today] = daily_record
+
+    # 寫回檔案 (indent=2 讓 JSON 好讀，ensure_ascii=False 確保中文不亂碼)
+    with open(file_path, 'w', encoding='utf-8') as f:
+        json.dump(history, f, ensure_ascii=False, indent=2)
+    
+    print(f"--- 歷史紀錄更新完成 ({today}) ---")
 
 def get_manual_blacklist():
     blacklist = set()
@@ -163,4 +200,6 @@ def send_to_telegram(items):
 
 if __name__ == "__main__":
     data = get_news_data()
-    send_to_telegram(data)
+    if data:
+        send_to_telegram(data)
+        save_to_history(data)
