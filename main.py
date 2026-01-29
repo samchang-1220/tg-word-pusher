@@ -18,16 +18,35 @@ for pkg in ['wordnet', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger
 BOT_TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = os.environ.get('CHAT_ID')
 
-# 【新增】手動黑名單：把你覺得簡單到不行的字通通丟進來
-MANUAL_BLACKLIST = {
-    'robot', 'time', 'why', 'how', 'what', 'year', 'years', 'month', 'months',
-    'people', 'should', 'would', 'could', 'actually', 'really', 'behind',
-    'self-service', 'visa-free', '30-year', 'take-off', 'play-offs', 'offs',
-    'warns', 'announces', 'widen', 'dominate', 'collapse', 'fatal', 'voter',
-    'loses', 'sends', 'drought', 'typhoon', 'insists', 'chaos', 'protester',
-    'lawmaker', 'gather', 'gunfire', 'blast', 'tear', 'shutdown', 'refuse',
-    'comeback', 'scenario', 'executes', 'rocket', 'launcher'           
-}
+def get_manual_blacklist():
+    blacklist = set()
+    file_path = 'blacklist.txt'
+    
+    # 內建絕對排除
+    internal_list = {'why', 'how', 'what', 'herself', 'himself'}
+    blacklist.update(internal_list)
+    
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                for line in f:
+                    # 先去除空白與註釋
+                    clean_line = line.strip().lower()
+                    if not clean_line or clean_line.startswith('#'):
+                        continue
+                    
+                    # 關鍵：同時處理「逗號分隔」與「空格分隔」
+                    # 先把逗號換成空格，再用 split() 切開
+                    words = clean_line.replace(',', ' ').split()
+                    for w in words:
+                        blacklist.add(w.strip())
+            print(f"成功載入 {len(blacklist)} 個黑名單單字。")
+        except Exception as e:
+            print(f"讀取失敗: {e}")
+    return blacklist
+
+# 在主邏輯中調用
+MANUAL_BLACKLIST = get_manual_blacklist()
 
 def get_common_words(limit=5000):
     try:
@@ -40,10 +59,10 @@ def get_common_words(limit=5000):
 ALL_WORDS_SOURCE = get_common_words(5000)
 FILTER_5000 = set(ALL_WORDS_SOURCE)
 FILTER_3000 = set(ALL_WORDS_SOURCE[:3000])
+lemmatizer = WordNetLemmatizer()
 
 def lemmatize_word(word):
     try:
-        lemmatizer = WordNetLemmatizer()
         tag = pos_tag([word])[0][1]
         tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
         return lemmatizer.lemmatize(word, tag_dict.get(tag[0].upper(), wordnet.NOUN))
