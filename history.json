@@ -50,5 +50,57 @@
       "phonetic": "/ˈɛksɪˌkjuːt/",
       "translation": "執行"
     }
+  ],
+  "2026-01-30": [
+    {
+      "word": "nursery",
+      "phonetic": "/ˈnɜːsəɹi/",
+      "translation": "苗圃"
+    },
+    {
+      "word": "junta",
+      "phonetic": "/ˈdʒʊntə/",
+      "translation": "軍政府"
+    },
+    {
+      "word": "offence",
+      "phonetic": "",
+      "translation": "罪行"
+    },
+    {
+      "word": "shakedown",
+      "phonetic": "",
+      "translation": "整頓"
+    },
+    {
+      "word": "sabalenka",
+      "phonetic": "",
+      "translation": "薩巴倫卡"
+    },
+    {
+      "word": "agility",
+      "phonetic": "/əˈdʒɪl.ə.ti/",
+      "translation": "敏捷"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈpɹəʊ.tɛst/",
+      "translation": "反對"
+    },
+    {
+      "word": "measles",
+      "phonetic": "/ˈmiːzəlz/",
+      "translation": "麻疹"
+    },
+    {
+      "word": "praise",
+      "phonetic": "/pɹeɪz/",
+      "translation": "稱讚"
+    },
+    {
+      "word": "nervous",
+      "phonetic": "",
+      "translation": "緊張的"
+    }
   ]
 }
