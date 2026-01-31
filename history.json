@@ -102,5 +102,57 @@
       "phonetic": "",
       "translation": "緊張的"
     }
+  ],
+  "2026-01-31": [
+    {
+      "word": "coyote",
+      "phonetic": "/kɔɪˈ(j)əʊt(ɪ)/",
+      "translation": "土狼"
+    },
+    {
+      "word": "orbit",
+      "phonetic": "/ˈɔː(ɹ)bɪt/",
+      "translation": "軌道"
+    },
+    {
+      "word": "headache",
+      "phonetic": "/ˈhɛdeɪk/",
+      "translation": "頭痛"
+    },
+    {
+      "word": "sweep",
+      "phonetic": "/swiːp/",
+      "translation": "掃"
+    },
+    {
+      "word": "truce",
+      "phonetic": "/tɹuːs/",
+      "translation": "休戰"
+    },
+    {
+      "word": "backlash",
+      "phonetic": "/ˈbækˌlæʃ/",
+      "translation": "反彈"
+    },
+    {
+      "word": "stake",
+      "phonetic": "/steɪk/",
+      "translation": "賭注"
+    },
+    {
+      "word": "deeper",
+      "phonetic": "/ˈdiːpə/",
+      "translation": "更深"
+    },
+    {
+      "word": "regime",
+      "phonetic": "/ɹeɪˈʒiːm/",
+      "translation": "政權"
+    },
+    {
+      "word": "bomb",
+      "phonetic": "/bɒm/",
+      "translation": "炸彈"
+    }
   ]
 }
