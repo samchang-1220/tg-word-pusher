@@ -154,5 +154,52 @@
       "phonetic": "/bɒm/",
       "translation": "炸彈"
     }
+  ],
+  "2026-02-01": [
+    {
+      "word": "jeweller",
+      "phonetic": "",
+      "translation": "珠寶商"
+    },
+    {
+      "word": "foreigner",
+      "phonetic": "/ˈfɒɹ.ɪ.nə(ɹ)/",
+      "translation": "外國人"
+    },
+    {
+      "word": "sink",
+      "phonetic": "/sɪŋk/",
+      "translation": "下沉"
+    },
+    {
+      "word": "takeaway",
+      "phonetic": "/ˈteɪkəweɪ/",
+      "translation": "外賣"
+    },
+    {
+      "word": "resigns",
+      "phonetic": "",
+      "translation": "辭職"
+    },
+    {
+      "word": "hail",
+      "phonetic": "/heɪl/",
+      "translation": "冰雹"
+    },
+    {
+      "word": "shut",
+      "phonetic": "/ʃʌt/",
+      "translation": "關閉"
+    },
+    {
+      "word": "tenure",
+      "phonetic": "/ˈtɛn.jə/",
+      "translation": "終身教職"
+    },
+    {
+      "word": "devil",
+      "phonetic": "/ˈdɛvəl/",
+      "translation": "魔鬼"
+    }
   ]
 }
