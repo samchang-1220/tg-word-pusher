@@ -201,5 +201,57 @@
       "phonetic": "/ˈdɛvəl/",
       "translation": "魔鬼"
     }
+  ],
+  "2026-02-02": [
+    {
+      "word": "insult",
+      "phonetic": "/ɪnˈsʌlt/",
+      "translation": "侮辱"
+    },
+    {
+      "word": "engage",
+      "phonetic": "/ɛnˈɡeɪdʒ/",
+      "translation": "從事"
+    },
+    {
+      "word": "assault",
+      "phonetic": "/əˈsɔːlt/",
+      "translation": "突擊"
+    },
+    {
+      "word": "cher",
+      "phonetic": "",
+      "translation": "謝爾"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    },
+    {
+      "word": "threatens",
+      "phonetic": "",
+      "translation": "威脅"
+    },
+    {
+      "word": "stunt",
+      "phonetic": "/stʌnt/",
+      "translation": "特技"
+    },
+    {
+      "word": "swim",
+      "phonetic": "/swɪm/",
+      "translation": "游泳"
+    },
+    {
+      "word": "loggerhead",
+      "phonetic": "",
+      "translation": "赤蠵蟲"
+    },
+    {
+      "word": "superhuman",
+      "phonetic": "",
+      "translation": "超人的"
+    }
   ]
 }
