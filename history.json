@@ -253,5 +253,57 @@
       "phonetic": "",
       "translation": "超人的"
     }
+  ],
+  "2026-02-03": [
+    {
+      "word": "hail",
+      "phonetic": "/heɪl/",
+      "translation": "冰雹"
+    },
+    {
+      "word": "outrageous",
+      "phonetic": "/aʊtˈɹeɪdʒəs/",
+      "translation": "令人髮指的"
+    },
+    {
+      "word": "bulldoze",
+      "phonetic": "",
+      "translation": "推土機"
+    },
+    {
+      "word": "adopt",
+      "phonetic": "/əˈdɒpt/",
+      "translation": "採納"
+    },
+    {
+      "word": "islam",
+      "phonetic": "",
+      "translation": "伊斯蘭教"
+    },
+    {
+      "word": "pilgrim",
+      "phonetic": "/ˈpɪlɡɹɪm/",
+      "translation": "朝聖"
+    },
+    {
+      "word": "snack",
+      "phonetic": "/snæk/",
+      "translation": "小吃"
+    },
+    {
+      "word": "overturn",
+      "phonetic": "",
+      "translation": "顛覆"
+    },
+    {
+      "word": "insult",
+      "phonetic": "/ɪnˈsʌlt/",
+      "translation": "侮辱"
+    },
+    {
+      "word": "backlash",
+      "phonetic": "/ˈbækˌlæʃ/",
+      "translation": "反彈"
+    }
   ]
 }
