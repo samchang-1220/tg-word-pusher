@@ -305,5 +305,57 @@
       "phonetic": "/ˈbækˌlæʃ/",
       "translation": "反彈"
     }
+  ],
+  "2026-02-04": [
+    {
+      "word": "critic",
+      "phonetic": "/ˈkɹɪt.ɪk/",
+      "translation": "評論家"
+    },
+    {
+      "word": "stun",
+      "phonetic": "/stʌn/",
+      "translation": "擊暈"
+    },
+    {
+      "word": "kyiv",
+      "phonetic": "",
+      "translation": "基輔"
+    },
+    {
+      "word": "nostalgia",
+      "phonetic": "/nɒˈstaldʒə/",
+      "translation": "懷舊之情"
+    },
+    {
+      "word": "migrant",
+      "phonetic": "/ˈmaɪɡɹənt/",
+      "translation": "移民"
+    },
+    {
+      "word": "obituary",
+      "phonetic": "/əʊ̯ˈbɪtjʊəɹiː/",
+      "translation": "訃告"
+    },
+    {
+      "word": "rape",
+      "phonetic": "",
+      "translation": "強姦"
+    },
+    {
+      "word": "doberman",
+      "phonetic": "",
+      "translation": "杜賓犬"
+    },
+    {
+      "word": "aside",
+      "phonetic": "/əˈsaɪd/",
+      "translation": "放在一邊"
+    },
+    {
+      "word": "painful",
+      "phonetic": "/ˈpeɪn.fəl/",
+      "translation": "痛苦"
+    }
   ]
 }
