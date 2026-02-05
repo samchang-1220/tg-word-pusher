@@ -357,5 +357,57 @@
       "phonetic": "/ˈpeɪn.fəl/",
       "translation": "痛苦"
     }
+  ],
+  "2026-02-05": [
+    {
+      "word": "vindicate",
+      "phonetic": "",
+      "translation": "表白"
+    },
+    {
+      "word": "raid",
+      "phonetic": "/ɹeɪd/",
+      "translation": "襲擊"
+    },
+    {
+      "word": "badly",
+      "phonetic": "/ˈbæd.li/",
+      "translation": "嚴重地"
+    },
+    {
+      "word": "clash",
+      "phonetic": "/klaʃ/",
+      "translation": "衝突"
+    },
+    {
+      "word": "crush",
+      "phonetic": "/kɹʌʃ/",
+      "translation": "壓碎"
+    },
+    {
+      "word": "topple",
+      "phonetic": "/ˈtɒpl̩/",
+      "translation": "推翻"
+    },
+    {
+      "word": "docked",
+      "phonetic": "",
+      "translation": "停靠的"
+    },
+    {
+      "word": "blossom",
+      "phonetic": "",
+      "translation": "開花"
+    },
+    {
+      "word": "treasury",
+      "phonetic": "/ˈtɹɛʒəɹi/",
+      "translation": "國庫"
+    },
+    {
+      "word": "prisoner",
+      "phonetic": "/ˈpɹɪzənəɹ/",
+      "translation": "囚犯"
+    }
   ]
 }
