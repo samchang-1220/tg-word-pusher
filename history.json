@@ -409,5 +409,57 @@
       "phonetic": "/ˈpɹɪzənəɹ/",
       "translation": "囚犯"
     }
+  ],
+  "2026-02-06": [
+    {
+      "word": "outrage",
+      "phonetic": "/ˈæot.ɹæed͡ʒ/",
+      "translation": "暴行"
+    },
+    {
+      "word": "boxer",
+      "phonetic": "/ˈbɒksə/",
+      "translation": "拳擊手"
+    },
+    {
+      "word": "premiere",
+      "phonetic": "/ˈpɹɛmjɛə/",
+      "translation": "首映"
+    },
+    {
+      "word": "spree",
+      "phonetic": "/spɹiː/",
+      "translation": "狂歡"
+    },
+    {
+      "word": "outburst",
+      "phonetic": "/ˈaʊtˌbɜːst/",
+      "translation": "爆發"
+    },
+    {
+      "word": "humble",
+      "phonetic": "",
+      "translation": "謙遜的"
+    },
+    {
+      "word": "injection",
+      "phonetic": "/ɪn.ˈdʒɛk.ʃən/",
+      "translation": "注射"
+    },
+    {
+      "word": "chia",
+      "phonetic": "/ˈtʃiː.ə/",
+      "translation": "奇亞籽"
+    },
+    {
+      "word": "execute",
+      "phonetic": "/ˈɛksɪˌkjuːt/",
+      "translation": "執行"
+    },
+    {
+      "word": "tumble",
+      "phonetic": "/ˈtʌmbl̩/",
+      "translation": "翻滾"
+    }
   ]
 }
