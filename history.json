@@ -412,54 +412,54 @@
   ],
   "2026-02-06": [
     {
-      "word": "prescod",
+      "word": "olympics",
       "phonetic": "",
-      "translation": "普雷斯科德"
+      "translation": "奧運會"
     },
     {
-      "word": "intact",
-      "phonetic": "/ɪnˈtækt/",
-      "translation": "完好無損的"
-    },
-    {
-      "word": "gaza",
+      "word": "vindicate",
       "phonetic": "",
-      "translation": "加沙"
+      "translation": "表白"
     },
     {
-      "word": "treaty",
-      "phonetic": "/ˈtɹiːti/",
-      "translation": "條約"
-    },
-    {
-      "word": "injection",
-      "phonetic": "/ɪn.ˈdʒɛk.ʃən/",
-      "translation": "注射"
-    },
-    {
-      "word": "humble",
+      "word": "nationalise",
       "phonetic": "",
-      "translation": "謙遜的"
+      "translation": "收歸國有"
     },
     {
-      "word": "blossom",
+      "word": "jihadist",
       "phonetic": "",
-      "translation": "開花"
+      "translation": "聖戰分子"
     },
     {
-      "word": "penis",
-      "phonetic": "/ˈpiːnɪs/",
-      "translation": "陰莖"
+      "word": "depict",
+      "phonetic": "/dɪˈpɪkt/",
+      "translation": "描繪"
     },
     {
-      "word": "decade",
-      "phonetic": "",
-      "translation": "十年"
+      "word": "custody",
+      "phonetic": "/ˈkʌstədiː/",
+      "translation": "保管"
     },
     {
-      "word": "homeless",
-      "phonetic": "/ˈhoʊmləs/",
-      "translation": "無家可歸的"
+      "word": "concession",
+      "phonetic": "/kənˈsɛʃən/",
+      "translation": "讓步"
+    },
+    {
+      "word": "passenger",
+      "phonetic": "/ˈpæsənd͡ʒə/",
+      "translation": "乘客"
+    },
+    {
+      "word": "preach",
+      "phonetic": "/pɹiːt͡ʃ/",
+      "translation": "傳道"
+    },
+    {
+      "word": "treasury",
+      "phonetic": "/ˈtɹɛʒəɹi/",
+      "translation": "國庫"
     }
   ]
 }
