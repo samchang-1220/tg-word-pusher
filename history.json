@@ -412,54 +412,54 @@
   ],
   "2026-02-06": [
     {
-      "word": "outrage",
-      "phonetic": "/ˈæot.ɹæed͡ʒ/",
-      "translation": "暴行"
+      "word": "breach",
+      "phonetic": "[bɹiːtʃ]",
+      "translation": "違反"
     },
     {
-      "word": "boxer",
-      "phonetic": "/ˈbɒksə/",
-      "translation": "拳擊手"
+      "word": "behave",
+      "phonetic": "/bəˈheɪv/",
+      "translation": "表現"
     },
     {
-      "word": "premiere",
-      "phonetic": "/ˈpɹɛmjɛə/",
-      "translation": "首映"
+      "word": "treasury",
+      "phonetic": "/ˈtɹɛʒəɹi/",
+      "translation": "國庫"
     },
     {
-      "word": "spree",
-      "phonetic": "/spɹiː/",
-      "translation": "狂歡"
+      "word": "abduction",
+      "phonetic": "/əbˈdʌk.ʃn̩/",
+      "translation": "綁架"
     },
     {
-      "word": "outburst",
-      "phonetic": "/ˈaʊtˌbɜːst/",
-      "translation": "爆發"
-    },
-    {
-      "word": "humble",
+      "word": "cherry",
       "phonetic": "",
-      "translation": "謙遜的"
+      "translation": "櫻桃"
     },
     {
-      "word": "injection",
-      "phonetic": "/ɪn.ˈdʒɛk.ʃən/",
-      "translation": "注射"
+      "word": "singer",
+      "phonetic": "/ˈsɪŋə/",
+      "translation": "歌手"
     },
     {
-      "word": "chia",
-      "phonetic": "/ˈtʃiː.ə/",
-      "translation": "奇亞籽"
+      "word": "prescod",
+      "phonetic": "",
+      "translation": "普雷斯科德"
     },
     {
-      "word": "execute",
-      "phonetic": "/ˈɛksɪˌkjuːt/",
-      "translation": "執行"
+      "word": "triumph",
+      "phonetic": "/ˈtɹaɪ.ʌmf/",
+      "translation": "勝利"
     },
     {
-      "word": "tumble",
-      "phonetic": "/ˈtʌmbl̩/",
-      "translation": "翻滾"
+      "word": "unveils",
+      "phonetic": "",
+      "translation": "揭幕"
+    },
+    {
+      "word": "waboso",
+      "phonetic": "",
+      "translation": "瓦博索"
     }
   ]
 }
