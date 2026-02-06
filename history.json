@@ -412,24 +412,29 @@
   ],
   "2026-02-06": [
     {
-      "word": "breach",
-      "phonetic": "[bɹiːtʃ]",
-      "translation": "違反"
+      "word": "vindicate",
+      "phonetic": "",
+      "translation": "表白"
     },
     {
-      "word": "behave",
-      "phonetic": "/bəˈheɪv/",
-      "translation": "表現"
+      "word": "premiere",
+      "phonetic": "/ˈpɹɛmjɛə/",
+      "translation": "首映"
     },
     {
-      "word": "treasury",
-      "phonetic": "/ˈtɹɛʒəɹi/",
-      "translation": "國庫"
+      "word": "olympic",
+      "phonetic": "",
+      "translation": "奧林匹克"
     },
     {
-      "word": "abduction",
-      "phonetic": "/əbˈdʌk.ʃn̩/",
-      "translation": "綁架"
+      "word": "broth",
+      "phonetic": "/bɹɑθ/",
+      "translation": "肉湯"
+    },
+    {
+      "word": "jellyfish",
+      "phonetic": "/ˈdʒɛliˌfɪʃ/",
+      "translation": "海蜇"
     },
     {
       "word": "cherry",
@@ -437,29 +442,24 @@
       "translation": "櫻桃"
     },
     {
-      "word": "singer",
-      "phonetic": "/ˈsɪŋə/",
-      "translation": "歌手"
+      "word": "execute",
+      "phonetic": "/ˈɛksɪˌkjuːt/",
+      "translation": "執行"
     },
     {
-      "word": "prescod",
-      "phonetic": "",
-      "translation": "普雷斯科德"
+      "word": "spark",
+      "phonetic": "/spɑːk/",
+      "translation": "火花"
     },
     {
-      "word": "triumph",
-      "phonetic": "/ˈtɹaɪ.ʌmf/",
-      "translation": "勝利"
+      "word": "crush",
+      "phonetic": "/kɹʌʃ/",
+      "translation": "壓碎"
     },
     {
-      "word": "unveils",
-      "phonetic": "",
-      "translation": "揭幕"
-    },
-    {
-      "word": "waboso",
-      "phonetic": "",
-      "translation": "瓦博索"
+      "word": "breach",
+      "phonetic": "[bɹiːtʃ]",
+      "translation": "違反"
     }
   ]
 }
