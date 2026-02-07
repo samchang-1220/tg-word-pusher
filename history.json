@@ -461,5 +461,57 @@
       "phonetic": "/ˈtɹɛʒəɹi/",
       "translation": "國庫"
     }
+  ],
+  "2026-02-07": [
+    {
+      "word": "mosque",
+      "phonetic": "/mɒsk/",
+      "translation": "清真寺"
+    },
+    {
+      "word": "ceremony",
+      "phonetic": "/ˈsɛɹɪməni/",
+      "translation": "儀式"
+    },
+    {
+      "word": "tasked",
+      "phonetic": "/tæskt/",
+      "translation": "任務"
+    },
+    {
+      "word": "wallop",
+      "phonetic": "",
+      "translation": "瓦洛普"
+    },
+    {
+      "word": "boom",
+      "phonetic": "",
+      "translation": "繁榮"
+    },
+    {
+      "word": "vonn",
+      "phonetic": "",
+      "translation": "馮"
+    },
+    {
+      "word": "conscious",
+      "phonetic": "/ˈkɒn.ʃəs/",
+      "translation": "有意識的"
+    },
+    {
+      "word": "tune",
+      "phonetic": "/tjuːn/",
+      "translation": "調"
+    },
+    {
+      "word": "funeral",
+      "phonetic": "/ˈfjuːnəɹəl/",
+      "translation": "葬禮"
+    },
+    {
+      "word": "suryakumar",
+      "phonetic": "",
+      "translation": "蘇里亞庫瑪爾"
+    }
   ]
 }
