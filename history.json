@@ -513,5 +513,57 @@
       "phonetic": "",
       "translation": "蘇里亞庫瑪爾"
     }
+  ],
+  "2026-02-08": [
+    {
+      "word": "quits",
+      "phonetic": "/kwɪts/",
+      "translation": "退出"
+    },
+    {
+      "word": "investigates",
+      "phonetic": "",
+      "translation": "調查"
+    },
+    {
+      "word": "fake",
+      "phonetic": "/feɪk/",
+      "translation": "偽造的"
+    },
+    {
+      "word": "poise",
+      "phonetic": "/pɔɪz/",
+      "translation": "平衡"
+    },
+    {
+      "word": "seventh",
+      "phonetic": "/ˈsɛv.ənθ/",
+      "translation": "第七"
+    },
+    {
+      "word": "snap",
+      "phonetic": "/snæp/",
+      "translation": "折斷"
+    },
+    {
+      "word": "fracture",
+      "phonetic": "/ˈfɹæk.tjə/",
+      "translation": "斷裂"
+    },
+    {
+      "word": "frustration",
+      "phonetic": "/fɹʌsˈtɹeɪʃən/",
+      "translation": "挫折"
+    },
+    {
+      "word": "bomb",
+      "phonetic": "/bɒm/",
+      "translation": "炸彈"
+    },
+    {
+      "word": "starmer",
+      "phonetic": "",
+      "translation": "斯塔默"
+    }
   ]
 }
