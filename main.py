@@ -55,9 +55,9 @@ def get_common_words(limit=5000):
         return res.text.lower().splitlines()[:limit]
     except: return []
 
-ALL_WORDS_SOURCE = get_common_words(5000)
-FILTER_5000 = set(ALL_WORDS_SOURCE)
-FILTER_3000 = set(ALL_WORDS_SOURCE[:3000])
+ALL_WORDS_SOURCE = get_common_words(10000) # 先抓一萬個
+FILTER_6000 = set(ALL_WORDS_SOURCE[:6000]) # 第一層改用 6000，過濾更嚴格
+FILTER_4000 = set(ALL_WORDS_SOURCE[:4000]) # 第二層保底改用 4000
 
 def lemmatize_word(word):
     try:
@@ -69,23 +69,37 @@ def lemmatize_word(word):
 def filter_vocabulary(headlines, common_set):
     word_pool = {}
     person_names = set()
+    
+    tag_dict = {"J": wordnet.ADJ, "N": wordnet.NOUN, "V": wordnet.VERB, "R": wordnet.ADV}
+
     for sentence in headlines:
+        # 改進：對整個句子做詞性標註，提高還原準確度
         tokens = word_tokenize(sentence)
-        for chunk in ne_chunk(pos_tag(tokens)):
+        tagged_tokens = pos_tag(tokens)
+        
+        # 找出人名/地名
+        for chunk in ne_chunk(tagged_tokens):
             if hasattr(chunk, 'label') and chunk.label() in ['PERSON', 'GPE', 'ORGANIZATION']:
                 for leaf in chunk: person_names.add(leaf[0].lower())
 
-        raw_words = re.findall(r'\b[a-zA-Z]{4,}\b', sentence)
-        for rw in raw_words:
-            word_clean = rw.lower().strip("'\"")
-            # 第一道過濾：黑名單
-            if word_clean in person_names or word_clean in common_set or word_clean in MANUAL_BLACKLIST:
+        for word, tag in tagged_tokens:
+            word_clean = word.lower().strip("'\"")
+            
+            # 基礎過濾：長度 < 5 (針對 sofa, scare 等調整)、人名、黑名單、已在字庫
+            if len(word_clean) < 5 or word_clean in person_names or word_clean in common_set or word_clean in MANUAL_BLACKLIST:
                 continue
-            # 詞形還原後第二道過濾
-            base = lemmatize_word(word_clean)
-            if base not in common_set and base not in MANUAL_BLACKLIST and len(base) >= 4:
-                if base not in word_pool:
-                    word_pool[base] = sentence
+            
+            # 進行精準還原
+            wordnet_pos = tag_dict.get(tag[0].upper(), wordnet.NOUN)
+            base = lemmatizer.lemmatize(word_clean, wordnet_pos)
+            
+            # 二次過濾：還原後的原型如果也在字庫或黑名單，就不要了
+            if base in common_set or base in MANUAL_BLACKLIST or len(base) < 5:
+                continue
+                
+            if base not in word_pool:
+                word_pool[base] = sentence
+                
     return word_pool
 
 # --- 3. 核心功能：抓取與存檔 ---
@@ -116,11 +130,12 @@ def get_news_data():
         soup = BeautifulSoup(response.text, 'html.parser')
         headlines = list(set([h.get_text().strip() for h in soup.find_all(['h2', 'h3']) if len(h.get_text().strip()) > 15]))
         
-        mode = "第一層 (5000字級別)"
-        word_pool = filter_vocabulary(headlines, FILTER_5000)
-        if len(word_pool) < 10:
-            mode = "第二層 (3000字級別)"
-            word_pool = filter_vocabulary(headlines, FILTER_3000)
+    mode = "第一層 (6000字級別 - 嚴格)"
+    word_pool = filter_vocabulary(headlines, FILTER_6000)
+    
+    if len(word_pool) < 10:
+        mode = "第二層 (4000字級別 - 保底)"
+        word_pool = filter_vocabulary(headlines, FILTER_4000)
 
         candidate_keys = list(word_pool.keys())
         print(f"--- 診斷報告 ---\n當前模式: {mode}\n候選總數: {len(candidate_keys)}\n清單: {candidate_keys}\n---------------")
