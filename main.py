@@ -123,22 +123,25 @@ def save_to_history(items):
     print(f"--- 歷史紀錄更新完成 ({today}) ---")
 
 def get_news_data():
-    url = "https://www.bbc.com/news"
+    # 這裡建議改回 CNN 或維持 BBC
+    url = "https://edition.cnn.com" 
     headers = {'User-Agent': 'Mozilla/5.0'}
     try:
         response = requests.get(url, headers=headers, timeout=15)
         soup = BeautifulSoup(response.text, 'html.parser')
-        headlines = list(set([h.get_text().strip() for h in soup.find_all(['h2', 'h3']) if len(h.get_text().strip()) > 15]))
+        # 檢查：這一行最後一定要有兩個右括號 )) 
+        headlines = list(set([h.get_text().strip() for h in soup.find_all(['span', 'h2', 'h3']) if len(h.get_text().strip()) > 25]))
         
-    mode = "第一層 (6000字級別 - 嚴格)"
-    word_pool = filter_vocabulary(headlines, FILTER_6000)
-    
-    if len(word_pool) < 10:
-        mode = "第二層 (4000字級別 - 保底)"
-        word_pool = filter_vocabulary(headlines, FILTER_4000)
+        # 修正後的模式設定
+        mode = "第一層 (6000字級別 - 嚴格)"
+        word_pool = filter_vocabulary(headlines, FILTER_6000)
+
+        if len(word_pool) < 10:
+            mode = "第二層 (3000字級別 - 保底)"
+            word_pool = filter_vocabulary(headlines, FILTER_3000)
 
         candidate_keys = list(word_pool.keys())
-        print(f"--- 診斷報告 ---\n當前模式: {mode}\n候選總數: {len(candidate_keys)}\n清單: {candidate_keys}\n---------------")
+        print(f"--- 診斷報告 ---\n當前模式: {mode}\n候選單字總數: {len(candidate_keys)}\n清單: {candidate_keys}\n---------------")
 
         if not candidate_keys: return []
         selected_keys = random.sample(candidate_keys, min(len(candidate_keys), 10))
@@ -151,7 +154,7 @@ def get_news_data():
                 d_res = requests.get(dict_url, timeout=5)
                 phonetic = d_res.json()[0].get('phonetic', "") if d_res.status_code == 200 else ""
                 results.append({
-                    'word': word, # 首字小寫
+                    'word': word,
                     'phonetic': phonetic,
                     'translation': translator.translate(word),
                     'context_en': word_pool[word],
