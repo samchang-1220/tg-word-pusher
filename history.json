@@ -565,5 +565,57 @@
       "phonetic": "",
       "translation": "斯塔默"
     }
+  ],
+  "2026-02-09": [
+    {
+      "word": "silence",
+      "phonetic": "/ˈsaɪ.ləns/",
+      "translation": "沉默"
+    },
+    {
+      "word": "ransom",
+      "phonetic": "/ˈɹænsəm/",
+      "translation": "贖金"
+    },
+    {
+      "word": "pardon",
+      "phonetic": "/ˈpɑɹ.dən/",
+      "translation": "赦免"
+    },
+    {
+      "word": "whiplash",
+      "phonetic": "",
+      "translation": "鞭打"
+    },
+    {
+      "word": "transgender",
+      "phonetic": "/tɹanzˈdʒɛndə/",
+      "translation": "跨性別"
+    },
+    {
+      "word": "far-right",
+      "phonetic": "",
+      "translation": "極右派"
+    },
+    {
+      "word": "deportation",
+      "phonetic": "/diːˌpɔːˈteɪʃən/",
+      "translation": "驅逐出境"
+    },
+    {
+      "word": "celebrates",
+      "phonetic": "",
+      "translation": "慶祝"
+    },
+    {
+      "word": "dozen",
+      "phonetic": "/ˈdʌzən/",
+      "translation": "打"
+    },
+    {
+      "word": "anti-ice",
+      "phonetic": "",
+      "translation": "防冰"
+    }
   ]
 }
