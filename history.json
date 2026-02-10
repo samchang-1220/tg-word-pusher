@@ -617,5 +617,57 @@
       "phonetic": "",
       "translation": "防冰"
     }
+  ],
+  "2026-02-10": [
+    {
+      "word": "redefine",
+      "phonetic": "",
+      "translation": "重新定義"
+    },
+    {
+      "word": "regret",
+      "phonetic": "/ɹiˈɡɹɛt/",
+      "translation": "後悔"
+    },
+    {
+      "word": "olympics",
+      "phonetic": "",
+      "translation": "奧運會"
+    },
+    {
+      "word": "breakthrough",
+      "phonetic": "/ˈbɹeɪkθɹuː/",
+      "translation": "突破"
+    },
+    {
+      "word": "investigator",
+      "phonetic": "",
+      "translation": "研究者"
+    },
+    {
+      "word": "dementia",
+      "phonetic": "/dɪˈmɛnʃə/",
+      "translation": "失智"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "revelation",
+      "phonetic": "/ɹɛvəˈleɪʃən/",
+      "translation": "啟示"
+    },
+    {
+      "word": "intentionally",
+      "phonetic": "",
+      "translation": "故意"
+    },
+    {
+      "word": "loser",
+      "phonetic": "/luzɚ/",
+      "translation": "失敗者"
+    }
   ]
 }
