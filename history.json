@@ -669,5 +669,57 @@
       "phonetic": "/luzɚ/",
       "translation": "失敗者"
     }
+  ],
+  "2026-02-11": [
+    {
+      "word": "pepper",
+      "phonetic": "/ˈpɛpə/",
+      "translation": "胡椒"
+    },
+    {
+      "word": "extremist",
+      "phonetic": "/ɛkˈstɹiːmɪst/",
+      "translation": "極端主義者"
+    },
+    {
+      "word": "treasure",
+      "phonetic": "/ˈtɹɛʒə/",
+      "translation": "寶藏"
+    },
+    {
+      "word": "corruption",
+      "phonetic": "/kəˈɹʌpʃən/",
+      "translation": "腐敗"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    },
+    {
+      "word": "demolition",
+      "phonetic": "/ˌdɛm.əˈlɪʃən/",
+      "translation": "拆除"
+    },
+    {
+      "word": "bipartisan",
+      "phonetic": "/ˈbaɪˌpɑː(ɹ)t.ɪ.zæn/",
+      "translation": "兩黨"
+    },
+    {
+      "word": "denier",
+      "phonetic": "/dəˈnɪə(ɹ)/",
+      "translation": "丹尼爾"
+    },
+    {
+      "word": "lowest-ever",
+      "phonetic": "",
+      "translation": "有史以來最低的"
+    },
+    {
+      "word": "bros.",
+      "phonetic": "",
+      "translation": "兄弟們。"
+    }
   ]
 }
