@@ -721,5 +721,57 @@
       "phonetic": "/ɡlɪmps/",
       "translation": "一瞥"
     }
+  ],
+  "2026-02-12": [
+    {
+      "word": "halftime",
+      "phonetic": "",
+      "translation": "半場休息"
+    },
+    {
+      "word": "retaliate",
+      "phonetic": "/ɹɪˈtæli.eɪt/",
+      "translation": "報復"
+    },
+    {
+      "word": "autocrat",
+      "phonetic": "",
+      "translation": "獨裁者"
+    },
+    {
+      "word": "compete",
+      "phonetic": "/kəm.ˈpiːt/",
+      "translation": "競爭"
+    },
+    {
+      "word": "outrage",
+      "phonetic": "/ˈæot.ɹæed͡ʒ/",
+      "translation": "暴行"
+    },
+    {
+      "word": "testimony",
+      "phonetic": "/ˈtɛstɪməni/",
+      "translation": "見證"
+    },
+    {
+      "word": "clampdown",
+      "phonetic": "",
+      "translation": "鎮壓"
+    },
+    {
+      "word": "embolism",
+      "phonetic": "",
+      "translation": "栓塞"
+    },
+    {
+      "word": "traditionally",
+      "phonetic": "/tɹəˈdɪʃənli/",
+      "translation": "傳統上"
+    },
+    {
+      "word": "conviction",
+      "phonetic": "/kənˈvɪkʃən/",
+      "translation": "定罪"
+    }
   ]
 }
