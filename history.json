@@ -773,5 +773,52 @@
       "phonetic": "/kənˈvɪkʃən/",
       "translation": "定罪"
     }
+  ],
+  "2026-02-13": [
+    {
+      "word": "nostalgia",
+      "phonetic": "/nɒˈstaldʒə/",
+      "translation": "懷舊之情"
+    },
+    {
+      "word": "accountability",
+      "phonetic": "",
+      "translation": "問責制"
+    },
+    {
+      "word": "unrest",
+      "phonetic": "/ʌnˈɹɛst/",
+      "translation": "動盪"
+    },
+    {
+      "word": "half-dozen",
+      "phonetic": "",
+      "translation": "六個"
+    },
+    {
+      "word": "disinvited",
+      "phonetic": "",
+      "translation": "取消邀請"
+    },
+    {
+      "word": "unredacted",
+      "phonetic": "",
+      "translation": "未編輯的"
+    },
+    {
+      "word": "brawl",
+      "phonetic": "/bɹɔːl/",
+      "translation": "爭吵"
+    },
+    {
+      "word": "explicit",
+      "phonetic": "/ɪkˈsplɪsɪt/",
+      "translation": "明確的"
+    },
+    {
+      "word": "bipartisan",
+      "phonetic": "/ˈbaɪˌpɑː(ɹ)t.ɪ.zæn/",
+      "translation": "兩黨"
+    }
   ]
 }
