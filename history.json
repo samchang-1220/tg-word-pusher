@@ -872,5 +872,57 @@
       "phonetic": "/ˈʃɒkɪŋ/",
       "translation": "令人震驚的"
     }
+  ],
+  "2026-02-15": [
+    {
+      "word": "bipartisan",
+      "phonetic": "/ˈbaɪˌpɑː(ɹ)t.ɪ.zæn/",
+      "translation": "兩黨"
+    },
+    {
+      "word": "prominent",
+      "phonetic": "/ˈpɹɒmɪnənt/",
+      "translation": "著名的"
+    },
+    {
+      "word": "prosthetics",
+      "phonetic": "",
+      "translation": "義肢"
+    },
+    {
+      "word": "crackdown",
+      "phonetic": "",
+      "translation": "鎮壓"
+    },
+    {
+      "word": "ceasefire",
+      "phonetic": "",
+      "translation": "停火"
+    },
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+      "translation": "慶祝"
+    },
+    {
+      "word": "upset",
+      "phonetic": "",
+      "translation": "沮喪的"
+    },
+    {
+      "word": "amends",
+      "phonetic": "",
+      "translation": "修正"
+    },
+    {
+      "word": "redistricting",
+      "phonetic": "",
+      "translation": "重新劃分選區"
+    },
+    {
+      "word": "automaker",
+      "phonetic": "",
+      "translation": "汽車製造商"
+    }
   ]
 }
