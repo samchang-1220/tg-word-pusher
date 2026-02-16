@@ -924,5 +924,57 @@
       "phonetic": "",
       "translation": "汽車製造商"
     }
+  ],
+  "2026-02-16": [
+    {
+      "word": "televise",
+      "phonetic": "/ˈtɛlɪvaɪz/",
+      "translation": "電視轉播"
+    },
+    {
+      "word": "indict",
+      "phonetic": "/ˌɪnˈdaɪt/",
+      "translation": "起訴"
+    },
+    {
+      "word": "humane",
+      "phonetic": "/hjuːˈmeɪn/",
+      "translation": "人道"
+    },
+    {
+      "word": "unredacted",
+      "phonetic": "",
+      "translation": "未編輯的"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "feisty",
+      "phonetic": "/ˈfaɪsti/",
+      "translation": "活潑的"
+    },
+    {
+      "word": "extinction",
+      "phonetic": "/ɪkˈstɪŋkʃ(ə)n/",
+      "translation": "滅絕"
+    },
+    {
+      "word": "necklace",
+      "phonetic": "/ˈnɛkləs/",
+      "translation": "項鍊"
+    },
+    {
+      "word": "embroidery",
+      "phonetic": "/ɪmˈbɹɔɪdəɹi/",
+      "translation": "刺繡"
+    },
+    {
+      "word": "stimulation",
+      "phonetic": "",
+      "translation": "刺激"
+    }
   ]
 }
