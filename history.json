@@ -976,5 +976,57 @@
       "phonetic": "",
       "translation": "刺激"
     }
+  ],
+  "2026-02-17": [
+    {
+      "word": "zodiac",
+      "phonetic": "/ˈzəʊ.dɪ.æk/",
+      "translation": "十二生肖"
+    },
+    {
+      "word": "spokesperson",
+      "phonetic": "",
+      "translation": "發言人"
+    },
+    {
+      "word": "sideline",
+      "phonetic": "/ˈsaɪdlaɪn/",
+      "translation": "副業"
+    },
+    {
+      "word": "skate",
+      "phonetic": "/skeɪt/",
+      "translation": "滑冰"
+    },
+    {
+      "word": "overturn",
+      "phonetic": "",
+      "translation": "顛覆"
+    },
+    {
+      "word": "pitfall",
+      "phonetic": "/ˈpɪtfɔːl/",
+      "translation": "陷阱"
+    },
+    {
+      "word": "capsizes",
+      "phonetic": "",
+      "translation": "翻船"
+    },
+    {
+      "word": "prisoner",
+      "phonetic": "/ˈpɹɪzənəɹ/",
+      "translation": "囚犯"
+    },
+    {
+      "word": "happily",
+      "phonetic": "/ˈha.pə.li/",
+      "translation": "高興地"
+    },
+    {
+      "word": "custody",
+      "phonetic": "/ˈkʌstədiː/",
+      "translation": "保管"
+    }
   ]
 }
