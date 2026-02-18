@@ -1028,5 +1028,52 @@
       "phonetic": "/ˈkʌstədiː/",
       "translation": "保管"
     }
+  ],
+  "2026-02-18": [
+    {
+      "word": "grind",
+      "phonetic": "/ˈɡɹaɪnd/",
+      "translation": "研磨"
+    },
+    {
+      "word": "skier",
+      "phonetic": "",
+      "translation": "滑雪者"
+    },
+    {
+      "word": "us-israel",
+      "phonetic": "",
+      "translation": "美國-以色列"
+    },
+    {
+      "word": "megafire",
+      "phonetic": "",
+      "translation": "大火"
+    },
+    {
+      "word": "gallop",
+      "phonetic": "/ˈɡæləp/",
+      "translation": "馳騁"
+    },
+    {
+      "word": "inertia",
+      "phonetic": "",
+      "translation": "慣性"
+    },
+    {
+      "word": "survivor",
+      "phonetic": "/sɚˈvaɪvɚ/",
+      "translation": "倖存者"
+    },
+    {
+      "word": "backcountry",
+      "phonetic": "/ˈbækˌkʌntri/",
+      "translation": "偏遠地區"
+    },
+    {
+      "word": "quarterfinal",
+      "phonetic": "",
+      "translation": "四分之一決賽"
+    }
   ]
 }
