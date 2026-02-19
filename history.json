@@ -1075,5 +1075,57 @@
       "phonetic": "",
       "translation": "四分之一決賽"
     }
+  ],
+  "2026-02-19": [
+    {
+      "word": "investigator",
+      "phonetic": "",
+      "translation": "研究者"
+    },
+    {
+      "word": "convict",
+      "phonetic": "/ˈkɒnvɪkt/",
+      "translation": "定罪"
+    },
+    {
+      "word": "shrug",
+      "phonetic": "/ʃɹʌɡ/",
+      "translation": "聳肩"
+    },
+    {
+      "word": "testifies",
+      "phonetic": "",
+      "translation": "作證"
+    },
+    {
+      "word": "scorch",
+      "phonetic": "/skɔːtʃ/",
+      "translation": "燒焦"
+    },
+    {
+      "word": "lofty",
+      "phonetic": "/ˈlɑfti/",
+      "translation": "崇高的"
+    },
+    {
+      "word": "defector",
+      "phonetic": "/dɪˈfɛktə(ɹ)/",
+      "translation": "叛逃者"
+    },
+    {
+      "word": "refugee",
+      "phonetic": "/ɹɛfjʊˈdʒiː/",
+      "translation": "難民"
+    },
+    {
+      "word": "risky",
+      "phonetic": "/ˈɹɪski/",
+      "translation": "有風險的"
+    },
+    {
+      "word": "downplay",
+      "phonetic": "",
+      "translation": "淡化"
+    }
   ]
 }
