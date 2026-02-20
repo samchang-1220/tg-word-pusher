@@ -1127,5 +1127,57 @@
       "phonetic": "",
       "translation": "淡化"
     }
+  ],
+  "2026-02-20": [
+    {
+      "word": "starliner",
+      "phonetic": "",
+      "translation": "星際客機"
+    },
+    {
+      "word": "grammy",
+      "phonetic": "",
+      "translation": "葛萊美"
+    },
+    {
+      "word": "skier",
+      "phonetic": "",
+      "translation": "滑雪者"
+    },
+    {
+      "word": "assassination",
+      "phonetic": "/əˌsæs.ɪ.ˈneɪ.ʃən/",
+      "translation": "暗殺"
+    },
+    {
+      "word": "bacteria",
+      "phonetic": "/bækˈtɪəɹ.ɪ.ə/",
+      "translation": "細菌"
+    },
+    {
+      "word": "bodyguard",
+      "phonetic": "/ˈbɒdiɡɑːd/",
+      "translation": "保鑣"
+    },
+    {
+      "word": "scandal",
+      "phonetic": "/ˈskændəl/",
+      "translation": "醜聞"
+    },
+    {
+      "word": "mummify",
+      "phonetic": "",
+      "translation": "木乃伊化"
+    },
+    {
+      "word": "antibiotic",
+      "phonetic": "/ˌæn.taɪ.baɪˈɒt.ɪk/",
+      "translation": "抗生素"
+    },
+    {
+      "word": "strain",
+      "phonetic": "/stɹeɪ̯n/",
+      "translation": "拉緊"
+    }
   ]
 }
