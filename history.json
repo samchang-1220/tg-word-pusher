@@ -1179,5 +1179,52 @@
       "phonetic": "/stɹeɪ̯n/",
       "translation": "拉緊"
     }
+  ],
+  "2026-02-21": [
+    {
+      "word": "four-eared",
+      "phonetic": "",
+      "translation": "四耳的"
+    },
+    {
+      "word": "diminish",
+      "phonetic": "/dɪˈmɪnɪʃ/",
+      "translation": "減少"
+    },
+    {
+      "word": "antibiotic",
+      "phonetic": "/ˌæn.taɪ.baɪˈɒt.ɪk/",
+      "translation": "抗生素"
+    },
+    {
+      "word": "harrow",
+      "phonetic": "/ˈhæɹəʊ/",
+      "translation": "耙"
+    },
+    {
+      "word": "four-year",
+      "phonetic": "",
+      "translation": "四年"
+    },
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtæɹəf/",
+      "translation": "關稅"
+    },
+    {
+      "word": "streak",
+      "phonetic": "/stɹiːk/",
+      "translation": "條紋"
+    },
+    {
+      "word": "dressing",
+      "phonetic": "/ˈdɹɛsɪŋ/",
+      "translation": "敷料"
+    },
+    {
+      "word": "awkward",
+      "phonetic": "",
+      "translation": "尷尬的"
+    }
   ]
 }
