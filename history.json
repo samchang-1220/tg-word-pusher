@@ -1226,5 +1226,52 @@
       "phonetic": "",
       "translation": "尷尬的"
     }
+  ],
+  "2026-02-22": [
+    {
+      "word": "confront",
+      "phonetic": "/kɒnˈfɹɒnt/",
+      "translation": "面對"
+    },
+    {
+      "word": "inequality",
+      "phonetic": "/ˌɪnɪˈkwɒlɪti/",
+      "translation": "不等式"
+    },
+    {
+      "word": "tangle",
+      "phonetic": "/ˈtæŋ.ɡəl/",
+      "translation": "爭議"
+    },
+    {
+      "word": "cheetah",
+      "phonetic": "/ˈtʃiːtə/",
+      "translation": "獵豹"
+    },
+    {
+      "word": "perimeter",
+      "phonetic": "/pəˈɹɪmɪtə(ɹ)/",
+      "translation": "週長"
+    },
+    {
+      "word": "afghan-based",
+      "phonetic": "",
+      "translation": "駐阿富汗的"
+    },
+    {
+      "word": "plaintiff",
+      "phonetic": "/ˈpleɪntɪf/",
+      "translation": "原告"
+    },
+    {
+      "word": "awkward",
+      "phonetic": "",
+      "translation": "尷尬的"
+    },
+    {
+      "word": "mummify",
+      "phonetic": "",
+      "translation": "木乃伊化"
+    }
   ]
 }
