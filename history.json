@@ -1320,5 +1320,57 @@
       "phonetic": "",
       "translation": "創作歌手"
     }
+  ],
+  "2026-02-24": [
+    {
+      "word": "grind",
+      "phonetic": "/ˈɡɹaɪnd/",
+      "translation": "研磨"
+    },
+    {
+      "word": "reward",
+      "phonetic": "/ɹəˈwɔːd/",
+      "translation": "報酬"
+    },
+    {
+      "word": "viral",
+      "phonetic": "/ˈvaɪɹəl/",
+      "translation": "病毒性的"
+    },
+    {
+      "word": "nerve",
+      "phonetic": "/nɛɾv/",
+      "translation": "神經"
+    },
+    {
+      "word": "reintroduce",
+      "phonetic": "",
+      "translation": "重新介紹"
+    },
+    {
+      "word": "bitter",
+      "phonetic": "/ˈbɪtə/",
+      "translation": "苦的"
+    },
+    {
+      "word": "outage",
+      "phonetic": "/ˈaʊtɪd͡ʒ/",
+      "translation": "停電"
+    },
+    {
+      "word": "helicopter",
+      "phonetic": "/ˈheliˌkɔptə(ɹ)/",
+      "translation": "直升機"
+    },
+    {
+      "word": "tradwife",
+      "phonetic": "",
+      "translation": "傳統妻子"
+    },
+    {
+      "word": "flour",
+      "phonetic": "/ˈflaʊə/",
+      "translation": "麵粉"
+    }
   ]
 }
