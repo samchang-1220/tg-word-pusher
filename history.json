@@ -1372,5 +1372,52 @@
       "phonetic": "/ˈflaʊə/",
       "translation": "麵粉"
     }
+  ],
+  "2026-02-25": [
+    {
+      "word": "lover",
+      "phonetic": "/ˈlʌvə/",
+      "translation": "情人"
+    },
+    {
+      "word": "crackdown",
+      "phonetic": "",
+      "translation": "鎮壓"
+    },
+    {
+      "word": "misery",
+      "phonetic": "/ˈmɪz(ə)ɹɪ/",
+      "translation": "苦難"
+    },
+    {
+      "word": "settle",
+      "phonetic": "/ˈsɛtəl/",
+      "translation": "定居"
+    },
+    {
+      "word": "syria",
+      "phonetic": "",
+      "translation": "敘利亞"
+    },
+    {
+      "word": "regret",
+      "phonetic": "/ɹiˈɡɹɛt/",
+      "translation": "後悔"
+    },
+    {
+      "word": "surgeon",
+      "phonetic": "/ˈsɜːdʒən/",
+      "translation": "外科醫生"
+    },
+    {
+      "word": "decode",
+      "phonetic": "/diːˈkəʊd/",
+      "translation": "解碼"
+    },
+    {
+      "word": "disappearance",
+      "phonetic": "/dɪsəˈpɪəɹəns/",
+      "translation": "消失"
+    }
   ]
 }
