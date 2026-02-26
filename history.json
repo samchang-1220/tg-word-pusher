@@ -1419,5 +1419,52 @@
       "phonetic": "/dɪsəˈpɪəɹəns/",
       "translation": "消失"
     }
+  ],
+  "2026-02-26": [
+    {
+      "word": "decries",
+      "phonetic": "",
+      "translation": "譴責"
+    },
+    {
+      "word": "surge",
+      "phonetic": "/sɜːdʒ/",
+      "translation": "湧"
+    },
+    {
+      "word": "redaction",
+      "phonetic": "/ɹəˈdækʃən/",
+      "translation": "編輯"
+    },
+    {
+      "word": "pediatric",
+      "phonetic": "",
+      "translation": "兒科的"
+    },
+    {
+      "word": "depose",
+      "phonetic": "/dɪˈpəʊz/",
+      "translation": "免職"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fɪˈnɒmənɒn/",
+      "translation": "現象"
+    },
+    {
+      "word": "mencho",
+      "phonetic": "",
+      "translation": "門喬"
+    },
+    {
+      "word": "unconventional",
+      "phonetic": "",
+      "translation": "非常規的"
+    },
+    {
+      "word": "accede",
+      "phonetic": "/əkˈsiːd/",
+      "translation": "同意"
+    }
   ]
 }
