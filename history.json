@@ -1466,5 +1466,52 @@
       "phonetic": "/əkˈsiːd/",
       "translation": "同意"
     }
+  ],
+  "2026-02-27": [
+    {
+      "word": "viral",
+      "phonetic": "/ˈvaɪɹəl/",
+      "translation": "病毒性的"
+    },
+    {
+      "word": "paramount-wbd",
+      "phonetic": "",
+      "translation": "派拉蒙WBD"
+    },
+    {
+      "word": "settle",
+      "phonetic": "/ˈsɛtəl/",
+      "translation": "定居"
+    },
+    {
+      "word": "clash",
+      "phonetic": "/klaʃ/",
+      "translation": "衝突"
+    },
+    {
+      "word": "shootout",
+      "phonetic": "/ˈʃuːtaʊt/",
+      "translation": "點球大戰"
+    },
+    {
+      "word": "detain",
+      "phonetic": "/dɪˈteɪn/",
+      "translation": "扣留"
+    },
+    {
+      "word": "amass",
+      "phonetic": "/əˈmæs/",
+      "translation": "累積"
+    },
+    {
+      "word": "shockingly",
+      "phonetic": "",
+      "translation": "令人震驚地"
+    },
+    {
+      "word": "1,100",
+      "phonetic": "",
+      "translation": "1,100"
+    }
   ]
 }
