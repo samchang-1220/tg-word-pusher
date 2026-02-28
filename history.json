@@ -1513,5 +1513,52 @@
       "phonetic": "",
       "translation": "1,100"
     }
+  ],
+  "2026-02-28": [
+    {
+      "word": "smartphone",
+      "phonetic": "/ˈsmɑːtfəʊn/",
+      "translation": "智慧型手機"
+    },
+    {
+      "word": "contradict",
+      "phonetic": "/kɒntɹəˈdɪkt/",
+      "translation": "頂撞"
+    },
+    {
+      "word": "surround",
+      "phonetic": "/səˈɹaʊnd/",
+      "translation": "環繞"
+    },
+    {
+      "word": "prompt",
+      "phonetic": "/pɹɒmpt/",
+      "translation": "迅速的"
+    },
+    {
+      "word": "mistaken",
+      "phonetic": "/mɪsˈteɪkən/",
+      "translation": "錯誤"
+    },
+    {
+      "word": "embrace",
+      "phonetic": "/ɛmˈbɹeɪs/",
+      "translation": "擁抱"
+    },
+    {
+      "word": "daybreak",
+      "phonetic": "/ˈdeɪbɹeɪk/",
+      "translation": "拂曉"
+    },
+    {
+      "word": "acuity",
+      "phonetic": "/əˈkjuːɪti/",
+      "translation": "敏銳度"
+    },
+    {
+      "word": "congresswoman",
+      "phonetic": "",
+      "translation": "眾議員"
+    }
   ]
 }
