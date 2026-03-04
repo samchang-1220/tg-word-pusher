@@ -1716,5 +1716,47 @@
       "phonetic": "/tæˈtu(ː)/",
       "translation": "刺青"
     }
+  ],
+  "2026-03-04": [
+    {
+      "word": "endgame",
+      "phonetic": "",
+      "translation": "殘局"
+    },
+    {
+      "word": "mythology",
+      "phonetic": "/mɪˈθɒlədʒi/",
+      "translation": "神話"
+    },
+    {
+      "word": "grouchy",
+      "phonetic": "/ˈɡɹaʊtʃi/",
+      "translation": "脾氣暴躁的"
+    },
+    {
+      "word": "firework",
+      "phonetic": "",
+      "translation": "焰火"
+    },
+    {
+      "word": "mitigate",
+      "phonetic": "/ˈmɪt.ɪ.ɡeɪt/",
+      "translation": "緩解"
+    },
+    {
+      "word": "inertial",
+      "phonetic": "",
+      "translation": "慣性的"
+    },
+    {
+      "word": "trafficking",
+      "phonetic": "",
+      "translation": "販運"
+    },
+    {
+      "word": "anti-drug",
+      "phonetic": "",
+      "translation": "抗毒"
+    }
   ]
 }
