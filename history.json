@@ -1758,5 +1758,57 @@
       "phonetic": "",
       "translation": "抗毒"
     }
+  ],
+  "2026-03-05": [
+    {
+      "word": "thunderstorm",
+      "phonetic": "/ˈθʌn.də(ɹ)ˌstɔː(ɹ)m/",
+      "translation": "雷雨"
+    },
+    {
+      "word": "iran-inspired",
+      "phonetic": "",
+      "translation": "受伊朗啟發"
+    },
+    {
+      "word": "flees",
+      "phonetic": "/ˈfliːz/",
+      "translation": "逃跑"
+    },
+    {
+      "word": "undergo",
+      "phonetic": "/ˌʌndəˈɡəʊ/",
+      "translation": "經歷"
+    },
+    {
+      "word": "airstrike",
+      "phonetic": "",
+      "translation": "空襲"
+    },
+    {
+      "word": "submarine",
+      "phonetic": "/sʌb.məˈɹiːn/",
+      "translation": "潛水艇"
+    },
+    {
+      "word": "guerrilla",
+      "phonetic": "/ɡəˈɹɪlə/",
+      "translation": "遊擊隊"
+    },
+    {
+      "word": "bedtime",
+      "phonetic": "/ˈbɛdtaɪm/",
+      "translation": "就寢時間"
+    },
+    {
+      "word": "ouster",
+      "phonetic": "/aʊstə/",
+      "translation": "驅逐"
+    },
+    {
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    }
   ]
 }
