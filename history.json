@@ -1810,5 +1810,57 @@
       "phonetic": "/dɹəʊn/",
       "translation": "無人機"
     }
+  ],
+  "2026-03-06": [
+    {
+      "word": "reimagine",
+      "phonetic": "",
+      "translation": "重新想像"
+    },
+    {
+      "word": "testimony",
+      "phonetic": "/ˈtɛstɪməni/",
+      "translation": "見證"
+    },
+    {
+      "word": "morality",
+      "phonetic": "/məˈɹælɪti/",
+      "translation": "道德"
+    },
+    {
+      "word": "sexless",
+      "phonetic": "",
+      "translation": "無性的"
+    },
+    {
+      "word": "blackout",
+      "phonetic": "/ˈblækaʊt/",
+      "translation": "停電"
+    },
+    {
+      "word": "pro-government",
+      "phonetic": "",
+      "translation": "親政府"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fɪˈnɒmənɒn/",
+      "translation": "現象"
+    },
+    {
+      "word": "survivor",
+      "phonetic": "/sɚˈvaɪvɚ/",
+      "translation": "倖存者"
+    },
+    {
+      "word": "ex-rapper",
+      "phonetic": "",
+      "translation": "前饒舌歌手"
+    },
+    {
+      "word": "hardliner",
+      "phonetic": "",
+      "translation": "強硬派"
+    }
   ]
 }
