@@ -1862,5 +1862,52 @@
       "phonetic": "",
       "translation": "強硬派"
     }
+  ],
+  "2026-03-07": [
+    {
+      "word": "rehab",
+      "phonetic": "/ˈɹiːhæb/",
+      "translation": "復原"
+    },
+    {
+      "word": "dystopic",
+      "phonetic": "",
+      "translation": "異位的"
+    },
+    {
+      "word": "coldest",
+      "phonetic": "",
+      "translation": "最冷的"
+    },
+    {
+      "word": "geolocated",
+      "phonetic": "",
+      "translation": "地理定位"
+    },
+    {
+      "word": "antidepressant",
+      "phonetic": "",
+      "translation": "抗憂鬱藥"
+    },
+    {
+      "word": "siren",
+      "phonetic": "/ˈsaɪəɹən/",
+      "translation": "警笛"
+    },
+    {
+      "word": "separation",
+      "phonetic": "/sɛpəˈɹeɪʃən/",
+      "translation": "分離"
+    },
+    {
+      "word": "neighbor",
+      "phonetic": "",
+      "translation": "鄰居"
+    },
+    {
+      "word": "prioritize",
+      "phonetic": "/pɹaɪˈɒɹətaɪz/",
+      "translation": "優先考慮"
+    }
   ]
 }
