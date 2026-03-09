@@ -1961,5 +1961,57 @@
       "phonetic": "",
       "translation": "地標"
     }
+  ],
+  "2026-03-09": [
+    {
+      "word": "towel",
+      "phonetic": "/taʊl/",
+      "translation": "毛巾"
+    },
+    {
+      "word": "synagogue",
+      "phonetic": "/ˈsɪ.nəˌɡɑɡ/",
+      "translation": "猶太教堂"
+    },
+    {
+      "word": "strand",
+      "phonetic": "/stɹænd/",
+      "translation": "股"
+    },
+    {
+      "word": "downplay",
+      "phonetic": "",
+      "translation": "淡化"
+    },
+    {
+      "word": "brawl",
+      "phonetic": "/bɹɔːl/",
+      "translation": "爭吵"
+    },
+    {
+      "word": "awkward",
+      "phonetic": "",
+      "translation": "尷尬的"
+    },
+    {
+      "word": "tornado",
+      "phonetic": "/tɔː(ɹ)ˈneɪ.dəʊ/",
+      "translation": "龍捲風"
+    },
+    {
+      "word": "counter-drone",
+      "phonetic": "",
+      "translation": "反無人機"
+    },
+    {
+      "word": "surge",
+      "phonetic": "/sɜːdʒ/",
+      "translation": "湧"
+    },
+    {
+      "word": "disrupt",
+      "phonetic": "/dɪsˈɹʌpt/",
+      "translation": "擾亂"
+    }
   ]
 }
