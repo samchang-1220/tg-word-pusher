@@ -2013,5 +2013,47 @@
       "phonetic": "/dɪsˈɹʌpt/",
       "translation": "擾亂"
     }
+  ],
+  "2026-03-10": [
+    {
+      "word": "humanitarian",
+      "phonetic": "/hjʊˌmæ.nɪˈtɛː.ɹɪ.ən/",
+      "translation": "人道主義的"
+    },
+    {
+      "word": "accuse",
+      "phonetic": "/əˈkjuːz/",
+      "translation": "控"
+    },
+    {
+      "word": "suspect",
+      "phonetic": "/ˈsʌs.pɛkt/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "chokepoint",
+      "phonetic": "",
+      "translation": "阻塞點"
+    },
+    {
+      "word": "fighter",
+      "phonetic": "/ˈfaɪ.tə(ɹ)/",
+      "translation": "戰鬥機"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fɪˈnɒmənɒn/",
+      "translation": "現象"
+    },
+    {
+      "word": "lesser-known",
+      "phonetic": "",
+      "translation": "鮮為人知的"
+    },
+    {
+      "word": "overhead",
+      "phonetic": "/ˈəʊvəˌhɛd/",
+      "translation": "開賣"
+    }
   ]
 }
