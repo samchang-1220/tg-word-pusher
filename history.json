@@ -2055,5 +2055,52 @@
       "phonetic": "/ˈəʊvəˌhɛd/",
       "translation": "開賣"
     }
+  ],
+  "2026-03-11": [
+    {
+      "word": "epstein",
+      "phonetic": "",
+      "translation": "愛潑斯坦"
+    },
+    {
+      "word": "suspect",
+      "phonetic": "/ˈsʌs.pɛkt/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "volcano",
+      "phonetic": "/vɒlˈkeɪnəʊ/",
+      "translation": "火山"
+    },
+    {
+      "word": "democrat",
+      "phonetic": "/ˈdɛməkɹæt/",
+      "translation": "民主黨"
+    },
+    {
+      "word": "improvise",
+      "phonetic": "/ˈɪmpɹəvaɪz/",
+      "translation": "湊合"
+    },
+    {
+      "word": "oscar-nominated",
+      "phonetic": "",
+      "translation": "奧斯卡提名"
+    },
+    {
+      "word": "backlash",
+      "phonetic": "/ˈbækˌlæʃ/",
+      "translation": "反彈"
+    },
+    {
+      "word": "polio",
+      "phonetic": "/ˈpəʊljəʊ/",
+      "translation": "小兒麻痺"
+    },
+    {
+      "word": "investigate",
+      "phonetic": "[ɪn.ˈves.tɪ.ɡeɪ̯t]",
+      "translation": "調查"
+    }
   ]
 }
