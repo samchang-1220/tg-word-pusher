@@ -2102,5 +2102,57 @@
       "phonetic": "[ɪn.ˈves.tɪ.ɡeɪ̯t]",
       "translation": "調查"
     }
+  ],
+  "2026-03-12": [
+    {
+      "word": "awkward",
+      "phonetic": "",
+      "translation": "尷尬的"
+    },
+    {
+      "word": "silence",
+      "phonetic": "/ˈsaɪ.ləns/",
+      "translation": "沉默"
+    },
+    {
+      "word": "gamble",
+      "phonetic": "/ˈɡæm.bəl/",
+      "translation": "賭博"
+    },
+    {
+      "word": "doesn",
+      "phonetic": "",
+      "translation": "不"
+    },
+    {
+      "word": "choke",
+      "phonetic": "/t͡ʃəʊk/",
+      "translation": "嗆"
+    },
+    {
+      "word": "transform",
+      "phonetic": "/tɹænzˈfɔːm/",
+      "translation": "轉換"
+    },
+    {
+      "word": "duckworth",
+      "phonetic": "",
+      "translation": "達克沃斯"
+    },
+    {
+      "word": "filmmaker",
+      "phonetic": "",
+      "translation": "電影製片人"
+    },
+    {
+      "word": "relent",
+      "phonetic": "/ɹɪˈlɛnt/",
+      "translation": "軟弱的"
+    },
+    {
+      "word": "resist",
+      "phonetic": "/ɹəˈzɪst/",
+      "translation": "抵抗"
+    }
   ]
 }
