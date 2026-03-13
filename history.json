@@ -2154,5 +2154,52 @@
       "phonetic": "/ɹəˈzɪst/",
       "translation": "抵抗"
     }
+  ],
+  "2026-03-13": [
+    {
+      "word": "checkpoint",
+      "phonetic": "",
+      "translation": "檢查站"
+    },
+    {
+      "word": "conspiracy",
+      "phonetic": "/kənˈspɪɹəsi/",
+      "translation": "陰謀"
+    },
+    {
+      "word": "terrible",
+      "phonetic": "/ˈtɛ.ɹə.bl̩/",
+      "translation": "糟糕的"
+    },
+    {
+      "word": "it-bags",
+      "phonetic": "",
+      "translation": "時尚包袋"
+    },
+    {
+      "word": "sacrifice",
+      "phonetic": "/ˈsækɹɪfaɪs/",
+      "translation": "犧牲"
+    },
+    {
+      "word": "unhappy",
+      "phonetic": "/ʌnˈhæpi/",
+      "translation": "不高興"
+    },
+    {
+      "word": "transform",
+      "phonetic": "/tɹænzˈfɔːm/",
+      "translation": "轉換"
+    },
+    {
+      "word": "kc-135",
+      "phonetic": "",
+      "translation": "kc-135"
+    },
+    {
+      "word": "theology",
+      "phonetic": "/θi.ˈɒ.lə.dʒi/",
+      "translation": "神學"
+    }
   ]
 }
