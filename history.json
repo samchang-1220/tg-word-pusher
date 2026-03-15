@@ -2243,5 +2243,52 @@
       "phonetic": "",
       "translation": "可怕的"
     }
+  ],
+  "2026-03-15": [
+    {
+      "word": "staple",
+      "phonetic": "/ˈsteɪ.pəl/",
+      "translation": "主食"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+      "translation": "焦慮"
+    },
+    {
+      "word": "mourn",
+      "phonetic": "/mɔːn/",
+      "translation": "哀悼"
+    },
+    {
+      "word": "turtle",
+      "phonetic": "",
+      "translation": "龜"
+    },
+    {
+      "word": "tyrant",
+      "phonetic": "/ˈtaɪɹənt/",
+      "translation": "暴君"
+    },
+    {
+      "word": "gunman",
+      "phonetic": "",
+      "translation": "槍手"
+    },
+    {
+      "word": "veteran",
+      "phonetic": "[ˈvɛ.t̬ə.ɹən]",
+      "translation": "老將"
+    },
+    {
+      "word": "supporter",
+      "phonetic": "",
+      "translation": "支持者"
+    }
   ]
 }
