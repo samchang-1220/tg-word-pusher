@@ -2290,5 +2290,52 @@
       "phonetic": "",
       "translation": "支持者"
     }
+  ],
+  "2026-03-16": [
+    {
+      "word": "chancellor",
+      "phonetic": "",
+      "translation": "校長"
+    },
+    {
+      "word": "alongside",
+      "phonetic": "/ə.lɒŋˈsaɪd/",
+      "translation": "旁邊"
+    },
+    {
+      "word": "excite",
+      "phonetic": "/ɪkˈsaɪt/",
+      "translation": "激發"
+    },
+    {
+      "word": "criticize",
+      "phonetic": "/ˈkɹɪtɪsaɪz/",
+      "translation": "批評"
+    },
+    {
+      "word": "unison",
+      "phonetic": "/ˈjunɨsən/",
+      "translation": "一致"
+    },
+    {
+      "word": "steep",
+      "phonetic": "/stiːp/",
+      "translation": "陡"
+    },
+    {
+      "word": "widens",
+      "phonetic": "",
+      "translation": "擴大"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈpɹəʊ.tɛst/",
+      "translation": "反對"
+    },
+    {
+      "word": "hollow",
+      "phonetic": "/ˈhɒl.əʊ/",
+      "translation": "空洞的"
+    }
   ]
 }
