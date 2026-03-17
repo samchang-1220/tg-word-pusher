@@ -2337,5 +2337,57 @@
       "phonetic": "/ˈhɒl.əʊ/",
       "translation": "空洞的"
     }
+  ],
+  "2026-03-17": [
+    {
+      "word": "after-party",
+      "phonetic": "/ˈɑːftəpɑːti/",
+      "translation": "餘興派對"
+    },
+    {
+      "word": "chandelier",
+      "phonetic": "/ʃændəˈlɪə(ɹ)/",
+      "translation": "枝形吊燈"
+    },
+    {
+      "word": "frenzy",
+      "phonetic": "/ˈfɹɛnzi/",
+      "translation": "瘋狂"
+    },
+    {
+      "word": "stalemate",
+      "phonetic": "",
+      "translation": "僵局"
+    },
+    {
+      "word": "react",
+      "phonetic": "/ɹiːˈækt/",
+      "translation": "反應"
+    },
+    {
+      "word": "flail",
+      "phonetic": "/fleɪl/",
+      "translation": "連枷"
+    },
+    {
+      "word": "anti-us",
+      "phonetic": "",
+      "translation": "反美"
+    },
+    {
+      "word": "unflinching",
+      "phonetic": "",
+      "translation": "堅定不移"
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+      "translation": "焦慮"
+    },
+    {
+      "word": "toxic",
+      "phonetic": "/ˈtɒk.sɪk/",
+      "translation": "有毒的"
+    }
   ]
 }
