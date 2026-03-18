@@ -2389,5 +2389,42 @@
       "phonetic": "/ˈtɒk.sɪk/",
       "translation": "有毒的"
     }
+  ],
+  "2026-03-18": [
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "astronaut",
+      "phonetic": "/ˈæstɹəˌnɒt/",
+      "translation": "太空人"
+    },
+    {
+      "word": "makeshift",
+      "phonetic": "/ˈmeɪkˌʃɪft/",
+      "translation": "臨時湊合"
+    },
+    {
+      "word": "toffee",
+      "phonetic": "/ˈtɒfi/",
+      "translation": "乳糖"
+    },
+    {
+      "word": "turing",
+      "phonetic": "",
+      "translation": "圖靈"
+    },
+    {
+      "word": "punctual",
+      "phonetic": "/ˈpʌŋktjʊəl/",
+      "translation": "準時"
+    },
+    {
+      "word": "apology",
+      "phonetic": "/əˈpɒl.ə.dʒi/",
+      "translation": "道歉"
+    }
   ]
 }
