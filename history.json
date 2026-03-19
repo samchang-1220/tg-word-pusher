@@ -2426,5 +2426,57 @@
       "phonetic": "/əˈpɒl.ə.dʒi/",
       "translation": "道歉"
     }
+  ],
+  "2026-03-19": [
+    {
+      "word": "betrayal",
+      "phonetic": "/bɪˈtɹeɪəl/",
+      "translation": "背叛"
+    },
+    {
+      "word": "verge",
+      "phonetic": "",
+      "translation": "邊緣"
+    },
+    {
+      "word": "advocate",
+      "phonetic": "/ˈæd.və.keɪt/",
+      "translation": "提倡"
+    },
+    {
+      "word": "pizzeria",
+      "phonetic": "/ˌpiːt.səˈɹiː.ə/",
+      "translation": "披薩店"
+    },
+    {
+      "word": "nominee",
+      "phonetic": "/ˌnɒmɪˈniː/",
+      "translation": "被提名人"
+    },
+    {
+      "word": "sneak",
+      "phonetic": "/sniːk/",
+      "translation": "潛行"
+    },
+    {
+      "word": "landing",
+      "phonetic": "/ˈlændɪŋ/",
+      "translation": "降落"
+    },
+    {
+      "word": "scour",
+      "phonetic": "",
+      "translation": "沖刷"
+    },
+    {
+      "word": "suspected",
+      "phonetic": "/səsˈpɛktɪd/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "reindeer",
+      "phonetic": "/ˈɹeɪndɪə/",
+      "translation": "馴鹿"
+    }
   ]
 }
