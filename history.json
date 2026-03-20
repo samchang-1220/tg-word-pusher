@@ -2478,5 +2478,57 @@
       "phonetic": "/ˈɹeɪndɪə/",
       "translation": "馴鹿"
     }
+  ],
+  "2026-03-20": [
+    {
+      "word": "manipulate",
+      "phonetic": "/məˈnɪpjʊleɪt/",
+      "translation": "操縱"
+    },
+    {
+      "word": "hardliner",
+      "phonetic": "",
+      "translation": "強硬派"
+    },
+    {
+      "word": "longstanding",
+      "phonetic": "",
+      "translation": "長期存在的"
+    },
+    {
+      "word": "lifeline",
+      "phonetic": "/ˈlaɪfˌlaɪn/",
+      "translation": "生命線"
+    },
+    {
+      "word": "donor",
+      "phonetic": "/ˈdəʊnə/",
+      "translation": "捐款者"
+    },
+    {
+      "word": "megaprojects",
+      "phonetic": "",
+      "translation": "大型專案"
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+      "translation": "焦慮"
+    },
+    {
+      "word": "scorpio",
+      "phonetic": "",
+      "translation": "天蠍座"
+    },
+    {
+      "word": "admit",
+      "phonetic": "/ədˈmɪt/",
+      "translation": "承認"
+    },
+    {
+      "word": "deceive",
+      "phonetic": "/dɪˈsiːv/",
+      "translation": "欺騙"
+    }
   ]
 }
