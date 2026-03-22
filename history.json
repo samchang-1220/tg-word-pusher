@@ -2582,5 +2582,57 @@
       "phonetic": "/əˈstɹɒlədʒi/",
       "translation": "占星學"
     }
+  ],
+  "2026-03-22": [
+    {
+      "word": "anonymity",
+      "phonetic": "/ænəˈnɪmɪti/",
+      "translation": "匿名"
+    },
+    {
+      "word": "lethal",
+      "phonetic": "/ˈliː.θəl/",
+      "translation": "致命"
+    },
+    {
+      "word": "pentagon",
+      "phonetic": "/ˈpɛn.tə.ɡɑn/",
+      "translation": "五角大廈"
+    },
+    {
+      "word": "regimen",
+      "phonetic": "/ˈɹɛdʒ.ɪ.mən/",
+      "translation": "養生法"
+    },
+    {
+      "word": "diplomacy",
+      "phonetic": "",
+      "translation": "外交"
+    },
+    {
+      "word": "manipulate",
+      "phonetic": "/məˈnɪpjʊleɪt/",
+      "translation": "操縱"
+    },
+    {
+      "word": "insensitive",
+      "phonetic": "/ɪnˈsɛnsɪtɪv/",
+      "translation": "不敏感的"
+    },
+    {
+      "word": "react",
+      "phonetic": "/ɹiːˈækt/",
+      "translation": "反應"
+    },
+    {
+      "word": "indefinitely",
+      "phonetic": "",
+      "translation": "無限期地"
+    },
+    {
+      "word": "allege",
+      "phonetic": "/əˈlɛdʒ/",
+      "translation": "聲稱"
+    }
   ]
 }
