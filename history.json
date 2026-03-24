@@ -2681,5 +2681,32 @@
       "phonetic": "",
       "translation": "定時的"
     }
+  ],
+  "2026-03-24": [
+    {
+      "word": "respected",
+      "phonetic": "/ɹɪˈspɛktɪd/",
+      "translation": "受人尊敬"
+    },
+    {
+      "word": "overdue",
+      "phonetic": "/ˌəʊ.vəˈdju/",
+      "translation": "逾期的"
+    },
+    {
+      "word": "blaze",
+      "phonetic": "/bleɪz/",
+      "translation": "火焰"
+    },
+    {
+      "word": "anglo-saxon",
+      "phonetic": "",
+      "translation": "盎格魯撒克遜人"
+    },
+    {
+      "word": "cornhole",
+      "phonetic": "",
+      "translation": "沙包洞"
+    }
   ]
 }
