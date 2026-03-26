@@ -2760,5 +2760,57 @@
       "phonetic": "",
       "translation": "深紅色"
     }
+  ],
+  "2026-03-26": [
+    {
+      "word": "badly",
+      "phonetic": "/ˈbæd.li/",
+      "translation": "嚴重地"
+    },
+    {
+      "word": "investigate",
+      "phonetic": "[ɪn.ˈves.tɪ.ɡeɪ̯t]",
+      "translation": "調查"
+    },
+    {
+      "word": "baffle",
+      "phonetic": "/ˈbæfl̩/",
+      "translation": "擋板"
+    },
+    {
+      "word": "compromise",
+      "phonetic": "/ˈkɒmpɹəˌmaɪz/",
+      "translation": "妥協"
+    },
+    {
+      "word": "pursuit",
+      "phonetic": "/pəˈsʉːt/",
+      "translation": "追求"
+    },
+    {
+      "word": "ransom",
+      "phonetic": "/ˈɹænsəm/",
+      "translation": "贖金"
+    },
+    {
+      "word": "trick",
+      "phonetic": "/tɹɪk/",
+      "translation": "詭計"
+    },
+    {
+      "word": "react",
+      "phonetic": "/ɹiːˈækt/",
+      "translation": "反應"
+    },
+    {
+      "word": "whale",
+      "phonetic": "/weɪl/",
+      "translation": "鯨"
+    },
+    {
+      "word": "life-and-death",
+      "phonetic": "",
+      "translation": "生與死"
+    }
   ]
 }
