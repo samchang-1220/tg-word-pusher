@@ -2812,5 +2812,52 @@
       "phonetic": "",
       "translation": "生與死"
     }
+  ],
+  "2026-03-27": [
+    {
+      "word": "verdict",
+      "phonetic": "/ˈvɝ.dɪkt/",
+      "translation": "判決"
+    },
+    {
+      "word": "ideology",
+      "phonetic": "/ˌaɪ.diːˈɒl.ə.d͡ʒiː/",
+      "translation": "思想"
+    },
+    {
+      "word": "25-year-old",
+      "phonetic": "",
+      "translation": "25歲"
+    },
+    {
+      "word": "pokémon",
+      "phonetic": "",
+      "translation": "神奇寶貝"
+    },
+    {
+      "word": "deportation",
+      "phonetic": "/diːˌpɔːˈteɪʃən/",
+      "translation": "驅逐出境"
+    },
+    {
+      "word": "perseverance",
+      "phonetic": "/ˌpɜːsəˈvɪəɹəns/",
+      "translation": "毅力"
+    },
+    {
+      "word": "sailboat",
+      "phonetic": "",
+      "translation": "帆船"
+    },
+    {
+      "word": "intrigue",
+      "phonetic": "",
+      "translation": "陰謀"
+    },
+    {
+      "word": "hacker",
+      "phonetic": "/hækə(ɹ)/",
+      "translation": "駭客"
+    }
   ]
 }
