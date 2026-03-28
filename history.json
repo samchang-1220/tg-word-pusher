@@ -2859,5 +2859,57 @@
       "phonetic": "/hækə(ɹ)/",
       "translation": "駭客"
     }
+  ],
+  "2026-03-28": [
+    {
+      "word": "windfall",
+      "phonetic": "/ˈwɪnd.fɔːl/",
+      "translation": "橫財"
+    },
+    {
+      "word": "hacker",
+      "phonetic": "/hækə(ɹ)/",
+      "translation": "駭客"
+    },
+    {
+      "word": "borrow",
+      "phonetic": "/ˈbɔɹoʊ/",
+      "translation": "借"
+    },
+    {
+      "word": "sandbank",
+      "phonetic": "",
+      "translation": "沙洲"
+    },
+    {
+      "word": "hyper-realistic",
+      "phonetic": "",
+      "translation": "超現實的"
+    },
+    {
+      "word": "seize",
+      "phonetic": "/siːz/",
+      "translation": "搶佔"
+    },
+    {
+      "word": "ruling",
+      "phonetic": "/ˈɹuːlɪŋ/",
+      "translation": "裁決"
+    },
+    {
+      "word": "trick",
+      "phonetic": "/tɹɪk/",
+      "translation": "詭計"
+    },
+    {
+      "word": "seizure",
+      "phonetic": "/ˈsizjʊɚ/",
+      "translation": "癲癇"
+    },
+    {
+      "word": "mediator",
+      "phonetic": "/ˈmidieɪtɚ/",
+      "translation": "調解人"
+    }
   ]
 }
