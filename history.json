@@ -2911,5 +2911,52 @@
       "phonetic": "/ˈmidieɪtɚ/",
       "translation": "調解人"
     }
+  ],
+  "2026-03-29": [
+    {
+      "word": "deployed",
+      "phonetic": "",
+      "translation": "已部署"
+    },
+    {
+      "word": "changer",
+      "phonetic": "",
+      "translation": "改變者"
+    },
+    {
+      "word": "hyper-realistic",
+      "phonetic": "",
+      "translation": "超現實的"
+    },
+    {
+      "word": "journalist",
+      "phonetic": "/ˈdʒɜːnəlɪst/",
+      "translation": "記者"
+    },
+    {
+      "word": "cyclone",
+      "phonetic": "/ˈsaɪ.kləʊn/",
+      "translation": "氣旋"
+    },
+    {
+      "word": "expose",
+      "phonetic": "/ɪkˈspəʊz/",
+      "translation": "暴露"
+    },
+    {
+      "word": "invasion",
+      "phonetic": "/ɪnˈveɪʒən/",
+      "translation": "入侵"
+    },
+    {
+      "word": "unearth",
+      "phonetic": "",
+      "translation": "挖掘"
+    },
+    {
+      "word": "premiere",
+      "phonetic": "/ˈpɹɛmjɛə/",
+      "translation": "首播"
+    }
   ]
 }
