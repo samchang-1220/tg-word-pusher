@@ -3010,5 +3010,52 @@
       "phonetic": "",
       "translation": "f1風格"
     }
+  ],
+  "2026-04-01": [
+    {
+      "word": "urine",
+      "phonetic": "/ˈjʉːəɹɪn/",
+      "translation": "尿"
+    },
+    {
+      "word": "kidnap",
+      "phonetic": "",
+      "translation": "綁架"
+    },
+    {
+      "word": "reportedly",
+      "phonetic": "/ɹɪˈpɔːtɪdli/",
+      "translation": "據說"
+    },
+    {
+      "word": "unity",
+      "phonetic": "/ˈjuːnɪtɪ/",
+      "translation": "統一"
+    },
+    {
+      "word": "intimate",
+      "phonetic": "/ˈɪn.tɪ.mət/",
+      "translation": "親密的"
+    },
+    {
+      "word": "conditional",
+      "phonetic": "/kənˈdɪʃənəl/",
+      "translation": "有條件的"
+    },
+    {
+      "word": "head.",
+      "phonetic": "",
+      "translation": "頭。"
+    },
+    {
+      "word": "unfolds",
+      "phonetic": "",
+      "translation": "展開"
+    },
+    {
+      "word": "apollo",
+      "phonetic": "/əˈpɒləʊ/",
+      "translation": "阿波羅"
+    }
   ]
 }
