@@ -3057,5 +3057,57 @@
       "phonetic": "/əˈpɒləʊ/",
       "translation": "阿波羅"
     }
+  ],
+  "2026-04-02": [
+    {
+      "word": "shine",
+      "phonetic": "",
+      "translation": "閃耀"
+    },
+    {
+      "word": "head.",
+      "phonetic": "",
+      "translation": "頭。"
+    },
+    {
+      "word": "saddle",
+      "phonetic": "/ˈsædəl/",
+      "translation": "鞍"
+    },
+    {
+      "word": "stroller",
+      "phonetic": "",
+      "translation": "嬰兒車"
+    },
+    {
+      "word": "overhaul",
+      "phonetic": "/ˈoʊvɚˌhɑl/",
+      "translation": "檢修"
+    },
+    {
+      "word": "sperm",
+      "phonetic": "/spɜːm/",
+      "translation": "精子"
+    },
+    {
+      "word": "footage",
+      "phonetic": "/ˈfʊtɪd͡ʒ/",
+      "translation": "鏡頭"
+    },
+    {
+      "word": "capsule",
+      "phonetic": "/ˈkæpsjuːl/",
+      "translation": "膠囊"
+    },
+    {
+      "word": "robotaxi",
+      "phonetic": "",
+      "translation": "機器人計程車"
+    },
+    {
+      "word": "astronaut",
+      "phonetic": "/ˈæstɹəˌnɒt/",
+      "translation": "太空人"
+    }
   ]
 }
