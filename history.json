@@ -3109,5 +3109,57 @@
       "phonetic": "/ˈæstɹəˌnɒt/",
       "translation": "太空人"
     }
+  ],
+  "2026-04-03": [
+    {
+      "word": "poisoning",
+      "phonetic": "",
+      "translation": "中毒"
+    },
+    {
+      "word": "missile",
+      "phonetic": "/ˈmɪsaɪl/",
+      "translation": "飛彈"
+    },
+    {
+      "word": "puncture",
+      "phonetic": "/ˈpʌŋktʃə/",
+      "translation": "穿刺"
+    },
+    {
+      "word": "hotspot",
+      "phonetic": "",
+      "translation": "熱點"
+    },
+    {
+      "word": "toilet",
+      "phonetic": "/ˈtɔɪ.lət/",
+      "translation": "洗手間"
+    },
+    {
+      "word": "dairy",
+      "phonetic": "/ˈdɛəɹi/",
+      "translation": "乳製品"
+    },
+    {
+      "word": "astronaut",
+      "phonetic": "/ˈæstɹəˌnɒt/",
+      "translation": "太空人"
+    },
+    {
+      "word": "newborn",
+      "phonetic": "",
+      "translation": "新生"
+    },
+    {
+      "word": "retro",
+      "phonetic": "/ˈɹɛ.tɹoʊ/",
+      "translation": "復古的"
+    },
+    {
+      "word": "unite",
+      "phonetic": "/juˈnaɪt/",
+      "translation": "團結"
+    }
   ]
 }
