@@ -3161,5 +3161,57 @@
       "phonetic": "/juˈnaɪt/",
       "translation": "團結"
     }
+  ],
+  "2026-04-04": [
+    {
+      "word": "fossil",
+      "phonetic": "/ˈfɒsəl/",
+      "translation": "化石"
+    },
+    {
+      "word": "renew",
+      "phonetic": "/ɹɪˈnjuː/",
+      "translation": "更新"
+    },
+    {
+      "word": "regret",
+      "phonetic": "/ɹiˈɡɹɛt/",
+      "translation": "後悔"
+    },
+    {
+      "word": "evolve",
+      "phonetic": "/ɪˈvɒlv/",
+      "translation": "發展"
+    },
+    {
+      "word": "survive",
+      "phonetic": "/səˈvʌɪv/",
+      "translation": "存活"
+    },
+    {
+      "word": "second-lowest",
+      "phonetic": "",
+      "translation": "第二低"
+    },
+    {
+      "word": "fighter",
+      "phonetic": "/ˈfaɪ.tə(ɹ)/",
+      "translation": "戰鬥機"
+    },
+    {
+      "word": "commander",
+      "phonetic": "/kəˈmandə/",
+      "translation": "指揮官"
+    },
+    {
+      "word": "harsher",
+      "phonetic": "",
+      "translation": "更嚴厲的"
+    },
+    {
+      "word": "divine",
+      "phonetic": "/dɪˈvaɪn/",
+      "translation": "神聖的"
+    }
   ]
 }
