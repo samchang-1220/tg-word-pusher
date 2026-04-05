@@ -3213,5 +3213,37 @@
       "phonetic": "/dɪˈvaɪn/",
       "translation": "神聖的"
     }
+  ],
+  "2026-04-05": [
+    {
+      "word": "anger",
+      "phonetic": "/ˈæŋɡə(ɹ)/",
+      "translation": "憤怒"
+    },
+    {
+      "word": "easter",
+      "phonetic": "/ˈiː.stə/",
+      "translation": "復活節"
+    },
+    {
+      "word": "assault",
+      "phonetic": "/əˈsɔːlt/",
+      "translation": "突擊"
+    },
+    {
+      "word": "butler",
+      "phonetic": "/ˈbʌt.lə(ɹ)/",
+      "translation": "管家"
+    },
+    {
+      "word": "detained",
+      "phonetic": "/dɨˈtejnd/",
+      "translation": "被拘留"
+    },
+    {
+      "word": "activist",
+      "phonetic": "/ˈæk.tɪ.vɪst/",
+      "translation": "活動家"
+    }
   ]
 }
