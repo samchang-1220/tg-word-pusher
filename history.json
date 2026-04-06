@@ -3245,5 +3245,57 @@
       "phonetic": "/ˈæk.tɪ.vɪst/",
       "translation": "活動家"
     }
+  ],
+  "2026-04-06": [
+    {
+      "word": "viral",
+      "phonetic": "/ˈvaɪɹəl/",
+      "translation": "病毒性的"
+    },
+    {
+      "word": "endorses",
+      "phonetic": "",
+      "translation": "贊同"
+    },
+    {
+      "word": "cocktail",
+      "phonetic": "/ˈkɒkteɪl/",
+      "translation": "雞尾酒"
+    },
+    {
+      "word": "explosives",
+      "phonetic": "",
+      "translation": "炸藥"
+    },
+    {
+      "word": "mentally",
+      "phonetic": "/ˈmɛntəli/",
+      "translation": "精神上"
+    },
+    {
+      "word": "backlash",
+      "phonetic": "/ˈbækˌlæʃ/",
+      "translation": "反彈"
+    },
+    {
+      "word": "precious",
+      "phonetic": "/ˈpɹɛʃəs/",
+      "translation": "寶貴的"
+    },
+    {
+      "word": "lawsuit",
+      "phonetic": "/ˈlɔˌs(j)ut/",
+      "translation": "訴訟"
+    },
+    {
+      "word": "well-being",
+      "phonetic": "",
+      "translation": "福利"
+    },
+    {
+      "word": "tranquil",
+      "phonetic": "",
+      "translation": "寧靜"
+    }
   ]
 }
