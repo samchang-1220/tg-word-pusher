@@ -3297,5 +3297,57 @@
       "phonetic": "",
       "translation": "寧靜"
     }
+  ],
+  "2026-04-07": [
+    {
+      "word": "flooding",
+      "phonetic": "/ˈflʌdɪŋ/",
+      "translation": "洪水"
+    },
+    {
+      "word": "unacceptable",
+      "phonetic": "/ˌʌn.æk.ˈsɛp.tə.bl̩/",
+      "translation": "不可接受的"
+    },
+    {
+      "word": "disrupt",
+      "phonetic": "/dɪsˈɹʌpt/",
+      "translation": "擾亂"
+    },
+    {
+      "word": "narrowly",
+      "phonetic": "/ˈnæɹəʊli/",
+      "translation": "狹隘地"
+    },
+    {
+      "word": "bombing",
+      "phonetic": "/ˈbɒmɪŋ/",
+      "translation": "轟炸"
+    },
+    {
+      "word": "loyalty",
+      "phonetic": "/ˈlɔɪəlti/",
+      "translation": "忠誠"
+    },
+    {
+      "word": "dinosaur",
+      "phonetic": "/ˈdaɪnəsɔː(ɹ)/",
+      "translation": "恐龍"
+    },
+    {
+      "word": "haute",
+      "phonetic": "",
+      "translation": "進階"
+    },
+    {
+      "word": "airplane",
+      "phonetic": "/ˈɛəpleɪn/",
+      "translation": "飛機"
+    },
+    {
+      "word": "mourn",
+      "phonetic": "/mɔːn/",
+      "translation": "哀悼"
+    }
   ]
 }
