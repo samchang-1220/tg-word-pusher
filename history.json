@@ -3349,5 +3349,52 @@
       "phonetic": "/mɔːn/",
       "translation": "哀悼"
     }
+  ],
+  "2026-04-08": [
+    {
+      "word": "courtroom",
+      "phonetic": "",
+      "translation": "法庭"
+    },
+    {
+      "word": "accuse",
+      "phonetic": "/əˈkjuːz/",
+      "translation": "控"
+    },
+    {
+      "word": "turnstile",
+      "phonetic": "/ˈtɜːnstaɪl/",
+      "translation": "十字轉門"
+    },
+    {
+      "word": "overboard",
+      "phonetic": "/ˈəʊvə(ɹ)ˌbɔː(ɹ)d/",
+      "translation": "落水"
+    },
+    {
+      "word": "civilization",
+      "phonetic": "[ˌsɪv.ə.lɑeˈzæɪ.ʃən]",
+      "translation": "文明"
+    },
+    {
+      "word": "grave",
+      "phonetic": "/ɡɹeɪv/",
+      "translation": "嚴重"
+    },
+    {
+      "word": "pooping",
+      "phonetic": "/ˈpuːpɪŋ/",
+      "translation": "拉屎"
+    },
+    {
+      "word": "revolutionary",
+      "phonetic": "/-ˈljuː-/",
+      "translation": "革命性的"
+    },
+    {
+      "word": "breach",
+      "phonetic": "[bɹiːtʃ]",
+      "translation": "違反"
+    }
   ]
 }
