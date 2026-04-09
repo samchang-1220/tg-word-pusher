@@ -3396,5 +3396,57 @@
       "phonetic": "[bɹiːtʃ]",
       "translation": "違反"
     }
+  ],
+  "2026-04-09": [
+    {
+      "word": "prompt",
+      "phonetic": "/pɹɒmpt/",
+      "translation": "迅速的"
+    },
+    {
+      "word": "excuse",
+      "phonetic": "",
+      "translation": "原諒"
+    },
+    {
+      "word": "globetrotter",
+      "phonetic": "",
+      "translation": "環球旅行家"
+    },
+    {
+      "word": "ceasefire",
+      "phonetic": "",
+      "translation": "停火"
+    },
+    {
+      "word": "scientist",
+      "phonetic": "/ˈsaɪ.ən.tɪst/",
+      "translation": "科學家"
+    },
+    {
+      "word": "endanger",
+      "phonetic": "/ənˈdeɪndʒə/",
+      "translation": "危害"
+    },
+    {
+      "word": "dementia",
+      "phonetic": "/dɪˈmɛnʃə/",
+      "translation": "失智"
+    },
+    {
+      "word": "anxiety",
+      "phonetic": "/ˌæŋ(ɡ)ˈzaɪ.ə.ti/",
+      "translation": "焦慮"
+    },
+    {
+      "word": "sticker",
+      "phonetic": "/ˈstɪkə(r)/",
+      "translation": "貼紙"
+    },
+    {
+      "word": "settler",
+      "phonetic": "/ˈsɛt.lə/",
+      "translation": "定居者"
+    }
   ]
 }
