@@ -3495,5 +3495,57 @@
       "phonetic": "/ˈθɹɛt.n̩/",
       "translation": "威脅"
     }
+  ],
+  "2026-04-11": [
+    {
+      "word": "dementia",
+      "phonetic": "/dɪˈmɛnʃə/",
+      "translation": "失智"
+    },
+    {
+      "word": "shipment",
+      "phonetic": "/ˈʃɪpmənt/",
+      "translation": "運輸"
+    },
+    {
+      "word": "post-splashdown",
+      "phonetic": "",
+      "translation": "濺落後"
+    },
+    {
+      "word": "wound",
+      "phonetic": "/wuːnd/",
+      "translation": "傷口"
+    },
+    {
+      "word": "adversary",
+      "phonetic": "/ædˈvɜː.sə.ɹi/",
+      "translation": "對手"
+    },
+    {
+      "word": "bluster",
+      "phonetic": "",
+      "translation": "咆哮"
+    },
+    {
+      "word": "waive",
+      "phonetic": "/weɪv/",
+      "translation": "放棄"
+    },
+    {
+      "word": "splashdown",
+      "phonetic": "",
+      "translation": "濺落"
+    },
+    {
+      "word": "turnstile",
+      "phonetic": "/ˈtɜːnstaɪl/",
+      "translation": "十字轉門"
+    },
+    {
+      "word": "surge",
+      "phonetic": "/sɜːdʒ/",
+      "translation": "湧"
+    }
   ]
 }
