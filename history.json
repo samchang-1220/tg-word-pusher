@@ -3547,5 +3547,57 @@
       "phonetic": "/sɜːdʒ/",
       "translation": "湧"
     }
+  ],
+  "2026-04-12": [
+    {
+      "word": "misconduct",
+      "phonetic": "/mɪsˈkɒndʌkt/",
+      "translation": "不當行為"
+    },
+    {
+      "word": "feldscher",
+      "phonetic": "",
+      "translation": "費爾德舍爾"
+    },
+    {
+      "word": "silence",
+      "phonetic": "/ˈsaɪ.ləns/",
+      "translation": "沉默"
+    },
+    {
+      "word": "leverage",
+      "phonetic": "/ˈliːv(ə)ɹɪdʒ/",
+      "translation": "槓桿作用"
+    },
+    {
+      "word": "paint.",
+      "phonetic": "",
+      "translation": "畫。"
+    },
+    {
+      "word": "maximize",
+      "phonetic": "",
+      "translation": "最大化"
+    },
+    {
+      "word": "astronauts",
+      "phonetic": "",
+      "translation": "太空人"
+    },
+    {
+      "word": "concede",
+      "phonetic": "/kənˈsiːd/",
+      "translation": "承認"
+    },
+    {
+      "word": "extremist",
+      "phonetic": "/ɛkˈstɹiːmɪst/",
+      "translation": "極端主義者"
+    },
+    {
+      "word": "second-straight",
+      "phonetic": "",
+      "translation": "連續第二次"
+    }
   ]
 }
