@@ -3599,5 +3599,57 @@
       "phonetic": "",
       "translation": "連續第二次"
     }
+  ],
+  "2026-04-13": [
+    {
+      "word": "robber",
+      "phonetic": "/ˈɹɒ.bə(ɹ)/",
+      "translation": "強盜"
+    },
+    {
+      "word": "arson",
+      "phonetic": "/ˈɑːsən/",
+      "translation": "縱火"
+    },
+    {
+      "word": "scramble",
+      "phonetic": "/ˈskɹæmbl̩/",
+      "translation": "爭奪"
+    },
+    {
+      "word": "politician",
+      "phonetic": "/ˈpɒl.ɪ.tɪʃ.ən/",
+      "translation": "政治家"
+    },
+    {
+      "word": "attempted",
+      "phonetic": "/əˈtɛmptɪd/",
+      "translation": "嘗試過"
+    },
+    {
+      "word": "fugitive",
+      "phonetic": "/ˈfjuːd͡ʒɪtɪv/",
+      "translation": "逃亡者"
+    },
+    {
+      "word": "presidenciales",
+      "phonetic": "",
+      "translation": "總統府"
+    },
+    {
+      "word": "trash",
+      "phonetic": "/tɹæʃ/",
+      "translation": "垃圾"
+    },
+    {
+      "word": "crunch",
+      "phonetic": "/kɹʌntʃ/",
+      "translation": "緊縮"
+    },
+    {
+      "word": "wield",
+      "phonetic": "/wiːld/",
+      "translation": "揮"
+    }
   ]
 }
