@@ -3651,5 +3651,52 @@
       "phonetic": "/wiːld/",
       "translation": "揮"
     }
+  ],
+  "2026-04-14": [
+    {
+      "word": "high-profile",
+      "phonetic": "",
+      "translation": "高調"
+    },
+    {
+      "word": "altman",
+      "phonetic": "",
+      "translation": "奧特曼"
+    },
+    {
+      "word": "reacts",
+      "phonetic": "",
+      "translation": "反應"
+    },
+    {
+      "word": "tornado",
+      "phonetic": "/tɔː(ɹ)ˈneɪ.dəʊ/",
+      "translation": "龍捲風"
+    },
+    {
+      "word": "secures",
+      "phonetic": "",
+      "translation": "確保"
+    },
+    {
+      "word": "blockade",
+      "phonetic": "/blɒˈkeɪd/",
+      "translation": "封鎖"
+    },
+    {
+      "word": "negotiation",
+      "phonetic": "/nɪˌɡəʊʃiˈeɪʃən/",
+      "translation": "談判"
+    },
+    {
+      "word": "privately",
+      "phonetic": "/ˈpɹaɪvətli/",
+      "translation": "私下里"
+    },
+    {
+      "word": "livestreams",
+      "phonetic": "",
+      "translation": "直播"
+    }
   ]
 }
