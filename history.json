@@ -3698,5 +3698,52 @@
       "phonetic": "",
       "translation": "直播"
     }
+  ],
+  "2026-04-15": [
+    {
+      "word": "smuggle",
+      "phonetic": "/ˈsmʌɡəl/",
+      "translation": "走私"
+    },
+    {
+      "word": "jaguar",
+      "phonetic": "/ˈdʒæɡjuːɑː/",
+      "translation": "捷豹"
+    },
+    {
+      "word": "sweep",
+      "phonetic": "/swiːp/",
+      "translation": "掃"
+    },
+    {
+      "word": "apologize",
+      "phonetic": "/əˈpɒləd͡ʒaɪz/",
+      "translation": "道歉"
+    },
+    {
+      "word": "diplomatic",
+      "phonetic": "/ˌdɪpləˈmætɪk/",
+      "translation": "外交"
+    },
+    {
+      "word": "elephant",
+      "phonetic": "/ˈɛləfənt/",
+      "translation": "大象"
+    },
+    {
+      "word": "openly",
+      "phonetic": "/ˈoʊpənli/",
+      "translation": "公然"
+    },
+    {
+      "word": "probe",
+      "phonetic": "/pɹəʊb/",
+      "translation": "探測"
+    },
+    {
+      "word": "remarkable",
+      "phonetic": "/ɹɪˈmɑːkəbl̩/",
+      "translation": "卓越"
+    }
   ]
 }
