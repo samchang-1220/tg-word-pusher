@@ -3745,5 +3745,52 @@
       "phonetic": "/ɹɪˈmɑːkəbl̩/",
       "translation": "卓越"
     }
+  ],
+  "2026-04-16": [
+    {
+      "word": "flooding",
+      "phonetic": "/ˈflʌdɪŋ/",
+      "translation": "洪水"
+    },
+    {
+      "word": "luggage",
+      "phonetic": "/ˈlʌɡɪd͡ʒ/",
+      "translation": "行李"
+    },
+    {
+      "word": "grapple",
+      "phonetic": "",
+      "translation": "抓鉤"
+    },
+    {
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    },
+    {
+      "word": "invent",
+      "phonetic": "/ɪnˈvɛnt/",
+      "translation": "發明"
+    },
+    {
+      "word": "titanic",
+      "phonetic": "/taɪˈtæn.ɪk/",
+      "translation": "泰坦尼克號"
+    },
+    {
+      "word": "jaguar",
+      "phonetic": "/ˈdʒæɡjuːɑː/",
+      "translation": "捷豹"
+    },
+    {
+      "word": "ruling",
+      "phonetic": "/ˈɹuːlɪŋ/",
+      "translation": "裁決"
+    },
+    {
+      "word": "crackdown",
+      "phonetic": "",
+      "translation": "鎮壓"
+    }
   ]
 }
