@@ -3896,5 +3896,52 @@
       "phonetic": "/ˈwikən/",
       "translation": "削弱"
     }
+  ],
+  "2026-04-19": [
+    {
+      "word": "ultraprocessed",
+      "phonetic": "",
+      "translation": "超加工的"
+    },
+    {
+      "word": "survivor",
+      "phonetic": "/sɚˈvaɪvɚ/",
+      "translation": "倖存者"
+    },
+    {
+      "word": "suspicious",
+      "phonetic": "/səˈspɪ.ʃəs/",
+      "translation": "可疑的"
+    },
+    {
+      "word": "civilization",
+      "phonetic": "[ˌsɪv.ə.lɑeˈzæɪ.ʃən]",
+      "translation": "文明"
+    },
+    {
+      "word": "pro-russian",
+      "phonetic": "",
+      "translation": "親俄派"
+    },
+    {
+      "word": "rebuke",
+      "phonetic": "/ɹiˈbjuːk/",
+      "translation": "訓斥"
+    },
+    {
+      "word": "expiration",
+      "phonetic": "/ˌɛk.spəˈɹeɪ.ʃən/",
+      "translation": "過期"
+    },
+    {
+      "word": "revisit",
+      "phonetic": "",
+      "translation": "重溫"
+    },
+    {
+      "word": "kremlin",
+      "phonetic": "",
+      "translation": "克里姆林宮"
+    }
   ]
 }
