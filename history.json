@@ -3943,5 +3943,57 @@
       "phonetic": "",
       "translation": "克里姆林宮"
     }
+  ],
+  "2026-04-20": [
+    {
+      "word": "plead",
+      "phonetic": "",
+      "translation": "懇求"
+    },
+    {
+      "word": "ambassador",
+      "phonetic": "/æmˈbæs.ə.də(ɹ)/",
+      "translation": "大使"
+    },
+    {
+      "word": "wound",
+      "phonetic": "/wuːnd/",
+      "translation": "傷口"
+    },
+    {
+      "word": "disturbance",
+      "phonetic": "/dɪˈstɜːbn̩s/",
+      "translation": "幹擾"
+    },
+    {
+      "word": "high-profile",
+      "phonetic": "",
+      "translation": "高調"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "intensifies",
+      "phonetic": "",
+      "translation": "加劇"
+    },
+    {
+      "word": "inflated",
+      "phonetic": "",
+      "translation": "膨脹的"
+    },
+    {
+      "word": "marijuana",
+      "phonetic": "/ˌmæɹɪˈwɑː.nə/",
+      "translation": "大麻"
+    },
+    {
+      "word": "lawsuit",
+      "phonetic": "/ˈlɔˌs(j)ut/",
+      "translation": "訴訟"
+    }
   ]
 }
