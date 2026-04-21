@@ -3995,5 +3995,57 @@
       "phonetic": "/ˈlɔˌs(j)ut/",
       "translation": "訴訟"
     }
+  ],
+  "2026-04-21": [
+    {
+      "word": "democrat",
+      "phonetic": "/ˈdɛməkɹæt/",
+      "translation": "民主黨"
+    },
+    {
+      "word": "speaks",
+      "phonetic": "/ˈspiːks/",
+      "translation": "說話"
+    },
+    {
+      "word": "record-breaking",
+      "phonetic": "",
+      "translation": "破紀錄的"
+    },
+    {
+      "word": "vaccine",
+      "phonetic": "/vækˈsaɪn/",
+      "translation": "疫苗"
+    },
+    {
+      "word": "circus",
+      "phonetic": "/ˈsɜːkəs/",
+      "translation": "馬戲團"
+    },
+    {
+      "word": "cellar",
+      "phonetic": "",
+      "translation": "地窖"
+    },
+    {
+      "word": "pushback",
+      "phonetic": "",
+      "translation": "推回"
+    },
+    {
+      "word": "earthquake",
+      "phonetic": "/ˈɜːθkweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "secrecy",
+      "phonetic": "/ˈsiːkɹəsi/",
+      "translation": "保密"
+    },
+    {
+      "word": "regime",
+      "phonetic": "/ɹeɪˈʒiːm/",
+      "translation": "政權"
+    }
   ]
 }
