@@ -4047,5 +4047,57 @@
       "phonetic": "/ɹeɪˈʒiːm/",
       "translation": "政權"
     }
+  ],
+  "2026-04-22": [
+    {
+      "word": "shipwreck",
+      "phonetic": "/ˈʃɪpɹɛk/",
+      "translation": "海難"
+    },
+    {
+      "word": "deep-sea",
+      "phonetic": "",
+      "translation": "深海"
+    },
+    {
+      "word": "bluff",
+      "phonetic": "",
+      "translation": "虛張聲勢"
+    },
+    {
+      "word": "accuse",
+      "phonetic": "/əˈkjuːz/",
+      "translation": "控"
+    },
+    {
+      "word": "sharply",
+      "phonetic": "/ʃɑːpli/",
+      "translation": "急劇地"
+    },
+    {
+      "word": "condom",
+      "phonetic": "/ˈkɒn.dɒm/",
+      "translation": "保險套"
+    },
+    {
+      "word": "sweep",
+      "phonetic": "/swiːp/",
+      "translation": "掃"
+    },
+    {
+      "word": "diaper",
+      "phonetic": "/ˈdaɪ(ə)pə/",
+      "translation": "尿布"
+    },
+    {
+      "word": "groundbreaking",
+      "phonetic": "/ˈɡɹaʊndbɹeɪkɪŋ/",
+      "translation": "開創性的"
+    },
+    {
+      "word": "takeaway",
+      "phonetic": "/ˈteɪkəweɪ/",
+      "translation": "外賣"
+    }
   ]
 }
