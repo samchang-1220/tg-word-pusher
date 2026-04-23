@@ -4099,5 +4099,57 @@
       "phonetic": "/ˈteɪkəweɪ/",
       "translation": "外賣"
     }
+  ],
+  "2026-04-23": [
+    {
+      "word": "covid-19",
+      "phonetic": "",
+      "translation": "新冠肺炎"
+    },
+    {
+      "word": "tamper",
+      "phonetic": "/ˈtæm.pə(ɹ)/",
+      "translation": "篡改"
+    },
+    {
+      "word": "embarrass",
+      "phonetic": "/ɪmˈbæ.ɹəs/",
+      "translation": "使人難堪"
+    },
+    {
+      "word": "turmoil",
+      "phonetic": "/ˈtɜːmɔɪl/",
+      "translation": "動盪"
+    },
+    {
+      "word": "rival",
+      "phonetic": "/ˈɹaɪvəl/",
+      "translation": "競爭對手"
+    },
+    {
+      "word": "plague",
+      "phonetic": "/pleɪɡ/",
+      "translation": "瘟疫"
+    },
+    {
+      "word": "polymarket",
+      "phonetic": "",
+      "translation": "綜合市場"
+    },
+    {
+      "word": "uganda",
+      "phonetic": "",
+      "translation": "烏幹達"
+    },
+    {
+      "word": "controversy",
+      "phonetic": "/ˈkɑntɹəˌvɝsi/",
+      "translation": "爭議"
+    },
+    {
+      "word": "promising",
+      "phonetic": "/ˈpɹɒmɪsɪŋ/",
+      "translation": "有前途的"
+    }
   ]
 }
