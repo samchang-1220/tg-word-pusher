@@ -4307,5 +4307,57 @@
       "phonetic": "/ˌdɪskənˈtɛnt/",
       "translation": "不滿"
     }
+  ],
+  "2026-04-27": [
+    {
+      "word": "diplomat",
+      "phonetic": "/ˈdɪ.plə.mæt/",
+      "translation": "外交官"
+    },
+    {
+      "word": "democrat",
+      "phonetic": "/ˈdɛməkɹæt/",
+      "translation": "民主黨"
+    },
+    {
+      "word": "conspiracy",
+      "phonetic": "/kənˈspɪɹəsi/",
+      "translation": "陰謀"
+    },
+    {
+      "word": "megastar",
+      "phonetic": "",
+      "translation": "巨星"
+    },
+    {
+      "word": "tornado",
+      "phonetic": "/tɔː(ɹ)ˈneɪ.dəʊ/",
+      "translation": "龍捲風"
+    },
+    {
+      "word": "midterm",
+      "phonetic": "/ˈmɪdˌtəɹm/",
+      "translation": "期中考"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "analyze",
+      "phonetic": "/ˈæn.ə.laɪz/",
+      "translation": "分析"
+    },
+    {
+      "word": "accuse",
+      "phonetic": "/əˈkjuːz/",
+      "translation": "控"
+    },
+    {
+      "word": "homicide",
+      "phonetic": "/ˈhɒmɪsaɪd/",
+      "translation": "殺人"
+    }
   ]
 }
