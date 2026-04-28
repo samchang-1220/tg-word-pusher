@@ -4359,5 +4359,57 @@
       "phonetic": "/ˈhɒmɪsaɪd/",
       "translation": "殺人"
     }
+  ],
+  "2026-04-28": [
+    {
+      "word": "monument",
+      "phonetic": "/ˈmɒnjʊmənt/",
+      "translation": "紀念碑"
+    },
+    {
+      "word": "spark",
+      "phonetic": "/spɑːk/",
+      "translation": "火花"
+    },
+    {
+      "word": "bogus",
+      "phonetic": "",
+      "translation": "虛假"
+    },
+    {
+      "word": "buddhist",
+      "phonetic": "",
+      "translation": "佛教徒"
+    },
+    {
+      "word": "shotgun",
+      "phonetic": "",
+      "translation": "霰彈槍"
+    },
+    {
+      "word": "circus",
+      "phonetic": "/ˈsɜːkəs/",
+      "translation": "馬戲團"
+    },
+    {
+      "word": "indict",
+      "phonetic": "/ˌɪnˈdaɪt/",
+      "translation": "起訴"
+    },
+    {
+      "word": "deport",
+      "phonetic": "/dɪˈpɔːt/",
+      "translation": "驅逐出境"
+    },
+    {
+      "word": "expressionless",
+      "phonetic": "",
+      "translation": "面無表情"
+    },
+    {
+      "word": "redistricting",
+      "phonetic": "",
+      "translation": "重新劃分選區"
+    }
   ]
 }
