@@ -4515,5 +4515,42 @@
       "phonetic": "/wɪðˈdɹɔː/",
       "translation": "提取"
     }
+  ],
+  "2026-05-01": [
+    {
+      "word": "laureate",
+      "phonetic": "/ˈlɒ.ɹi.ət/",
+      "translation": "得獎者"
+    },
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+      "translation": "慶祝"
+    },
+    {
+      "word": "nobel",
+      "phonetic": "",
+      "translation": "諾貝爾"
+    },
+    {
+      "word": "admonish",
+      "phonetic": "/ədˈmɒn.ɪʃ/",
+      "translation": "諫"
+    },
+    {
+      "word": "viral",
+      "phonetic": "/ˈvaɪɹəl/",
+      "translation": "病毒性的"
+    },
+    {
+      "word": "celebration",
+      "phonetic": "/ˌsɛlɪˈbɹeiʃən/",
+      "translation": "慶典"
+    },
+    {
+      "word": "sting",
+      "phonetic": "/stɪŋ/",
+      "translation": "螫"
+    }
   ]
 }
