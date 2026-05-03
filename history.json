@@ -4604,5 +4604,52 @@
       "phonetic": "/kənˈsɪdəz/",
       "translation": "考慮"
     }
+  ],
+  "2026-05-03": [
+    {
+      "word": "footage",
+      "phonetic": "/ˈfʊtɪd͡ʒ/",
+      "translation": "鏡頭"
+    },
+    {
+      "word": "suspected",
+      "phonetic": "/səsˈpɛktɪd/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "withdrawal",
+      "phonetic": "/wɪðˈdɹɔːəl/",
+      "translation": "提款"
+    },
+    {
+      "word": "recreational",
+      "phonetic": "",
+      "translation": "休閒的"
+    },
+    {
+      "word": "trainer",
+      "phonetic": "",
+      "translation": "教練"
+    },
+    {
+      "word": "critic",
+      "phonetic": "/ˈkɹɪt.ɪk/",
+      "translation": "評論家"
+    },
+    {
+      "word": "potent",
+      "phonetic": "/ˈpəʊt(ə)nt/",
+      "translation": "有力的"
+    },
+    {
+      "word": "recuse",
+      "phonetic": "/ɹɪˈkjuːz/",
+      "translation": "迴避"
+    },
+    {
+      "word": "fascinators",
+      "phonetic": "",
+      "translation": "迷惑者"
+    }
   ]
 }
