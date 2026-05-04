@@ -4651,5 +4651,57 @@
       "phonetic": "",
       "translation": "迷惑者"
     }
+  ],
+  "2026-05-04": [
+    {
+      "word": "mushroom",
+      "phonetic": "/ˈmʌʃˌɹuːm/",
+      "translation": "菇"
+    },
+    {
+      "word": "airlift",
+      "phonetic": "/ˈɛə.lɪft/",
+      "translation": "空運"
+    },
+    {
+      "word": "insurer",
+      "phonetic": "/ɪnˈʃʊɹ.ɚ/",
+      "translation": "保險公司"
+    },
+    {
+      "word": "settle",
+      "phonetic": "/ˈsɛtəl/",
+      "translation": "定居"
+    },
+    {
+      "word": "showdown",
+      "phonetic": "",
+      "translation": "攤牌"
+    },
+    {
+      "word": "hormone",
+      "phonetic": "/ˈhɔːməʊn/",
+      "translation": "荷爾蒙"
+    },
+    {
+      "word": "ceasefire",
+      "phonetic": "",
+      "translation": "停火"
+    },
+    {
+      "word": "tearfully",
+      "phonetic": "",
+      "translation": "含淚地"
+    },
+    {
+      "word": "escalate",
+      "phonetic": "/ˈɛs.kə.leɪt/",
+      "translation": "升級"
+    },
+    {
+      "word": "expedition",
+      "phonetic": "/ɛkspəˈdɪʃən/",
+      "translation": "遠徵"
+    }
   ]
 }
