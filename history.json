@@ -4703,5 +4703,57 @@
       "phonetic": "/ɛkspəˈdɪʃən/",
       "translation": "遠徵"
     }
+  ],
+  "2026-05-05": [
+    {
+      "word": "decider",
+      "phonetic": "/dɪˈsaɪdə(ɹ)/",
+      "translation": "決定者"
+    },
+    {
+      "word": "unprecedented",
+      "phonetic": "/ʌnˈpɹɛsɪdɛntɪd/",
+      "translation": "空前的"
+    },
+    {
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    },
+    {
+      "word": "evacuate",
+      "phonetic": "/ɪˈvæk.ju.eɪt/",
+      "translation": "撤離"
+    },
+    {
+      "word": "arsenal",
+      "phonetic": "/ˈɑː(ɹ)snəl/",
+      "translation": "兵工廠"
+    },
+    {
+      "word": "vigil",
+      "phonetic": "/ˈvɪdʒəl/",
+      "translation": "守夜"
+    },
+    {
+      "word": "overprescribing",
+      "phonetic": "",
+      "translation": "過度處方"
+    },
+    {
+      "word": "dolphin",
+      "phonetic": "/ˈdɒlfɪn/",
+      "translation": "海豚"
+    },
+    {
+      "word": "decimate",
+      "phonetic": "/ˈdɛ.sɪ.meɪt/",
+      "translation": "消滅"
+    },
+    {
+      "word": "patrol",
+      "phonetic": "/pəˈtɹəʊl/",
+      "translation": "巡邏"
+    }
   ]
 }
