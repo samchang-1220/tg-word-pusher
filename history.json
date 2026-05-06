@@ -4755,5 +4755,57 @@
       "phonetic": "/pəˈtɹəʊl/",
       "translation": "巡邏"
     }
+  ],
+  "2026-05-06": [
+    {
+      "word": "domination",
+      "phonetic": "/ˌdɒməˈneɪʃən/",
+      "translation": "統治"
+    },
+    {
+      "word": "wounded",
+      "phonetic": "/ˈwuːndɪd/",
+      "translation": "受傷的"
+    },
+    {
+      "word": "1,578",
+      "phonetic": "",
+      "translation": "1,578"
+    },
+    {
+      "word": "cruiser",
+      "phonetic": "/ˈkɹuzɚ/",
+      "translation": "巡洋艦"
+    },
+    {
+      "word": "mosquito",
+      "phonetic": "/məˈski.toʊ/",
+      "translation": "蚊子"
+    },
+    {
+      "word": "gunman",
+      "phonetic": "",
+      "translation": "槍手"
+    },
+    {
+      "word": "deportation",
+      "phonetic": "/diːˌpɔːˈteɪʃən/",
+      "translation": "驅逐出境"
+    },
+    {
+      "word": "endanger",
+      "phonetic": "/ənˈdeɪndʒə/",
+      "translation": "危害"
+    },
+    {
+      "word": "tornado",
+      "phonetic": "/tɔː(ɹ)ˈneɪ.dəʊ/",
+      "translation": "龍捲風"
+    },
+    {
+      "word": "reassert",
+      "phonetic": "",
+      "translation": "重申"
+    }
   ]
 }
