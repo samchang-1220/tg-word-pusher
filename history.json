@@ -4859,5 +4859,57 @@
       "phonetic": "",
       "translation": "槍聲"
     }
+  ],
+  "2026-05-08": [
+    {
+      "word": "probe",
+      "phonetic": "/pɹəʊb/",
+      "translation": "探測"
+    },
+    {
+      "word": "underrated",
+      "phonetic": "",
+      "translation": "被低估的"
+    },
+    {
+      "word": "contagious",
+      "phonetic": "/kənˈteɪdʒəs/",
+      "translation": "接觸傳染性"
+    },
+    {
+      "word": "uncover",
+      "phonetic": "/ʌnˈkʌvə(ɹ)/",
+      "translation": "揭露"
+    },
+    {
+      "word": "journalist",
+      "phonetic": "/ˈdʒɜːnəlɪst/",
+      "translation": "記者"
+    },
+    {
+      "word": "batch",
+      "phonetic": "/bæt͡ʃ/",
+      "translation": "批次"
+    },
+    {
+      "word": "fjord",
+      "phonetic": "",
+      "translation": "峽灣"
+    },
+    {
+      "word": "approve",
+      "phonetic": "/əˈpɹuːv/",
+      "translation": "核准"
+    },
+    {
+      "word": "withdrawal",
+      "phonetic": "/wɪðˈdɹɔːəl/",
+      "translation": "提款"
+    },
+    {
+      "word": "volcanic",
+      "phonetic": "/vɒlˈkanɪk/",
+      "translation": "火山"
+    }
   ]
 }
