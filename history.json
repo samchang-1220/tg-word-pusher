@@ -4911,5 +4911,57 @@
       "phonetic": "/vɒlˈkanɪk/",
       "translation": "火山"
     }
+  ],
+  "2026-05-09": [
+    {
+      "word": "vocal",
+      "phonetic": "/ˈvəʊ.kəl/",
+      "translation": "聲樂"
+    },
+    {
+      "word": "tanker",
+      "phonetic": "",
+      "translation": "油船"
+    },
+    {
+      "word": "fence",
+      "phonetic": "/fɛns/",
+      "translation": "柵欄"
+    },
+    {
+      "word": "munition",
+      "phonetic": "",
+      "translation": "彈藥"
+    },
+    {
+      "word": "journalist",
+      "phonetic": "/ˈdʒɜːnəlɪst/",
+      "translation": "記者"
+    },
+    {
+      "word": "shouldn",
+      "phonetic": "",
+      "translation": "應該"
+    },
+    {
+      "word": "troop",
+      "phonetic": "/tɹuːp/",
+      "translation": "部隊"
+    },
+    {
+      "word": "18th-century",
+      "phonetic": "",
+      "translation": "18世紀"
+    },
+    {
+      "word": "tenerife",
+      "phonetic": "",
+      "translation": "特內裡費島"
+    },
+    {
+      "word": "marathon",
+      "phonetic": "/ˈmæɹəθən/",
+      "translation": "馬拉松"
+    }
   ]
 }
