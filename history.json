@@ -4963,5 +4963,57 @@
       "phonetic": "/ˈmæɹəθən/",
       "translation": "馬拉松"
     }
+  ],
+  "2026-05-10": [
+    {
+      "word": "carve",
+      "phonetic": "/kɑːv/",
+      "translation": "雕刻"
+    },
+    {
+      "word": "shouldn",
+      "phonetic": "",
+      "translation": "應該"
+    },
+    {
+      "word": "suspend",
+      "phonetic": "/səˈspɛnd/",
+      "translation": "暫停"
+    },
+    {
+      "word": "next-gen",
+      "phonetic": "",
+      "translation": "新一代"
+    },
+    {
+      "word": "never-before-seen",
+      "phonetic": "",
+      "translation": "前所未見的"
+    },
+    {
+      "word": "flirt",
+      "phonetic": "/flɜːt/",
+      "translation": "調情"
+    },
+    {
+      "word": "k-beauty",
+      "phonetic": "",
+      "translation": "韓國美容"
+    },
+    {
+      "word": "unacceptable",
+      "phonetic": "/ˌʌn.æk.ˈsɛp.tə.bl̩/",
+      "translation": "不可接受的"
+    },
+    {
+      "word": "rebel",
+      "phonetic": "/ˈɹɛbəl/",
+      "translation": "反叛"
+    },
+    {
+      "word": "majority-black",
+      "phonetic": "",
+      "translation": "黑人佔多數"
+    }
   ]
 }
