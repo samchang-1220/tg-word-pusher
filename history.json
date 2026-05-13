@@ -5109,5 +5109,57 @@
       "phonetic": "",
       "translation": "辭職"
     }
+  ],
+  "2026-05-13": [
+    {
+      "word": "tectonic",
+      "phonetic": "",
+      "translation": "構造的"
+    },
+    {
+      "word": "trophy",
+      "phonetic": "/ˈtɹəʊfi/",
+      "translation": "杯"
+    },
+    {
+      "word": "anxiously",
+      "phonetic": "/ˈæŋ(k).ʃəs.li/",
+      "translation": "焦急地"
+    },
+    {
+      "word": "noodle",
+      "phonetic": "/nuːdl̩/",
+      "translation": "麵條"
+    },
+    {
+      "word": "payer",
+      "phonetic": "/ˈpeɪ.ɚ/",
+      "translation": "付款人"
+    },
+    {
+      "word": "resist",
+      "phonetic": "/ɹəˈzɪst/",
+      "translation": "抵抗"
+    },
+    {
+      "word": "sickness",
+      "phonetic": "/ˈsɪknɪs/",
+      "translation": "疾病"
+    },
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtæɹəf/",
+      "translation": "關稅"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "jellyfish",
+      "phonetic": "/ˈdʒɛliˌfɪʃ/",
+      "translation": "海螫"
+    }
   ]
 }
