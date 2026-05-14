@@ -5161,5 +5161,57 @@
       "phonetic": "/ˈdʒɛliˌfɪʃ/",
       "translation": "海螫"
     }
+  ],
+  "2026-05-14": [
+    {
+      "word": "missile",
+      "phonetic": "/ˈmɪsaɪl/",
+      "translation": "飛彈"
+    },
+    {
+      "word": "endanger",
+      "phonetic": "/ənˈdeɪndʒə/",
+      "translation": "危害"
+    },
+    {
+      "word": "accidentally",
+      "phonetic": "/ˌæksəˈdɛnt(ə)li/",
+      "translation": "偶然"
+    },
+    {
+      "word": "embrace",
+      "phonetic": "/ɛmˈbɹeɪs/",
+      "translation": "擁抱"
+    },
+    {
+      "word": "ramyeon",
+      "phonetic": "",
+      "translation": "拉麵"
+    },
+    {
+      "word": "geological",
+      "phonetic": "/ˌdʒiː.əˈlɒdʒ.ɪk.əl/",
+      "translation": "地質學的"
+    },
+    {
+      "word": "performer",
+      "phonetic": "/pəˈfɔːmə/",
+      "translation": "演員"
+    },
+    {
+      "word": "jellyfish",
+      "phonetic": "/ˈdʒɛliˌfɪʃ/",
+      "translation": "海螫"
+    },
+    {
+      "word": "captivate",
+      "phonetic": "/ˈkæptɪveɪt/",
+      "translation": "著迷"
+    },
+    {
+      "word": "commencement",
+      "phonetic": "/kəˈmɛnsmənt/",
+      "translation": "開始"
+    }
   ]
 }
