@@ -5213,5 +5213,52 @@
       "phonetic": "/kəˈmɛnsmənt/",
       "translation": "開始"
     }
+  ],
+  "2026-05-15": [
+    {
+      "word": "messy",
+      "phonetic": "/ˈmɛsi/",
+      "translation": "凌亂的"
+    },
+    {
+      "word": "attempted",
+      "phonetic": "/əˈtɛmptɪd/",
+      "translation": "嘗試過"
+    },
+    {
+      "word": "battle-tested",
+      "phonetic": "",
+      "translation": "久經考驗的"
+    },
+    {
+      "word": "cyber",
+      "phonetic": "",
+      "translation": "網路"
+    },
+    {
+      "word": "hantavirus",
+      "phonetic": "",
+      "translation": "漢他病毒屬"
+    },
+    {
+      "word": "hottest",
+      "phonetic": "",
+      "translation": "最熱門"
+    },
+    {
+      "word": "audition",
+      "phonetic": "",
+      "translation": "試鏡"
+    },
+    {
+      "word": "paradox",
+      "phonetic": "/ˈpaɹədɒks/",
+      "translation": "悖論"
+    },
+    {
+      "word": "dreamy",
+      "phonetic": "/ˈdɹiː.mi/",
+      "translation": "夢幻般的"
+    }
   ]
 }
