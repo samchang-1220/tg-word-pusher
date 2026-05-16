@@ -5260,5 +5260,57 @@
       "phonetic": "/ˈdɹiː.mi/",
       "translation": "夢幻般的"
     }
+  ],
+  "2026-05-16": [
+    {
+      "word": "keenly",
+      "phonetic": "/ˈkiːnli/",
+      "translation": "敏銳地"
+    },
+    {
+      "word": "knife-wielding",
+      "phonetic": "",
+      "translation": "持刀"
+    },
+    {
+      "word": "takeoff",
+      "phonetic": "",
+      "translation": "起飛"
+    },
+    {
+      "word": "longshot",
+      "phonetic": "",
+      "translation": "遠射"
+    },
+    {
+      "word": "clogged",
+      "phonetic": "",
+      "translation": "堵塞的"
+    },
+    {
+      "word": "slash",
+      "phonetic": "",
+      "translation": "削減"
+    },
+    {
+      "word": "invasion",
+      "phonetic": "/ɪnˈveɪʒən/",
+      "translation": "入侵"
+    },
+    {
+      "word": "escalation",
+      "phonetic": "",
+      "translation": "升級"
+    },
+    {
+      "word": "critic",
+      "phonetic": "/ˈkɹɪt.ɪk/",
+      "translation": "評論家"
+    },
+    {
+      "word": "mistrial",
+      "phonetic": "",
+      "translation": "審判無效"
+    }
   ]
 }
