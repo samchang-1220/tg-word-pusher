@@ -5312,5 +5312,57 @@
       "phonetic": "",
       "translation": "審判無效"
     }
+  ],
+  "2026-05-17": [
+    {
+      "word": "renew",
+      "phonetic": "/ɹɪˈnjuː/",
+      "translation": "更新"
+    },
+    {
+      "word": "chord",
+      "phonetic": "/kɔː(ɹ)d/",
+      "translation": "弦"
+    },
+    {
+      "word": "bone-crushing",
+      "phonetic": "",
+      "translation": "碎骨"
+    },
+    {
+      "word": "pepper-sprayed",
+      "phonetic": "",
+      "translation": "噴了辣椒水"
+    },
+    {
+      "word": "longshot",
+      "phonetic": "",
+      "translation": "遠射"
+    },
+    {
+      "word": "congressional",
+      "phonetic": "/kəŋˈɡɹɛʃn̩əl/",
+      "translation": "國會的"
+    },
+    {
+      "word": "counterterrorism",
+      "phonetic": "",
+      "translation": "反恐"
+    },
+    {
+      "word": "understaffing",
+      "phonetic": "",
+      "translation": "人手不足"
+    },
+    {
+      "word": "caring",
+      "phonetic": "/ˈkɛə.ɹɪŋ/",
+      "translation": "關懷"
+    },
+    {
+      "word": "cuban",
+      "phonetic": "",
+      "translation": "古巴人"
+    }
   ]
 }
