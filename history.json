@@ -5416,5 +5416,57 @@
       "phonetic": "",
       "translation": "防通膨"
     }
+  ],
+  "2026-05-19": [
+    {
+      "word": "explode",
+      "phonetic": "/ɪkˈspləʊd/",
+      "translation": "霹靂"
+    },
+    {
+      "word": "redistricting",
+      "phonetic": "",
+      "translation": "重新劃分選區"
+    },
+    {
+      "word": "footage",
+      "phonetic": "/ˈfʊtɪd͡ʒ/",
+      "translation": "鏡頭"
+    },
+    {
+      "word": "repay",
+      "phonetic": "/ɹiˈpeɪ/",
+      "translation": "償還"
+    },
+    {
+      "word": "greener",
+      "phonetic": "",
+      "translation": "更環保"
+    },
+    {
+      "word": "deepfake",
+      "phonetic": "",
+      "translation": "深度偽造"
+    },
+    {
+      "word": "blame",
+      "phonetic": "/bleɪm/",
+      "translation": "責備"
+    },
+    {
+      "word": "detain",
+      "phonetic": "/dɪˈteɪn/",
+      "translation": "扣留"
+    },
+    {
+      "word": "racist",
+      "phonetic": "/ˈɹeɪsɪst/",
+      "translation": "種族主義的"
+    },
+    {
+      "word": "indispensable",
+      "phonetic": "/ɪndɪˈspɛnsəbəl/",
+      "translation": "不可或缺"
+    }
   ]
 }
