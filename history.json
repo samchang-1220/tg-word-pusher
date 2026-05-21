@@ -5520,5 +5520,57 @@
       "phonetic": "/kəm.ˈpiːt/",
       "translation": "競爭"
     }
+  ],
+  "2026-05-21": [
+    {
+      "word": "climber",
+      "phonetic": "/ˈklaɪm.ə(ɹ)/",
+      "translation": "登山者"
+    },
+    {
+      "word": "settle",
+      "phonetic": "/ˈsɛtəl/",
+      "translation": "定居"
+    },
+    {
+      "word": "apologize",
+      "phonetic": "/əˈpɒləd͡ʒaɪz/",
+      "translation": "道歉"
+    },
+    {
+      "word": "hyena",
+      "phonetic": "/haɪˈiːnə/",
+      "translation": "鬣狗"
+    },
+    {
+      "word": "anti-weaponization",
+      "phonetic": "",
+      "translation": "反武器化"
+    },
+    {
+      "word": "detainee",
+      "phonetic": "/ˌdɪteɪˈniː/",
+      "translation": "被拘留者"
+    },
+    {
+      "word": "hotspot",
+      "phonetic": "",
+      "translation": "熱點"
+    },
+    {
+      "word": "runway",
+      "phonetic": "/ˈɹən-/",
+      "translation": "跑道"
+    },
+    {
+      "word": "spark",
+      "phonetic": "/spɑːk/",
+      "translation": "火花"
+    },
+    {
+      "word": "cockroach",
+      "phonetic": "",
+      "translation": "蟑螂"
+    }
   ]
 }
