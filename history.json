@@ -5572,5 +5572,57 @@
       "phonetic": "",
       "translation": "蟑螂"
     }
+  ],
+  "2026-05-22": [
+    {
+      "word": "breath",
+      "phonetic": "/bɹɛθ/",
+      "translation": "氣息"
+    },
+    {
+      "word": "momentum",
+      "phonetic": "/ˌmoʊˈmɛntəm/",
+      "translation": "勢頭"
+    },
+    {
+      "word": "everest",
+      "phonetic": "",
+      "translation": "珠穆朗瑪峰"
+    },
+    {
+      "word": "bone-crushing",
+      "phonetic": "",
+      "translation": "碎骨"
+    },
+    {
+      "word": "pouch",
+      "phonetic": "/paʊt͡ʃ/",
+      "translation": "小袋"
+    },
+    {
+      "word": "starship",
+      "phonetic": "/stɑɹʃɪp/",
+      "translation": "星艦"
+    },
+    {
+      "word": "megarocket",
+      "phonetic": "",
+      "translation": "巨型火箭"
+    },
+    {
+      "word": "seminary",
+      "phonetic": "",
+      "translation": "神學院"
+    },
+    {
+      "word": "neon-drenched",
+      "phonetic": "",
+      "translation": "霓虹燈籠罩"
+    },
+    {
+      "word": "dissent",
+      "phonetic": "/dɪˈsɛnt/",
+      "translation": "異議"
+    }
   ]
 }
