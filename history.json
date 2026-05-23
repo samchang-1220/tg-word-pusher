@@ -5624,5 +5624,57 @@
       "phonetic": "/dɪˈsɛnt/",
       "translation": "異議"
     }
+  ],
+  "2026-05-23": [
+    {
+      "word": "misconduct",
+      "phonetic": "/mɪsˈkɒndʌkt/",
+      "translation": "不當行為"
+    },
+    {
+      "word": "hardline",
+      "phonetic": "/ˈhɑː(ɹ)dlaɪn/",
+      "translation": "強硬派"
+    },
+    {
+      "word": "dozen",
+      "phonetic": "/ˈdʌzən/",
+      "translation": "打"
+    },
+    {
+      "word": "finale",
+      "phonetic": "",
+      "translation": "結局"
+    },
+    {
+      "word": "emerges",
+      "phonetic": "",
+      "translation": "出現"
+    },
+    {
+      "word": "startup",
+      "phonetic": "/ˈstɑɹtˌʌp/",
+      "translation": "啟動"
+    },
+    {
+      "word": "blindside",
+      "phonetic": "/ˈblaɪndˌsaɪd/",
+      "translation": "盲目的"
+    },
+    {
+      "word": "encounter",
+      "phonetic": "/ɪnˈkaʊntə/",
+      "translation": "遇到"
+    },
+    {
+      "word": "rarely",
+      "phonetic": "/ˈɹɛːli/",
+      "translation": "很少"
+    },
+    {
+      "word": "debutants",
+      "phonetic": "",
+      "translation": "初次登場的人"
+    }
   ]
 }
