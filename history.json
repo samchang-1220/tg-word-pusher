@@ -5676,5 +5676,57 @@
       "phonetic": "",
       "translation": "初次登場的人"
     }
+  ],
+  "2026-05-24": [
+    {
+      "word": "prosecutor",
+      "phonetic": "/ˈpɹɑsəˌkjuːtəɹ/",
+      "translation": "檢察官"
+    },
+    {
+      "word": "lowly",
+      "phonetic": "/ˈləʊli/",
+      "translation": "卑微的"
+    },
+    {
+      "word": "stranger",
+      "phonetic": "/ˈstɹeɪndʒə/",
+      "translation": "陌生人"
+    },
+    {
+      "word": "fatally",
+      "phonetic": "[ˈfeɪ̯ɾl̩i]",
+      "translation": "致命地"
+    },
+    {
+      "word": "phantom",
+      "phonetic": "/ˈfæntəm/",
+      "translation": "幻影"
+    },
+    {
+      "word": "mourn",
+      "phonetic": "/mɔːn/",
+      "translation": "哀悼"
+    },
+    {
+      "word": "neon-drenched",
+      "phonetic": "",
+      "translation": "霓虹燈籠罩"
+    },
+    {
+      "word": "displace",
+      "phonetic": "/dɪsˈpleɪs/",
+      "translation": "取代"
+    },
+    {
+      "word": "unstable",
+      "phonetic": "/ʌnˈsteɪbəɫ/",
+      "translation": "不穩定"
+    },
+    {
+      "word": "galaxy",
+      "phonetic": "/ˈɡaləksi/",
+      "translation": "星系"
+    }
   ]
 }
