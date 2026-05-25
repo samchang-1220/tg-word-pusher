@@ -5728,5 +5728,57 @@
       "phonetic": "/ˈɡaləksi/",
       "translation": "星系"
     }
+  ],
+  "2026-05-25": [
+    {
+      "word": "brave",
+      "phonetic": "/bɹeɪv/",
+      "translation": "勇敢的"
+    },
+    {
+      "word": "toxic",
+      "phonetic": "/ˈtɒk.sɪk/",
+      "translation": "有毒的"
+    },
+    {
+      "word": "reopen",
+      "phonetic": "",
+      "translation": "重新開放"
+    },
+    {
+      "word": "lowly",
+      "phonetic": "/ˈləʊli/",
+      "translation": "卑微的"
+    },
+    {
+      "word": "athlete",
+      "phonetic": "/ˈæθ.lit/",
+      "translation": "運動員"
+    },
+    {
+      "word": "hyena",
+      "phonetic": "/haɪˈiːnə/",
+      "translation": "鬣狗"
+    },
+    {
+      "word": "us-iran",
+      "phonetic": "",
+      "translation": "美國-伊朗"
+    },
+    {
+      "word": "craze",
+      "phonetic": "/kɹeɪz/",
+      "translation": "狂熱"
+    },
+    {
+      "word": "vapor",
+      "phonetic": "/ˈveɪpə/",
+      "translation": "汽"
+    },
+    {
+      "word": "blitz",
+      "phonetic": "/blɪts/",
+      "translation": "閃電戰"
+    }
   ]
 }
