@@ -5780,5 +5780,57 @@
       "phonetic": "/blɪts/",
       "translation": "閃電戰"
     }
+  ],
+  "2026-05-26": [
+    {
+      "word": "criminally",
+      "phonetic": "",
+      "translation": "犯罪地"
+    },
+    {
+      "word": "epicenter",
+      "phonetic": "",
+      "translation": "震央"
+    },
+    {
+      "word": "hyena",
+      "phonetic": "/haɪˈiːnə/",
+      "translation": "鬣狗"
+    },
+    {
+      "word": "refusal",
+      "phonetic": "/ɹɪˈfjuːzl̩/",
+      "translation": "拒絕"
+    },
+    {
+      "word": "fraught",
+      "phonetic": "/fɹɔːt/",
+      "translation": "充滿憂慮的"
+    },
+    {
+      "word": "downpour",
+      "phonetic": "/ˈdaʊn.pɔː(ɹ)/",
+      "translation": "傾盆大雨"
+    },
+    {
+      "word": "640,000",
+      "phonetic": "",
+      "translation": "640,000"
+    },
+    {
+      "word": "retaliate",
+      "phonetic": "/ɹɪˈtæli.eɪt/",
+      "translation": "報復"
+    },
+    {
+      "word": "outbreak",
+      "phonetic": "/ˈaʊtbɹeɪk/",
+      "translation": "爆發"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    }
   ]
 }
