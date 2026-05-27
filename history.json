@@ -5832,5 +5832,57 @@
       "phonetic": "/ˈdɛd.li/",
       "translation": "致命"
     }
+  ],
+  "2026-05-27": [
+    {
+      "word": "traumatic",
+      "phonetic": "",
+      "translation": "創傷性的"
+    },
+    {
+      "word": "unprecedentedly",
+      "phonetic": "",
+      "translation": "前所未有的"
+    },
+    {
+      "word": "implode",
+      "phonetic": "",
+      "translation": "內爆"
+    },
+    {
+      "word": "incumbent",
+      "phonetic": "/ɪnˈkʌmbənt/",
+      "translation": "現任者"
+    },
+    {
+      "word": "accuser",
+      "phonetic": "/əˑˈkjuː.zə/",
+      "translation": "原告"
+    },
+    {
+      "word": "tunnel",
+      "phonetic": "/ˈtʌn(ə)l/",
+      "translation": "隧道"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    },
+    {
+      "word": "militant",
+      "phonetic": "/ˈmɪlɪtənt/",
+      "translation": "好戰的"
+    },
+    {
+      "word": "upend",
+      "phonetic": "/ʌpˈɛnd/",
+      "translation": "顛覆"
+    },
+    {
+      "word": "continent",
+      "phonetic": "/ˈkɒntɪnənt/",
+      "translation": "大陸"
+    }
   ]
 }
