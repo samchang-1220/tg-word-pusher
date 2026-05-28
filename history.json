@@ -5884,5 +5884,52 @@
       "phonetic": "/ˈkɒntɪnənt/",
       "translation": "大陸"
     }
+  ],
+  "2026-05-28": [
+    {
+      "word": "inflation",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "translation": "通貨膨脹"
+    },
+    {
+      "word": "60-day",
+      "phonetic": "",
+      "translation": "60 天"
+    },
+    {
+      "word": "bone-crushing",
+      "phonetic": "",
+      "translation": "碎骨"
+    },
+    {
+      "word": "loophole",
+      "phonetic": "/ˈluːphəʊl/",
+      "translation": "漏洞"
+    },
+    {
+      "word": "cost-cutting",
+      "phonetic": "",
+      "translation": "削減成本"
+    },
+    {
+      "word": "hyena",
+      "phonetic": "/haɪˈiːnə/",
+      "translation": "鬣狗"
+    },
+    {
+      "word": "villager",
+      "phonetic": "/ˈvɪlɪd͡ʒə/",
+      "translation": "村民"
+    },
+    {
+      "word": "barely",
+      "phonetic": "/ˈbɛə(ɹ).li/",
+      "translation": "僅僅"
+    },
+    {
+      "word": "conglomerate",
+      "phonetic": "",
+      "translation": "聯合企業"
+    }
   ]
 }
