@@ -5983,5 +5983,57 @@
       "phonetic": "/klaʃ/",
       "translation": "衝突"
     }
+  ],
+  "2026-05-30": [
+    {
+      "word": "clone",
+      "phonetic": "/kləʊn/",
+      "translation": "複製"
+    },
+    {
+      "word": "conspiracy",
+      "phonetic": "/kənˈspɪɹəsi/",
+      "translation": "陰謀"
+    },
+    {
+      "word": "confusion",
+      "phonetic": "/kənˈfjuːʒən/",
+      "translation": "錯亂"
+    },
+    {
+      "word": "volcanic",
+      "phonetic": "/vɒlˈkanɪk/",
+      "translation": "火山"
+    },
+    {
+      "word": "naive",
+      "phonetic": "/naɪˈiːv/",
+      "translation": "幼稚的"
+    },
+    {
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    },
+    {
+      "word": "wildfire",
+      "phonetic": "",
+      "translation": "野火"
+    },
+    {
+      "word": "underway",
+      "phonetic": "",
+      "translation": "進行"
+    },
+    {
+      "word": "late-night",
+      "phonetic": "",
+      "translation": "深夜"
+    },
+    {
+      "word": "backroom",
+      "phonetic": "",
+      "translation": "幕後室"
+    }
   ]
 }
