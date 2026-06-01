@@ -6082,5 +6082,42 @@
       "phonetic": "/ˈtækəl/",
       "translation": "處理"
     }
+  ],
+  "2026-06-01": [
+    {
+      "word": "resign",
+      "phonetic": "/ɹɪˈzaɪn/",
+      "translation": "辭職"
+    },
+    {
+      "word": "slump",
+      "phonetic": "/slʌmp/",
+      "translation": "暴跌"
+    },
+    {
+      "word": "lawsuit",
+      "phonetic": "/ˈlɔˌs(j)ut/",
+      "translation": "訴訟"
+    },
+    {
+      "word": "threaten",
+      "phonetic": "/ˈθɹɛt.n̩/",
+      "translation": "威脅"
+    },
+    {
+      "word": "asleep",
+      "phonetic": "/əˈsliːp/",
+      "translation": "睡著了"
+    },
+    {
+      "word": "weapon",
+      "phonetic": "/ˈwɛ.pən/",
+      "translation": "武器"
+    },
+    {
+      "word": "throe",
+      "phonetic": "/θɹəʊ/",
+      "translation": "陣痛"
+    }
   ]
 }
