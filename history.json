@@ -6171,5 +6171,57 @@
       "phonetic": "",
       "translation": "外交"
     }
+  ],
+  "2026-06-04": [
+    {
+      "word": "unheard",
+      "phonetic": "/ʌnˈhɜː(ɹ)d/",
+      "translation": "聞所未聞"
+    },
+    {
+      "word": "uncertainty",
+      "phonetic": "/ʌnˈsɜːtənti/",
+      "translation": "不確定"
+    },
+    {
+      "word": "125th",
+      "phonetic": "",
+      "translation": "第125期"
+    },
+    {
+      "word": "ultraprocessed",
+      "phonetic": "",
+      "translation": "超加工的"
+    },
+    {
+      "word": "colleague",
+      "phonetic": "/ˈkɒliːɡ/",
+      "translation": "同事"
+    },
+    {
+      "word": "flock",
+      "phonetic": "/flɒk/",
+      "translation": "群"
+    },
+    {
+      "word": "left-wing",
+      "phonetic": "",
+      "translation": "左翼"
+    },
+    {
+      "word": "fancy",
+      "phonetic": "/ˈfæn.si/",
+      "translation": "想要"
+    },
+    {
+      "word": "iconic",
+      "phonetic": "",
+      "translation": "標誌性的"
+    },
+    {
+      "word": "spark",
+      "phonetic": "/spɑːk/",
+      "translation": "火花"
+    }
   ]
 }
