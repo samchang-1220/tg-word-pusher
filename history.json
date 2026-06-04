@@ -6174,54 +6174,54 @@
   ],
   "2026-06-04": [
     {
-      "word": "unheard",
-      "phonetic": "/ʌnˈhɜː(ɹ)d/",
-      "translation": "聞所未聞"
+      "word": "offensive",
+      "phonetic": "/əˈfɛnsɪv/",
+      "translation": "進攻"
     },
     {
-      "word": "uncertainty",
-      "phonetic": "/ʌnˈsɜːtənti/",
-      "translation": "不確定"
+      "word": "bumblebee",
+      "phonetic": "/ˈbʌmbl̩bi/",
+      "translation": "熊蜂"
     },
     {
-      "word": "125th",
+      "word": "selfie",
+      "phonetic": "/ˈsɛlfi/",
+      "translation": "自拍"
+    },
+    {
+      "word": "iranian",
       "phonetic": "",
-      "translation": "第125期"
+      "translation": "伊朗的"
     },
     {
-      "word": "ultraprocessed",
+      "word": "screwworm",
       "phonetic": "",
-      "translation": "超加工的"
+      "translation": "螺旋蟲"
     },
     {
-      "word": "colleague",
-      "phonetic": "/ˈkɒliːɡ/",
-      "translation": "同事"
-    },
-    {
-      "word": "flock",
-      "phonetic": "/flɒk/",
-      "translation": "群"
-    },
-    {
-      "word": "left-wing",
+      "word": "paramedic",
       "phonetic": "",
-      "translation": "左翼"
+      "translation": "護理人員"
     },
     {
-      "word": "fancy",
-      "phonetic": "/ˈfæn.si/",
-      "translation": "想要"
+      "word": "vaccine",
+      "phonetic": "/vækˈsaɪn/",
+      "translation": "疫苗"
     },
     {
-      "word": "iconic",
+      "word": "23,000",
       "phonetic": "",
-      "translation": "標誌性的"
+      "translation": "23,000"
     },
     {
-      "word": "spark",
-      "phonetic": "/spɑːk/",
-      "translation": "火花"
+      "word": "firepower",
+      "phonetic": "",
+      "translation": "火力"
+    },
+    {
+      "word": "congo",
+      "phonetic": "",
+      "translation": "剛果"
     }
   ]
 }
