@@ -6275,5 +6275,57 @@
       "phonetic": "/ˈfɹəʊzən/",
       "translation": "冷凍的"
     }
+  ],
+  "2026-06-06": [
+    {
+      "word": "invisible",
+      "phonetic": "/ɪnˈvɪzəb(ə)l/",
+      "translation": "無形的"
+    },
+    {
+      "word": "troll",
+      "phonetic": "",
+      "translation": "巨魔"
+    },
+    {
+      "word": "correspondent",
+      "phonetic": "/ˌkɒɹɪˈspɒndənt/",
+      "translation": "記者"
+    },
+    {
+      "word": "furnishing",
+      "phonetic": "",
+      "translation": "家具"
+    },
+    {
+      "word": "vigil",
+      "phonetic": "/ˈvɪdʒəl/",
+      "translation": "守夜"
+    },
+    {
+      "word": "dayslong",
+      "phonetic": "",
+      "translation": "長日"
+    },
+    {
+      "word": "affair",
+      "phonetic": "/əˈfɛə/",
+      "translation": "事務"
+    },
+    {
+      "word": "repeated",
+      "phonetic": "/ɹɪˈpiːtɪd/",
+      "translation": "重複"
+    },
+    {
+      "word": "disgusting",
+      "phonetic": "/dɪsˈɡʊstɪŋ/",
+      "translation": "噁心的"
+    },
+    {
+      "word": "allegation",
+      "phonetic": "/ˌæl.əˈɡeɪ.ʃən/",
+      "translation": "指控"
+    }
   ]
 }
