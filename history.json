@@ -6327,5 +6327,57 @@
       "phonetic": "/ˌæl.əˈɡeɪ.ʃən/",
       "translation": "指控"
     }
+  ],
+  "2026-06-07": [
+    {
+      "word": "bubble",
+      "phonetic": "/ˈbʌb.əl/",
+      "translation": "氣泡"
+    },
+    {
+      "word": "lambast",
+      "phonetic": "",
+      "translation": "揍"
+    },
+    {
+      "word": "grapple",
+      "phonetic": "",
+      "translation": "抓鉤"
+    },
+    {
+      "word": "airplane",
+      "phonetic": "/ˈɛəpleɪn/",
+      "translation": "飛機"
+    },
+    {
+      "word": "joyful",
+      "phonetic": "/ˈdʒɔɪfəl/",
+      "translation": "快樂"
+    },
+    {
+      "word": "blame",
+      "phonetic": "/bleɪm/",
+      "translation": "責備"
+    },
+    {
+      "word": "speaks",
+      "phonetic": "/ˈspiːks/",
+      "translation": "說話"
+    },
+    {
+      "word": "weaponize",
+      "phonetic": "/ˈwɛpənaɪz/",
+      "translation": "武器化"
+    },
+    {
+      "word": "longevity",
+      "phonetic": "/lɒnˈdʒɛ.vɪ.ti/",
+      "translation": "長壽"
+    },
+    {
+      "word": "discontent",
+      "phonetic": "/ˌdɪskənˈtɛnt/",
+      "translation": "不滿"
+    }
   ]
 }
