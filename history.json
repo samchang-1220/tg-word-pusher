@@ -6520,5 +6520,52 @@
       "phonetic": "",
       "translation": "最知名的"
     }
+  ],
+  "2026-06-12": [
+    {
+      "word": "reservoir",
+      "phonetic": "/ˈɹɛz.ə.vwɑː(ɹ)/",
+      "translation": "水庫"
+    },
+    {
+      "word": "survivor",
+      "phonetic": "/sɚˈvaɪvɚ/",
+      "translation": "倖存者"
+    },
+    {
+      "word": "throe",
+      "phonetic": "/θɹəʊ/",
+      "translation": "陣痛"
+    },
+    {
+      "word": "plead",
+      "phonetic": "",
+      "translation": "懇求"
+    },
+    {
+      "word": "ruling",
+      "phonetic": "/ˈɹuːlɪŋ/",
+      "translation": "裁決"
+    },
+    {
+      "word": "staging",
+      "phonetic": "",
+      "translation": "分期"
+    },
+    {
+      "word": "accuses",
+      "phonetic": "/əˈkjuːzɪz/",
+      "translation": "指責"
+    },
+    {
+      "word": "defeat",
+      "phonetic": "/dɪˈfiːt/",
+      "translation": "擊敗"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    }
   ]
 }
