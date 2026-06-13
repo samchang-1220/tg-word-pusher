@@ -6567,5 +6567,57 @@
       "phonetic": "",
       "translation": "國籍"
     }
+  ],
+  "2026-06-13": [
+    {
+      "word": "ceremony",
+      "phonetic": "/ˈsɛɹɪməni/",
+      "translation": "儀式"
+    },
+    {
+      "word": "lawsuit",
+      "phonetic": "/ˈlɔˌs(j)ut/",
+      "translation": "訴訟"
+    },
+    {
+      "word": "pro-palestinian",
+      "phonetic": "",
+      "translation": "親巴勒斯坦人"
+    },
+    {
+      "word": "hourslong",
+      "phonetic": "",
+      "translation": "長達數小時"
+    },
+    {
+      "word": "exhaust",
+      "phonetic": "/ɪɡˈzɔːst/",
+      "translation": "排氣"
+    },
+    {
+      "word": "migrant",
+      "phonetic": "/ˈmaɪɡɹənt/",
+      "translation": "移民"
+    },
+    {
+      "word": "biden-era",
+      "phonetic": "",
+      "translation": "拜登時代"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    },
+    {
+      "word": "reopen",
+      "phonetic": "",
+      "translation": "重新開放"
+    },
+    {
+      "word": "aerial",
+      "phonetic": "/ˈɛː.ɹi.əl/",
+      "translation": "天線"
+    }
   ]
 }
