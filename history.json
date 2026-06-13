@@ -6570,24 +6570,9 @@
   ],
   "2026-06-13": [
     {
-      "word": "ceremony",
-      "phonetic": "/ˈsɛɹɪməni/",
-      "translation": "儀式"
-    },
-    {
-      "word": "lawsuit",
-      "phonetic": "/ˈlɔˌs(j)ut/",
-      "translation": "訴訟"
-    },
-    {
-      "word": "pro-palestinian",
+      "word": "promoter",
       "phonetic": "",
-      "translation": "親巴勒斯坦人"
-    },
-    {
-      "word": "hourslong",
-      "phonetic": "",
-      "translation": "長達數小時"
+      "translation": "發起人"
     },
     {
       "word": "exhaust",
@@ -6595,29 +6580,44 @@
       "translation": "排氣"
     },
     {
-      "word": "migrant",
-      "phonetic": "/ˈmaɪɡɹənt/",
-      "translation": "移民"
+      "word": "suspect",
+      "phonetic": "/ˈsʌs.pɛkt/",
+      "translation": "懷疑"
     },
     {
-      "word": "biden-era",
+      "word": "revolutionary",
+      "phonetic": "/-ˈljuː-/",
+      "translation": "革命性的"
+    },
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+      "translation": "慶祝"
+    },
+    {
+      "word": "ex-south",
       "phonetic": "",
-      "translation": "拜登時代"
+      "translation": "前南"
     },
     {
-      "word": "citizenship",
+      "word": "spider",
       "phonetic": "",
-      "translation": "國籍"
+      "translation": "蜘蛛"
     },
     {
-      "word": "reopen",
-      "phonetic": "",
-      "translation": "重新開放"
+      "word": "visceral",
+      "phonetic": "/ˈvɪsəɹəl/",
+      "translation": "內臟的"
     },
     {
-      "word": "aerial",
-      "phonetic": "/ˈɛː.ɹi.əl/",
-      "translation": "天線"
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈpɹəʊ.tɛst/",
+      "translation": "反對"
     }
   ]
 }
