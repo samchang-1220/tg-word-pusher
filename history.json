@@ -6723,5 +6723,47 @@
       "phonetic": "/ˈdifəɹəntli/",
       "translation": "不同地"
     }
+  ],
+  "2026-06-17": [
+    {
+      "word": "cyclone",
+      "phonetic": "/ˈsaɪ.kləʊn/",
+      "translation": "氣旋"
+    },
+    {
+      "word": "crackdown",
+      "phonetic": "",
+      "translation": "鎮壓"
+    },
+    {
+      "word": "would-be",
+      "phonetic": "",
+      "translation": "未來的"
+    },
+    {
+      "word": "romeo",
+      "phonetic": "",
+      "translation": "羅密歐"
+    },
+    {
+      "word": "uganda",
+      "phonetic": "",
+      "translation": "烏幹達"
+    },
+    {
+      "word": "impede",
+      "phonetic": "/ɪmˈpiːd/",
+      "translation": "阻礙"
+    },
+    {
+      "word": "noodle",
+      "phonetic": "/nuːdl̩/",
+      "translation": "麵條"
+    },
+    {
+      "word": "convict",
+      "phonetic": "/ˈkɒnvɪkt/",
+      "translation": "定罪"
+    }
   ]
 }
