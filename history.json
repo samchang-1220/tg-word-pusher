@@ -6765,5 +6765,47 @@
       "phonetic": "/ˈkɒnvɪkt/",
       "translation": "定罪"
     }
+  ],
+  "2026-06-18": [
+    {
+      "word": "bystander",
+      "phonetic": "",
+      "translation": "旁觀者"
+    },
+    {
+      "word": "allege",
+      "phonetic": "/əˈlɛdʒ/",
+      "translation": "聲稱"
+    },
+    {
+      "word": "glacier",
+      "phonetic": "/ˈɡleɪ.ʃɚ/",
+      "translation": "冰河"
+    },
+    {
+      "word": "charismatic",
+      "phonetic": "/ˌkæɹɪzˈmætɪk/",
+      "translation": "有魅力的"
+    },
+    {
+      "word": "smack",
+      "phonetic": "/smæk/",
+      "translation": "打"
+    },
+    {
+      "word": "appeasement",
+      "phonetic": "/əˈpɪiz.mənt/",
+      "translation": "綏靖政策"
+    },
+    {
+      "word": "record-breaking",
+      "phonetic": "",
+      "translation": "破紀錄的"
+    },
+    {
+      "word": "plunder",
+      "phonetic": "/ˈplʌndə(ɹ)/",
+      "translation": "掠奪"
+    }
   ]
 }
