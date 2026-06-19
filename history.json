@@ -6807,5 +6807,57 @@
       "phonetic": "/ˈplʌndə(ɹ)/",
       "translation": "掠奪"
     }
+  ],
+  "2026-06-19": [
+    {
+      "word": "striker",
+      "phonetic": "/ˈstɹaɪkə(ɹ)/",
+      "translation": "前鋒"
+    },
+    {
+      "word": "zigzag",
+      "phonetic": "",
+      "translation": "之字形"
+    },
+    {
+      "word": "outbreak",
+      "phonetic": "/ˈaʊtbɹeɪk/",
+      "translation": "爆發"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    },
+    {
+      "word": "ditch",
+      "phonetic": "/dɪtʃ/",
+      "translation": "溝"
+    },
+    {
+      "word": "beaver",
+      "phonetic": "/ˈbiːvə/",
+      "translation": "海狸"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "revolt",
+      "phonetic": "/ɹɪˈvɒlt/",
+      "translation": "反叛"
+    },
+    {
+      "word": "ice-cream",
+      "phonetic": "",
+      "translation": "冰淇淋"
+    }
   ]
 }
