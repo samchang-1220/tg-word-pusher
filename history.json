@@ -6810,54 +6810,54 @@
   ],
   "2026-06-19": [
     {
-      "word": "striker",
-      "phonetic": "/ˈstɹaɪkə(ɹ)/",
-      "translation": "前鋒"
+      "word": "backlash",
+      "phonetic": "/ˈbækˌlæʃ/",
+      "translation": "反彈"
     },
     {
-      "word": "zigzag",
+      "word": "ceasefire",
       "phonetic": "",
-      "translation": "之字形"
+      "translation": "停火"
     },
     {
-      "word": "outbreak",
-      "phonetic": "/ˈaʊtbɹeɪk/",
-      "translation": "爆發"
+      "word": "backyard",
+      "phonetic": "/bækˈjɑːd/",
+      "translation": "後院"
     },
     {
-      "word": "citizenship",
+      "word": "unveil",
+      "phonetic": "/ʌnˈveɪl/",
+      "translation": "揭幕"
+    },
+    {
+      "word": "airplane",
+      "phonetic": "/ˈɛəpleɪn/",
+      "translation": "飛機"
+    },
+    {
+      "word": "1-year-old",
       "phonetic": "",
-      "translation": "國籍"
+      "translation": "1歲"
     },
     {
-      "word": "ditch",
-      "phonetic": "/dɪtʃ/",
-      "translation": "溝"
-    },
-    {
-      "word": "beaver",
-      "phonetic": "/ˈbiːvə/",
-      "translation": "海狸"
-    },
-    {
-      "word": "arrest",
-      "phonetic": "/əˈɹɛst/",
-      "translation": "逮捕"
-    },
-    {
-      "word": "deadly",
-      "phonetic": "/ˈdɛd.li/",
-      "translation": "致命"
-    },
-    {
-      "word": "revolt",
-      "phonetic": "/ɹɪˈvɒlt/",
-      "translation": "反叛"
-    },
-    {
-      "word": "ice-cream",
+      "word": "israel-hezbollah",
       "phonetic": "",
-      "translation": "冰淇淋"
+      "translation": "以色列真主黨"
+    },
+    {
+      "word": "ex-trump",
+      "phonetic": "",
+      "translation": "前川普"
+    },
+    {
+      "word": "rebuff",
+      "phonetic": "/ɹɪˈbʌf/",
+      "translation": "回絕"
+    },
+    {
+      "word": "knockout",
+      "phonetic": "/ˈnɒkaʊt/",
+      "translation": "昏死"
     }
   ]
 }
