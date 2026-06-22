@@ -6953,5 +6953,57 @@
       "phonetic": "/klaʃ/",
       "translation": "衝突"
     }
+  ],
+  "2026-06-22": [
+    {
+      "word": "weapon",
+      "phonetic": "/ˈwɛ.pən/",
+      "translation": "武器"
+    },
+    {
+      "word": "retaliatory",
+      "phonetic": "/ɹɪˈtælɪət(ə)ɹɪ/",
+      "translation": "報復性"
+    },
+    {
+      "word": "transform",
+      "phonetic": "/tɹænzˈfɔːm/",
+      "translation": "轉換"
+    },
+    {
+      "word": "reset",
+      "phonetic": "/ɹiːˈsɛt/",
+      "translation": "重置"
+    },
+    {
+      "word": "underway",
+      "phonetic": "",
+      "translation": "進行"
+    },
+    {
+      "word": "k-drama",
+      "phonetic": "",
+      "translation": "韓劇"
+    },
+    {
+      "word": "crosshairs",
+      "phonetic": "",
+      "translation": "十字線"
+    },
+    {
+      "word": "accidental",
+      "phonetic": "/ˌæk.sɪ.ˈdɛn.tl̩/",
+      "translation": "偶然"
+    },
+    {
+      "word": "low-fat",
+      "phonetic": "",
+      "translation": "低脂"
+    },
+    {
+      "word": "sperm",
+      "phonetic": "/spɜːm/",
+      "translation": "精子"
+    }
   ]
 }
