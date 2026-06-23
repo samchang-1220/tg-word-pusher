@@ -7005,5 +7005,57 @@
       "phonetic": "/spɜːm/",
       "translation": "精子"
     }
+  ],
+  "2026-06-23": [
+    {
+      "word": "scoped",
+      "phonetic": "",
+      "translation": "範圍內的"
+    },
+    {
+      "word": "polarity",
+      "phonetic": "/pəˈlærɪti/",
+      "translation": "極性"
+    },
+    {
+      "word": "dozen",
+      "phonetic": "/ˈdʌzən/",
+      "translation": "打"
+    },
+    {
+      "word": "spider",
+      "phonetic": "",
+      "translation": "蜘蛛"
+    },
+    {
+      "word": "science-backed",
+      "phonetic": "",
+      "translation": "有科學根據的"
+    },
+    {
+      "word": "rebuke",
+      "phonetic": "/ɹiˈbjuːk/",
+      "translation": "訓斥"
+    },
+    {
+      "word": "brutally",
+      "phonetic": "",
+      "translation": "殘酷地"
+    },
+    {
+      "word": "diaspora",
+      "phonetic": "/daɪˈæspəɹə/",
+      "translation": "僑民"
+    },
+    {
+      "word": "weapon",
+      "phonetic": "/ˈwɛ.pən/",
+      "translation": "武器"
+    },
+    {
+      "word": "deportation",
+      "phonetic": "/diːˌpɔːˈteɪʃən/",
+      "translation": "驅逐出境"
+    }
   ]
 }
