@@ -7104,5 +7104,57 @@
       "phonetic": "/ˈsəʊʃəlɪzəm/",
       "translation": "社會主義"
     }
+  ],
+  "2026-06-25": [
+    {
+      "word": "diaper",
+      "phonetic": "/ˈdaɪ(ə)pə/",
+      "translation": "尿布"
+    },
+    {
+      "word": "migrant",
+      "phonetic": "/ˈmaɪɡɹənt/",
+      "translation": "移民"
+    },
+    {
+      "word": "resurgent",
+      "phonetic": "",
+      "translation": "復興的"
+    },
+    {
+      "word": "sophisticate",
+      "phonetic": "[səˈfɪstɪkeɪt]",
+      "translation": "複雜的"
+    },
+    {
+      "word": "enslaved",
+      "phonetic": "",
+      "translation": "被奴役的"
+    },
+    {
+      "word": "surge",
+      "phonetic": "/sɜːdʒ/",
+      "translation": "湧"
+    },
+    {
+      "word": "awkward",
+      "phonetic": "",
+      "translation": "尷尬的"
+    },
+    {
+      "word": "cybersecurity",
+      "phonetic": "/saɪbəsɪˈkjʊəɹɪtɪ/",
+      "translation": "網路安全"
+    },
+    {
+      "word": "un-appointed",
+      "phonetic": "",
+      "translation": "未任命的"
+    },
+    {
+      "word": "shortage",
+      "phonetic": "",
+      "translation": "短缺"
+    }
   ]
 }
