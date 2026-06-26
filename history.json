@@ -7156,5 +7156,57 @@
       "phonetic": "",
       "translation": "短缺"
     }
+  ],
+  "2026-06-26": [
+    {
+      "word": "see-through",
+      "phonetic": "",
+      "translation": "透視"
+    },
+    {
+      "word": "obsess",
+      "phonetic": "/əbˈsɛs/",
+      "translation": "纏住"
+    },
+    {
+      "word": "bootcamp",
+      "phonetic": "",
+      "translation": "訓練營"
+    },
+    {
+      "word": "undercut",
+      "phonetic": "",
+      "translation": "底切"
+    },
+    {
+      "word": "astronomer",
+      "phonetic": "/ə.ˈstɹɑ.nə.mɚ/",
+      "translation": "天文學家"
+    },
+    {
+      "word": "ghostly",
+      "phonetic": "/ˈɡoʊstli/",
+      "translation": "幽靈般的"
+    },
+    {
+      "word": "passport",
+      "phonetic": "/ˈpɑːspɔːt/",
+      "translation": "護照"
+    },
+    {
+      "word": "ovarian",
+      "phonetic": "/oʊˈvɛɹi.ən/",
+      "translation": "卵巢"
+    },
+    {
+      "word": "us-iran",
+      "phonetic": "",
+      "translation": "美國-伊朗"
+    },
+    {
+      "word": "withdraw",
+      "phonetic": "/wɪðˈdɹɔː/",
+      "translation": "提取"
+    }
   ]
 }
