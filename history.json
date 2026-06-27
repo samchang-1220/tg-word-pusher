@@ -7208,5 +7208,57 @@
       "phonetic": "/wɪðˈdɹɔː/",
       "translation": "提取"
     }
+  ],
+  "2026-06-27": [
+    {
+      "word": "flinch",
+      "phonetic": "/flɪntʃ/",
+      "translation": "退縮"
+    },
+    {
+      "word": "scroll",
+      "phonetic": "/skɹoʊl/",
+      "translation": "捲動"
+    },
+    {
+      "word": "earthquake",
+      "phonetic": "/ˈɜːθkweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "ballot",
+      "phonetic": "",
+      "translation": "選票"
+    },
+    {
+      "word": "obsess",
+      "phonetic": "/əbˈsɛs/",
+      "translation": "纏住"
+    },
+    {
+      "word": "tariff",
+      "phonetic": "/ˈtæɹəf/",
+      "translation": "關稅"
+    },
+    {
+      "word": "virtually",
+      "phonetic": "[ˈvɝt͡ʃuəɫi]",
+      "translation": "幾乎"
+    },
+    {
+      "word": "oversight",
+      "phonetic": "/ˈoʊvə(ɹ)ˌsaɪt/",
+      "translation": "監督"
+    },
+    {
+      "word": "decipher",
+      "phonetic": "/dɪˈsaɪfə(ɹ)/",
+      "translation": "解碼"
+    },
+    {
+      "word": "elusive",
+      "phonetic": "/iˈluːsɪv/",
+      "translation": "難以捉摸的"
+    }
   ]
 }
