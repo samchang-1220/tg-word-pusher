@@ -7260,5 +7260,57 @@
       "phonetic": "/iˈluːsɪv/",
       "translation": "難以捉摸的"
     }
+  ],
+  "2026-06-28": [
+    {
+      "word": "cheat",
+      "phonetic": "/tʃiːt/",
+      "translation": "欺騙"
+    },
+    {
+      "word": "unexpected",
+      "phonetic": "/ʌnɪkˈspɛktɪd/",
+      "translation": "出乎意料"
+    },
+    {
+      "word": "quake",
+      "phonetic": "/kweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "remarkable",
+      "phonetic": "/ɹɪˈmɑːkəbl̩/",
+      "translation": "卓越"
+    },
+    {
+      "word": "propose",
+      "phonetic": "/pɹəˈpəʊz/",
+      "translation": "提出"
+    },
+    {
+      "word": "record-breaking",
+      "phonetic": "",
+      "translation": "破紀錄的"
+    },
+    {
+      "word": "escalate",
+      "phonetic": "/ˈɛs.kə.leɪt/",
+      "translation": "升級"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈpɹəʊ.tɛst/",
+      "translation": "反對"
+    },
+    {
+      "word": "galaxy",
+      "phonetic": "/ˈɡaləksi/",
+      "translation": "星系"
+    },
+    {
+      "word": "ovarian",
+      "phonetic": "/oʊˈvɛɹi.ən/",
+      "translation": "卵巢"
+    }
   ]
 }
