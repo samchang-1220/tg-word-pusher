@@ -7312,5 +7312,57 @@
       "phonetic": "/oʊˈvɛɹi.ən/",
       "translation": "卵巢"
     }
+  ],
+  "2026-06-29": [
+    {
+      "word": "migrant",
+      "phonetic": "/ˈmaɪɡɹənt/",
+      "translation": "移民"
+    },
+    {
+      "word": "anti-migrant",
+      "phonetic": "",
+      "translation": "反移民"
+    },
+    {
+      "word": "drone",
+      "phonetic": "/dɹəʊn/",
+      "translation": "無人機"
+    },
+    {
+      "word": "18-day-old",
+      "phonetic": "",
+      "translation": "18天齡"
+    },
+    {
+      "word": "bounce",
+      "phonetic": "/baʊns/",
+      "translation": "彈跳"
+    },
+    {
+      "word": "unsung",
+      "phonetic": "",
+      "translation": "無名的"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    },
+    {
+      "word": "quake",
+      "phonetic": "/kweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "midterm",
+      "phonetic": "/ˈmɪdˌtəɹm/",
+      "translation": "期中考"
+    },
+    {
+      "word": "citizenship",
+      "phonetic": "",
+      "translation": "國籍"
+    }
   ]
 }
