@@ -7364,5 +7364,57 @@
       "phonetic": "",
       "translation": "國籍"
     }
+  ],
+  "2026-06-30": [
+    {
+      "word": "venezuelan",
+      "phonetic": "",
+      "translation": "委內瑞拉"
+    },
+    {
+      "word": "mediator",
+      "phonetic": "/ˈmidieɪtɚ/",
+      "translation": "調解人"
+    },
+    {
+      "word": "rebuke",
+      "phonetic": "/ɹiˈbjuːk/",
+      "translation": "訓斥"
+    },
+    {
+      "word": "celebration",
+      "phonetic": "/ˌsɛlɪˈbɹeiʃən/",
+      "translation": "慶典"
+    },
+    {
+      "word": "favorable",
+      "phonetic": "",
+      "translation": "有利"
+    },
+    {
+      "word": "transgender",
+      "phonetic": "/tɹanzˈdʒɛndə/",
+      "translation": "跨性別"
+    },
+    {
+      "word": "riskier",
+      "phonetic": "",
+      "translation": "風險較大"
+    },
+    {
+      "word": "teardown",
+      "phonetic": "",
+      "translation": "拆解"
+    },
+    {
+      "word": "climb",
+      "phonetic": "/klaɪm/",
+      "translation": "爬"
+    },
+    {
+      "word": "frenzy",
+      "phonetic": "/ˈfɹɛnzi/",
+      "translation": "瘋狂"
+    }
   ]
 }
