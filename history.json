@@ -7416,5 +7416,57 @@
       "phonetic": "/ˈfɹɛnzi/",
       "translation": "瘋狂"
     }
+  ],
+  "2026-07-01": [
+    {
+      "word": "alertness",
+      "phonetic": "/əˈlɝt.nəs/",
+      "translation": "警覺"
+    },
+    {
+      "word": "unhinge",
+      "phonetic": "/ʌnˈhɪndʒ/",
+      "translation": "拉開"
+    },
+    {
+      "word": "rabies",
+      "phonetic": "/ˈɹeɪ.biz/",
+      "translation": "狂犬病"
+    },
+    {
+      "word": "gasoline",
+      "phonetic": "/ˈɡæs.ə.lin/",
+      "translation": "汽油"
+    },
+    {
+      "word": "scorch",
+      "phonetic": "/skɔːtʃ/",
+      "translation": "燒焦"
+    },
+    {
+      "word": "illegitimate",
+      "phonetic": "/ɘlɘˈdʒɘtɘmɘt/",
+      "translation": "非法的"
+    },
+    {
+      "word": "tycoon",
+      "phonetic": "/taɪˈkuːn/",
+      "translation": "巨頭"
+    },
+    {
+      "word": "bros.",
+      "phonetic": "",
+      "translation": "兄弟們。"
+    },
+    {
+      "word": "thunderstorm",
+      "phonetic": "/ˈθʌn.də(ɹ)ˌstɔː(ɹ)m/",
+      "translation": "雷雨"
+    },
+    {
+      "word": "landing",
+      "phonetic": "/ˈlændɪŋ/",
+      "translation": "降落"
+    }
   ]
 }
