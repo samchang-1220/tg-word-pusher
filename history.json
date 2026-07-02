@@ -7468,5 +7468,57 @@
       "phonetic": "/ˈlændɪŋ/",
       "translation": "降落"
     }
+  ],
+  "2026-07-02": [
+    {
+      "word": "uk-us",
+      "phonetic": "",
+      "translation": "英國-美國"
+    },
+    {
+      "word": "44-year-old",
+      "phonetic": "",
+      "translation": "44歲"
+    },
+    {
+      "word": "spawn",
+      "phonetic": "/ˈspɔːn/",
+      "translation": "產卵"
+    },
+    {
+      "word": "frenzy",
+      "phonetic": "/ˈfɹɛnzi/",
+      "translation": "瘋狂"
+    },
+    {
+      "word": "transform",
+      "phonetic": "/tɹænzˈfɔːm/",
+      "translation": "轉換"
+    },
+    {
+      "word": "couldn",
+      "phonetic": "",
+      "translation": "不能"
+    },
+    {
+      "word": "stake",
+      "phonetic": "/steɪk/",
+      "translation": "賭注"
+    },
+    {
+      "word": "crypto",
+      "phonetic": "",
+      "translation": "加密貨幣"
+    },
+    {
+      "word": "rattle",
+      "phonetic": "/ˈɹæt.l̩/",
+      "translation": "撥浪鼓"
+    },
+    {
+      "word": "unnecessary",
+      "phonetic": "",
+      "translation": "不必要"
+    }
   ]
 }
