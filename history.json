@@ -7567,5 +7567,47 @@
       "phonetic": "/juˈnaɪt/",
       "translation": "團結"
     }
+  ],
+  "2026-07-04": [
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+      "translation": "慶祝"
+    },
+    {
+      "word": "prospect",
+      "phonetic": "/ˈpɹɒspɛkt/",
+      "translation": "前景"
+    },
+    {
+      "word": "airfare",
+      "phonetic": "",
+      "translation": "機票"
+    },
+    {
+      "word": "ceremony",
+      "phonetic": "/ˈsɛɹɪməni/",
+      "translation": "儀式"
+    },
+    {
+      "word": "rubble",
+      "phonetic": "/ˈɹʌb.əl/",
+      "translation": "瓦礫"
+    },
+    {
+      "word": "faint",
+      "phonetic": "/feɪnt/",
+      "translation": "頭暈的"
+    },
+    {
+      "word": "crush",
+      "phonetic": "/kɹʌʃ/",
+      "translation": "壓碎"
+    },
+    {
+      "word": "erupts",
+      "phonetic": "",
+      "translation": "爆發"
+    }
   ]
 }
