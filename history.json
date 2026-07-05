@@ -7609,5 +7609,57 @@
       "phonetic": "",
       "translation": "爆發"
     }
+  ],
+  "2026-07-05": [
+    {
+      "word": "celebrate",
+      "phonetic": "/ˈsɛl.ə.bɹeɪt/",
+      "translation": "慶祝"
+    },
+    {
+      "word": "slain",
+      "phonetic": "/sleɪn/",
+      "translation": "被殺"
+    },
+    {
+      "word": "disgust",
+      "phonetic": "/dɪsˈɡʌst/",
+      "translation": "厭惡"
+    },
+    {
+      "word": "top-ranked",
+      "phonetic": "",
+      "translation": "排名第一的"
+    },
+    {
+      "word": "unclaimed",
+      "phonetic": "",
+      "translation": "無人認領的"
+    },
+    {
+      "word": "5-time",
+      "phonetic": "",
+      "translation": "5次"
+    },
+    {
+      "word": "mourn",
+      "phonetic": "/mɔːn/",
+      "translation": "哀悼"
+    },
+    {
+      "word": "transgender",
+      "phonetic": "/tɹanzˈdʒɛndə/",
+      "translation": "跨性別"
+    },
+    {
+      "word": "celebration",
+      "phonetic": "/ˌsɛlɪˈbɹeiʃən/",
+      "translation": "慶典"
+    },
+    {
+      "word": "faint",
+      "phonetic": "/feɪnt/",
+      "translation": "頭暈的"
+    }
   ]
 }
