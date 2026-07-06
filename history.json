@@ -7661,5 +7661,57 @@
       "phonetic": "/feɪnt/",
       "translation": "頭暈的"
     }
+  ],
+  "2026-07-06": [
+    {
+      "word": "stall",
+      "phonetic": "/stɔːl/",
+      "translation": "攤位"
+    },
+    {
+      "word": "screwworm",
+      "phonetic": "",
+      "translation": "螺旋蟲"
+    },
+    {
+      "word": "gunman",
+      "phonetic": "",
+      "translation": "槍手"
+    },
+    {
+      "word": "hobbit-like",
+      "phonetic": "",
+      "translation": "像哈比人一樣"
+    },
+    {
+      "word": "buckingham",
+      "phonetic": "",
+      "translation": "白金漢"
+    },
+    {
+      "word": "prosecutor",
+      "phonetic": "/ˈpɹɑsəˌkjuːtəɹ/",
+      "translation": "檢察官"
+    },
+    {
+      "word": "quarterfinal",
+      "phonetic": "",
+      "translation": "四分之一決賽"
+    },
+    {
+      "word": "four-legged",
+      "phonetic": "",
+      "translation": "四足的"
+    },
+    {
+      "word": "confusion",
+      "phonetic": "/kənˈfjuːʒən/",
+      "translation": "錯亂"
+    },
+    {
+      "word": "corruption",
+      "phonetic": "/kəˈɹʌpʃən/",
+      "translation": "腐敗"
+    }
   ]
 }
