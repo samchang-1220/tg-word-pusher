@@ -7713,5 +7713,57 @@
       "phonetic": "/kəˈɹʌpʃən/",
       "translation": "腐敗"
     }
+  ],
+  "2026-07-07": [
+    {
+      "word": "neanderthal",
+      "phonetic": "",
+      "translation": "尼安德特人"
+    },
+    {
+      "word": "suffer",
+      "phonetic": "/ˈsʌfə/",
+      "translation": "遭受"
+    },
+    {
+      "word": "disappear",
+      "phonetic": "/dɪsəˈpiːɹ/",
+      "translation": "消失"
+    },
+    {
+      "word": "nirvana",
+      "phonetic": "",
+      "translation": "涅槃"
+    },
+    {
+      "word": "leverage",
+      "phonetic": "/ˈliːv(ə)ɹɪdʒ/",
+      "translation": "槓桿作用"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "expediency",
+      "phonetic": "/ɛk.ˈspiː.dɪ.ən.si/",
+      "translation": "權宜之計"
+    },
+    {
+      "word": "deport",
+      "phonetic": "/dɪˈpɔːt/",
+      "translation": "驅逐出境"
+    },
+    {
+      "word": "cutlery",
+      "phonetic": "/ˈkʌt.lə.ɹi/",
+      "translation": "刀具"
+    },
+    {
+      "word": "fighter",
+      "phonetic": "/ˈfaɪ.tə(ɹ)/",
+      "translation": "戰鬥機"
+    }
   ]
 }
