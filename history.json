@@ -7765,5 +7765,42 @@
       "phonetic": "/ˈfaɪ.tə(ɹ)/",
       "translation": "戰鬥機"
     }
+  ],
+  "2026-07-08": [
+    {
+      "word": "grief",
+      "phonetic": "/ɡɹiːf/",
+      "translation": "悲傷"
+    },
+    {
+      "word": "strain",
+      "phonetic": "/stɹeɪ̯n/",
+      "translation": "拉緊"
+    },
+    {
+      "word": "escalates",
+      "phonetic": "",
+      "translation": "升級"
+    },
+    {
+      "word": "assassination",
+      "phonetic": "/əˌsæs.ɪ.ˈneɪ.ʃən/",
+      "translation": "暗殺"
+    },
+    {
+      "word": "million-worth",
+      "phonetic": "",
+      "translation": "價值百萬"
+    },
+    {
+      "word": "diarrhea-causing",
+      "phonetic": "",
+      "translation": "引起腹瀉"
+    },
+    {
+      "word": "suffer",
+      "phonetic": "/ˈsʌfə/",
+      "translation": "遭受"
+    }
   ]
 }
