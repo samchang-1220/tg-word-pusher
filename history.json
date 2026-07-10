@@ -7854,5 +7854,57 @@
       "phonetic": "/ˈaʊtbɹeɪk/",
       "translation": "爆發"
     }
+  ],
+  "2026-07-10": [
+    {
+      "word": "26-year-old",
+      "phonetic": "",
+      "translation": "26歲"
+    },
+    {
+      "word": "rebuild",
+      "phonetic": "/ˈɹiːbɪld/",
+      "translation": "重建"
+    },
+    {
+      "word": "diarrhea",
+      "phonetic": "/ˌdaɪ.əˈɹiː.ə/",
+      "translation": "腹瀉"
+    },
+    {
+      "word": "mosque",
+      "phonetic": "/mɒsk/",
+      "translation": "清真寺"
+    },
+    {
+      "word": "snake",
+      "phonetic": "/ˈsneɪk/",
+      "translation": "蛇"
+    },
+    {
+      "word": "sultan",
+      "phonetic": "/ˈsʌltən/",
+      "translation": "蘇丹"
+    },
+    {
+      "word": "dead-of-night",
+      "phonetic": "",
+      "translation": "夜深人靜"
+    },
+    {
+      "word": "sweat",
+      "phonetic": "/swɛt/",
+      "translation": "汗"
+    },
+    {
+      "word": "thrown",
+      "phonetic": "/θɹəʊn/",
+      "translation": "拋出"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    }
   ]
 }
