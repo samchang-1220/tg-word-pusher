@@ -7953,5 +7953,57 @@
       "phonetic": "/ˈmɒnjʊmənt/",
       "translation": "紀念碑"
     }
+  ],
+  "2026-07-12": [
+    {
+      "word": "overlap",
+      "phonetic": "/ˈəʊvəˌlæp/",
+      "translation": "重疊"
+    },
+    {
+      "word": "tribute",
+      "phonetic": "/ˈtɹɪbjuːt/",
+      "translation": "貢"
+    },
+    {
+      "word": "parental",
+      "phonetic": "",
+      "translation": "父母的"
+    },
+    {
+      "word": "girlfriend",
+      "phonetic": "/ˈɡɜːlfɹɛnd/",
+      "translation": "女朋友"
+    },
+    {
+      "word": "microwave",
+      "phonetic": "/ˈmaɪkɹəʊˌweɪv/",
+      "translation": "微波"
+    },
+    {
+      "word": "monument",
+      "phonetic": "/ˈmɒnjʊmənt/",
+      "translation": "紀念碑"
+    },
+    {
+      "word": "blockade",
+      "phonetic": "/blɒˈkeɪd/",
+      "translation": "封鎖"
+    },
+    {
+      "word": "unseen",
+      "phonetic": "/ʌnˈsiːn/",
+      "translation": "看不見"
+    },
+    {
+      "word": "airplane",
+      "phonetic": "/ˈɛəpleɪn/",
+      "translation": "飛機"
+    },
+    {
+      "word": "abduction",
+      "phonetic": "/əbˈdʌk.ʃn̩/",
+      "translation": "綁架"
+    }
   ]
 }
