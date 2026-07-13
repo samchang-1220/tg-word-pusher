@@ -8005,5 +8005,52 @@
       "phonetic": "/əbˈdʌk.ʃn̩/",
       "translation": "綁架"
     }
+  ],
+  "2026-07-13": [
+    {
+      "word": "unlikely",
+      "phonetic": "/ʌnˈlaɪkli/",
+      "translation": "不太可能"
+    },
+    {
+      "word": "journalist",
+      "phonetic": "/ˈdʒɜːnəlɪst/",
+      "translation": "記者"
+    },
+    {
+      "word": "rollback",
+      "phonetic": "",
+      "translation": "復原"
+    },
+    {
+      "word": "suspected",
+      "phonetic": "/səsˈpɛktɪd/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "patrol",
+      "phonetic": "/pəˈtɹəʊl/",
+      "translation": "巡邏"
+    },
+    {
+      "word": "cling",
+      "phonetic": "/ˈklɪŋ/",
+      "translation": "緊貼"
+    },
+    {
+      "word": "melon",
+      "phonetic": "/ˈmɛlən/",
+      "translation": "瓜"
+    },
+    {
+      "word": "avoids",
+      "phonetic": "/əˈvɔɪdz/",
+      "translation": "避免"
+    },
+    {
+      "word": "defend",
+      "phonetic": "/dɪˈfɛnd/",
+      "translation": "保衛"
+    }
   ]
 }
