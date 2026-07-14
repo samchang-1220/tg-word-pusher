@@ -8052,5 +8052,57 @@
       "phonetic": "/dɪˈfɛnd/",
       "translation": "保衛"
     }
+  ],
+  "2026-07-14": [
+    {
+      "word": "emperor",
+      "phonetic": "/ˈempɘɹɘ/",
+      "translation": "皇帝"
+    },
+    {
+      "word": "boycott",
+      "phonetic": "/ˈbɔɪkɒt/",
+      "translation": "聯合抵制"
+    },
+    {
+      "word": "parasite",
+      "phonetic": "/ˈpæɹəˌsaɪt/",
+      "translation": "寄生蟲"
+    },
+    {
+      "word": "karaoke",
+      "phonetic": "/ˈkæ.ɹiˌəʊ.ki/",
+      "translation": "卡拉OK"
+    },
+    {
+      "word": "scrawl",
+      "phonetic": "/skɹɔːl/",
+      "translation": "亂塗"
+    },
+    {
+      "word": "haunting",
+      "phonetic": "",
+      "translation": "難忘的"
+    },
+    {
+      "word": "prediction",
+      "phonetic": "/pɹɪˈdɪkʃn/",
+      "translation": "預言"
+    },
+    {
+      "word": "beluga",
+      "phonetic": "/bəˈluː.ɡə/",
+      "translation": "白鯨"
+    },
+    {
+      "word": "diarrhea",
+      "phonetic": "/ˌdaɪ.əˈɹiː.ə/",
+      "translation": "腹瀉"
+    },
+    {
+      "word": "cameraman",
+      "phonetic": "",
+      "translation": "攝影師"
+    }
   ]
 }
