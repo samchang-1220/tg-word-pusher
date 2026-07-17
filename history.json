@@ -8208,5 +8208,57 @@
       "phonetic": "/ˈætɪk/",
       "translation": "閣樓"
     }
+  ],
+  "2026-07-17": [
+    {
+      "word": "concubine",
+      "phonetic": "/ˈkɑŋkjəbaɪn/",
+      "translation": "妾"
+    },
+    {
+      "word": "sultan",
+      "phonetic": "/ˈsʌltən/",
+      "translation": "蘇丹"
+    },
+    {
+      "word": "lavish",
+      "phonetic": "/ˈlævɪʃ/",
+      "translation": "奢侈的"
+    },
+    {
+      "word": "evacuation",
+      "phonetic": "",
+      "translation": "疏散"
+    },
+    {
+      "word": "mid-flight",
+      "phonetic": "",
+      "translation": "飛行途中"
+    },
+    {
+      "word": "shake",
+      "phonetic": "/ˈʃeɪk/",
+      "translation": "搖"
+    },
+    {
+      "word": "devote",
+      "phonetic": "/dɪˈvəʊt/",
+      "translation": "奉獻"
+    },
+    {
+      "word": "referee",
+      "phonetic": "/ˌɹɛf.əˈɹiː/",
+      "translation": "裁判"
+    },
+    {
+      "word": "flames",
+      "phonetic": "/fleɪmz/",
+      "translation": "火焰"
+    },
+    {
+      "word": "mania",
+      "phonetic": "/ˈmeɪ.ni.ə/",
+      "translation": "狂熱"
+    }
   ]
 }
