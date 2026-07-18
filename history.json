@@ -8260,5 +8260,52 @@
       "phonetic": "/ˈmeɪ.ni.ə/",
       "translation": "狂熱"
     }
+  ],
+  "2026-07-18": [
+    {
+      "word": "uncertainty",
+      "phonetic": "/ʌnˈsɜːtənti/",
+      "translation": "不確定"
+    },
+    {
+      "word": "surrogate",
+      "phonetic": "",
+      "translation": "代理人"
+    },
+    {
+      "word": "rivalry",
+      "phonetic": "/ˈɹaɪ.vəl.ɹi/",
+      "translation": "對抗"
+    },
+    {
+      "word": "catastrophic",
+      "phonetic": "/kætəˈstɹɒfɪk/",
+      "translation": "災難性的"
+    },
+    {
+      "word": "consort",
+      "phonetic": "/ˈkɒnsɔːt/",
+      "translation": "配偶"
+    },
+    {
+      "word": "sentient",
+      "phonetic": "/ˈsɛn.ti.ənt/",
+      "translation": "有知覺的"
+    },
+    {
+      "word": "truce",
+      "phonetic": "/tɹuːs/",
+      "translation": "休戰"
+    },
+    {
+      "word": "battlefield",
+      "phonetic": "",
+      "translation": "戰場"
+    },
+    {
+      "word": "yacht",
+      "phonetic": "/jɒt/",
+      "translation": "遊艇"
+    }
   ]
 }
