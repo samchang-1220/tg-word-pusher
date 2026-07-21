@@ -8359,5 +8359,57 @@
       "phonetic": "",
       "translation": "國內的"
     }
+  ],
+  "2026-07-21": [
+    {
+      "word": "speaks",
+      "phonetic": "/ˈspiːks/",
+      "translation": "說話"
+    },
+    {
+      "word": "allegation",
+      "phonetic": "/ˌæl.əˈɡeɪ.ʃən/",
+      "translation": "指控"
+    },
+    {
+      "word": "troop",
+      "phonetic": "/tɹuːp/",
+      "translation": "部隊"
+    },
+    {
+      "word": "fascinate",
+      "phonetic": "/ˈfæsɪneɪt/",
+      "translation": "吸引"
+    },
+    {
+      "word": "compound",
+      "phonetic": "/ˈkɒmpaʊnd/",
+      "translation": "化合物"
+    },
+    {
+      "word": "pharma",
+      "phonetic": "",
+      "translation": "製藥公司"
+    },
+    {
+      "word": "marble",
+      "phonetic": "/ˈmɑːbəl/",
+      "translation": "大理石"
+    },
+    {
+      "word": "bertha",
+      "phonetic": "",
+      "translation": "伯莎"
+    },
+    {
+      "word": "shortage",
+      "phonetic": "",
+      "translation": "短缺"
+    },
+    {
+      "word": "hilltop",
+      "phonetic": "/ˈhɪltɒp/",
+      "translation": "山頂"
+    }
   ]
 }
