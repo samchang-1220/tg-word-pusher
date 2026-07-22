@@ -8411,5 +8411,57 @@
       "phonetic": "/ˈhɪltɒp/",
       "translation": "山頂"
     }
+  ],
+  "2026-07-22": [
+    {
+      "word": "debris",
+      "phonetic": "/ˈdeɪbɹiː/",
+      "translation": "碎片"
+    },
+    {
+      "word": "actress",
+      "phonetic": "/ˈak.tɹəs/",
+      "translation": "演員"
+    },
+    {
+      "word": "resign",
+      "phonetic": "/ɹɪˈzaɪn/",
+      "translation": "辭職"
+    },
+    {
+      "word": "explosion",
+      "phonetic": "/ɪkˈspləʊ.ʒən/",
+      "translation": "霹靂"
+    },
+    {
+      "word": "ex-prosecutor",
+      "phonetic": "",
+      "translation": "前檢察官"
+    },
+    {
+      "word": "airway",
+      "phonetic": "",
+      "translation": "氣道"
+    },
+    {
+      "word": "blaze",
+      "phonetic": "/bleɪz/",
+      "translation": "火焰"
+    },
+    {
+      "word": "landfall",
+      "phonetic": "/ˈlænd.fɔːl/",
+      "translation": "登陸"
+    },
+    {
+      "word": "hilltop",
+      "phonetic": "/ˈhɪltɒp/",
+      "translation": "山頂"
+    },
+    {
+      "word": "scrutiny",
+      "phonetic": "/ˈskɹuː.tɪ.ni/",
+      "translation": "審查"
+    }
   ]
 }
