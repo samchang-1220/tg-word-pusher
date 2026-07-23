@@ -8463,5 +8463,57 @@
       "phonetic": "/ˈskɹuː.tɪ.ni/",
       "translation": "審查"
     }
+  ],
+  "2026-07-23": [
+    {
+      "word": "sprinkle",
+      "phonetic": "/ˈspɹɪŋkəl/",
+      "translation": "撒"
+    },
+    {
+      "word": "suspect",
+      "phonetic": "/ˈsʌs.pɛkt/",
+      "translation": "懷疑"
+    },
+    {
+      "word": "protest",
+      "phonetic": "/ˈpɹəʊ.tɛst/",
+      "translation": "反對"
+    },
+    {
+      "word": "subpoena",
+      "phonetic": "/səˈpiːnə/",
+      "translation": "傳票"
+    },
+    {
+      "word": "use-of-force",
+      "phonetic": "",
+      "translation": "使用武力"
+    },
+    {
+      "word": "a-listers",
+      "phonetic": "",
+      "translation": "一線明星"
+    },
+    {
+      "word": "inland",
+      "phonetic": "/ˈɪnlənd/",
+      "translation": "內陸"
+    },
+    {
+      "word": "declare",
+      "phonetic": "",
+      "translation": "宣告"
+    },
+    {
+      "word": "trauma",
+      "phonetic": "/ˈtɹaʊ.mə/",
+      "translation": "創傷"
+    },
+    {
+      "word": "six-pack",
+      "phonetic": "",
+      "translation": "六件裝"
+    }
   ]
 }
