@@ -8567,5 +8567,57 @@
       "phonetic": "",
       "translation": "麥格克"
     }
+  ],
+  "2026-07-25": [
+    {
+      "word": "marble",
+      "phonetic": "/ˈmɑːbəl/",
+      "translation": "大理石"
+    },
+    {
+      "word": "vaccine",
+      "phonetic": "/vækˈsaɪn/",
+      "translation": "疫苗"
+    },
+    {
+      "word": "resign",
+      "phonetic": "/ɹɪˈzaɪn/",
+      "translation": "辭職"
+    },
+    {
+      "word": "unearth",
+      "phonetic": "",
+      "translation": "挖掘"
+    },
+    {
+      "word": "mangrove",
+      "phonetic": "/ˈmæŋɡɹəʊv/",
+      "translation": "紅樹"
+    },
+    {
+      "word": "clean-energy",
+      "phonetic": "",
+      "translation": "清潔能源"
+    },
+    {
+      "word": "bamboozle",
+      "phonetic": "/bæm.ˈbuː.zəl/",
+      "translation": "欺騙"
+    },
+    {
+      "word": "shoal",
+      "phonetic": "/ʃɒʊl/",
+      "translation": "淺灘"
+    },
+    {
+      "word": "cannon",
+      "phonetic": "/ˈkæn.ən/",
+      "translation": "大砲"
+    },
+    {
+      "word": "15,000",
+      "phonetic": "",
+      "translation": "15,000"
+    }
   ]
 }
