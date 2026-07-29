@@ -8775,5 +8775,47 @@
       "phonetic": "",
       "translation": "職員"
     }
+  ],
+  "2026-07-29": [
+    {
+      "word": "nightcall",
+      "phonetic": "",
+      "translation": "夜呼"
+    },
+    {
+      "word": "cockroach",
+      "phonetic": "",
+      "translation": "蟑螂"
+    },
+    {
+      "word": "capitol",
+      "phonetic": "",
+      "translation": "國會大廈"
+    },
+    {
+      "word": "midterm",
+      "phonetic": "/ˈmɪdˌtəɹm/",
+      "translation": "期中考"
+    },
+    {
+      "word": "harassment",
+      "phonetic": "/həˈɹæsmənt/",
+      "translation": "騷擾"
+    },
+    {
+      "word": "ballistic",
+      "phonetic": "/bəˈlɪs.tɪk/",
+      "translation": "彈道的"
+    },
+    {
+      "word": "elderly",
+      "phonetic": "/ˈɛldəli/",
+      "translation": "老年"
+    },
+    {
+      "word": "inflation",
+      "phonetic": "/ɪnˈfleɪʃən/",
+      "translation": "通貨膨脹"
+    }
   ]
 }
