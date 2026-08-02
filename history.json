@@ -8953,5 +8953,52 @@
       "phonetic": "/ˈɛkskleɪv/",
       "translation": "飛地"
     }
+  ],
+  "2026-08-02": [
+    {
+      "word": "explosion",
+      "phonetic": "/ɪkˈspləʊ.ʒən/",
+      "translation": "霹靂"
+    },
+    {
+      "word": "fiery",
+      "phonetic": "/ˈfaɪəɹi/",
+      "translation": "火熱"
+    },
+    {
+      "word": "showdown",
+      "phonetic": "",
+      "translation": "攤牌"
+    },
+    {
+      "word": "splinter",
+      "phonetic": "",
+      "translation": "碎片"
+    },
+    {
+      "word": "homeland",
+      "phonetic": "",
+      "translation": "家園"
+    },
+    {
+      "word": "brothel",
+      "phonetic": "/ˈbɹɑðəl/",
+      "translation": "妓院"
+    },
+    {
+      "word": "thune",
+      "phonetic": "",
+      "translation": "圖恩"
+    },
+    {
+      "word": "battleground",
+      "phonetic": "",
+      "translation": "戰場"
+    },
+    {
+      "word": "engulfs",
+      "phonetic": "",
+      "translation": "吞沒"
+    }
   ]
 }
