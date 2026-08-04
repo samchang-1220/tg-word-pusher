@@ -9007,5 +9007,37 @@
       "phonetic": "/ˈmaɪɡɹənt/",
       "translation": "移民"
     }
+  ],
+  "2026-08-04": [
+    {
+      "word": "54,000",
+      "phonetic": "",
+      "translation": "54,000"
+    },
+    {
+      "word": "rally",
+      "phonetic": "/ˈɹæ.li/",
+      "translation": "集會"
+    },
+    {
+      "word": "collision",
+      "phonetic": "/kəˈlɪʒən/",
+      "translation": "碰撞"
+    },
+    {
+      "word": "escort",
+      "phonetic": "/ɛˈskɔːt/",
+      "translation": "護送"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    },
+    {
+      "word": "hacker",
+      "phonetic": "/hækə(ɹ)/",
+      "translation": "駭客"
+    }
   ]
 }
