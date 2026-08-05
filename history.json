@@ -9039,5 +9039,57 @@
       "phonetic": "/hækə(ɹ)/",
       "translation": "駭客"
     }
+  ],
+  "2026-08-05": [
+    {
+      "word": "ecstasy",
+      "phonetic": "/ˈɛk.stə.si/",
+      "translation": "狂喜"
+    },
+    {
+      "word": "caffeine-free",
+      "phonetic": "",
+      "translation": "不含咖啡因"
+    },
+    {
+      "word": "pontiff",
+      "phonetic": "/ˈpɒntɪf/",
+      "translation": "教宗"
+    },
+    {
+      "word": "grandma",
+      "phonetic": "/ˈɡɹænmɑː/",
+      "translation": "奶奶"
+    },
+    {
+      "word": "deplete",
+      "phonetic": "/dɪˈpliːt/",
+      "translation": "消耗"
+    },
+    {
+      "word": "antioxidant",
+      "phonetic": "",
+      "translation": "抗氧化劑"
+    },
+    {
+      "word": "fast-food",
+      "phonetic": "",
+      "translation": "速食"
+    },
+    {
+      "word": "eruption",
+      "phonetic": "/ɪˈɹʌpʃən/",
+      "translation": "噴發"
+    },
+    {
+      "word": "snuck",
+      "phonetic": "/snʌk/",
+      "translation": "潛行"
+    },
+    {
+      "word": "investigating",
+      "phonetic": "",
+      "translation": "調查"
+    }
   ]
 }
