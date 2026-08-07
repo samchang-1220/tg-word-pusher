@@ -9094,44 +9094,54 @@
   ],
   "2026-08-07": [
     {
+      "word": "advocate",
+      "phonetic": "/ˈæd.və.keɪt/",
+      "translation": "提倡"
+    },
+    {
+      "word": "munition",
+      "phonetic": "",
+      "translation": "彈藥"
+    },
+    {
       "word": "collide",
       "phonetic": "/kəˈlɑɪd/",
       "translation": "碰撞"
     },
     {
-      "word": "grandfather",
-      "phonetic": "",
-      "translation": "祖父"
+      "word": "decapitation",
+      "phonetic": "/dɪkæpɪˈteɪʃən/",
+      "translation": "斬首"
     },
     {
-      "word": "investigator",
-      "phonetic": "",
-      "translation": "研究者"
+      "word": "ruling",
+      "phonetic": "/ˈɹuːlɪŋ/",
+      "translation": "裁決"
     },
     {
-      "word": "rehab",
-      "phonetic": "/ˈɹiːhæb/",
-      "translation": "復原"
+      "word": "audible",
+      "phonetic": "/ˈɔːdɪbl̩/",
+      "translation": "可聽見的"
     },
     {
-      "word": "houthis",
-      "phonetic": "",
-      "translation": "胡塞武裝"
+      "word": "armor",
+      "phonetic": "/ˈɑː.mə/",
+      "translation": "盔甲"
     },
     {
-      "word": "altitude",
-      "phonetic": "/ˈælt.ɪˌtjuːd/",
-      "translation": "高度"
+      "word": "galactic",
+      "phonetic": "/ɡəˈlæktɪk/",
+      "translation": "銀河系的"
     },
     {
-      "word": "reactive",
-      "phonetic": "",
-      "translation": "反應性的"
+      "word": "angry",
+      "phonetic": "/ˈæŋ.ɡɹi/",
+      "translation": "生氣的"
     },
     {
-      "word": "citizenship",
-      "phonetic": "",
-      "translation": "國籍"
+      "word": "destroy",
+      "phonetic": "/dɪˈstɹɔɪ/",
+      "translation": "破壞"
     }
   ]
 }
