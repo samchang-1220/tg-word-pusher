@@ -9143,5 +9143,42 @@
       "phonetic": "/dɪˈstɹɔɪ/",
       "translation": "破壞"
     }
+  ],
+  "2026-08-08": [
+    {
+      "word": "unexpectedly",
+      "phonetic": "/ʌnɪkˈspɛktɪdli/",
+      "translation": "不料"
+    },
+    {
+      "word": "approve",
+      "phonetic": "/əˈpɹuːv/",
+      "translation": "核准"
+    },
+    {
+      "word": "homeowner",
+      "phonetic": "",
+      "translation": "屋主"
+    },
+    {
+      "word": "phenomenon",
+      "phonetic": "/fɪˈnɒmənɒn/",
+      "translation": "現象"
+    },
+    {
+      "word": "onlyfans",
+      "phonetic": "",
+      "translation": "唯一的粉絲"
+    },
+    {
+      "word": "driverless",
+      "phonetic": "",
+      "translation": "無人駕駛"
+    },
+    {
+      "word": "cautiously",
+      "phonetic": "/ˈkɑʃəsli/",
+      "translation": "小心翼翼地"
+    }
   ]
 }
