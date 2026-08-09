@@ -9180,5 +9180,52 @@
       "phonetic": "/ˈkɑʃəsli/",
       "translation": "小心翼翼地"
     }
+  ],
+  "2026-08-09": [
+    {
+      "word": "underway",
+      "phonetic": "",
+      "translation": "進行"
+    },
+    {
+      "word": "driverless",
+      "phonetic": "",
+      "translation": "無人駕駛"
+    },
+    {
+      "word": "aerial",
+      "phonetic": "/ˈɛː.ɹi.əl/",
+      "translation": "天線"
+    },
+    {
+      "word": "unexpectedly",
+      "phonetic": "/ʌnɪkˈspɛktɪdli/",
+      "translation": "不料"
+    },
+    {
+      "word": "theron",
+      "phonetic": "",
+      "translation": "塞隆"
+    },
+    {
+      "word": "fast-moving",
+      "phonetic": "",
+      "translation": "快速移動的"
+    },
+    {
+      "word": "romcom",
+      "phonetic": "",
+      "translation": "浪漫喜劇"
+    },
+    {
+      "word": "jalapeños",
+      "phonetic": "",
+      "translation": "墨西哥辣椒"
+    },
+    {
+      "word": "withdraw",
+      "phonetic": "/wɪðˈdɹɔː/",
+      "translation": "提取"
+    }
   ]
 }
