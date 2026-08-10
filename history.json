@@ -9227,5 +9227,52 @@
       "phonetic": "/wɪðˈdɹɔː/",
       "translation": "提取"
     }
+  ],
+  "2026-08-10": [
+    {
+      "word": "sweep",
+      "phonetic": "/swiːp/",
+      "translation": "掃"
+    },
+    {
+      "word": "swear",
+      "phonetic": "/swɛə/",
+      "translation": "發誓"
+    },
+    {
+      "word": "denial",
+      "phonetic": "/dɪˈnaɪ.əl/",
+      "translation": "拒絕"
+    },
+    {
+      "word": "hated",
+      "phonetic": "/ˈheɪtɪd/",
+      "translation": "討厭的"
+    },
+    {
+      "word": "stall",
+      "phonetic": "/stɔːl/",
+      "translation": "攤位"
+    },
+    {
+      "word": "syria",
+      "phonetic": "",
+      "translation": "敘利亞"
+    },
+    {
+      "word": "affair",
+      "phonetic": "/əˈfɛə/",
+      "translation": "事務"
+    },
+    {
+      "word": "allege",
+      "phonetic": "/əˈlɛdʒ/",
+      "translation": "聲稱"
+    },
+    {
+      "word": "freeze",
+      "phonetic": "/ˈfɹiːz/",
+      "translation": "凍結"
+    }
   ]
 }
