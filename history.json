@@ -9274,5 +9274,42 @@
       "phonetic": "/ˈfɹiːz/",
       "translation": "凍結"
     }
+  ],
+  "2026-08-11": [
+    {
+      "word": "overpass",
+      "phonetic": "",
+      "translation": "高架橋"
+    },
+    {
+      "word": "misogynistic",
+      "phonetic": "/ˈmɪs.ɒdʒ.ən.ɪst.ɪk/",
+      "translation": "厭惡女性的"
+    },
+    {
+      "word": "declare",
+      "phonetic": "",
+      "translation": "宣告"
+    },
+    {
+      "word": "psychiatric",
+      "phonetic": "/ˌsaɪ.ki.ˈæt.ɹɪk/",
+      "translation": "精神病學的"
+    },
+    {
+      "word": "cling",
+      "phonetic": "/ˈklɪŋ/",
+      "translation": "緊貼"
+    },
+    {
+      "word": "unknowingly",
+      "phonetic": "/ʌnˈnəʊ.ɪŋ.li/",
+      "translation": "不知不覺地"
+    },
+    {
+      "word": "missile",
+      "phonetic": "/ˈmɪsaɪl/",
+      "translation": "飛彈"
+    }
   ]
 }
