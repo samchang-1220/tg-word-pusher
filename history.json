@@ -9311,5 +9311,37 @@
       "phonetic": "/ˈmɪsaɪl/",
       "translation": "飛彈"
     }
+  ],
+  "2026-08-12": [
+    {
+      "word": "criticize",
+      "phonetic": "/ˈkɹɪtɪsaɪz/",
+      "translation": "批評"
+    },
+    {
+      "word": "equip",
+      "phonetic": "/ɪˈkwɪp/",
+      "translation": "裝備"
+    },
+    {
+      "word": "performance-enhancing",
+      "phonetic": "",
+      "translation": "提高表現"
+    },
+    {
+      "word": "fibroid",
+      "phonetic": "",
+      "translation": "肌瘤"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    },
+    {
+      "word": "sure-bet",
+      "phonetic": "",
+      "translation": "肯定的賭注"
+    }
   ]
 }
