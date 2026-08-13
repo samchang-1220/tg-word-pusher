@@ -9343,5 +9343,57 @@
       "phonetic": "",
       "translation": "肯定的賭注"
     }
+  ],
+  "2026-08-13": [
+    {
+      "word": "cocaine",
+      "phonetic": "/koʊˈkeɪn/",
+      "translation": "古柯鹼"
+    },
+    {
+      "word": "invader",
+      "phonetic": "/ɪn.ˈveɪ.də(ɹ)/",
+      "translation": "侵略者"
+    },
+    {
+      "word": "earthquake",
+      "phonetic": "/ˈɜːθkweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "performance-enhancing",
+      "phonetic": "",
+      "translation": "提高表現"
+    },
+    {
+      "word": "breathtaking",
+      "phonetic": "/ˈbɹɛθˌteɪ.kɪŋ/",
+      "translation": "驚險"
+    },
+    {
+      "word": "politician",
+      "phonetic": "/ˈpɒl.ɪ.tɪʃ.ən/",
+      "translation": "政治家"
+    },
+    {
+      "word": "derails",
+      "phonetic": "",
+      "translation": "出軌"
+    },
+    {
+      "word": "indict",
+      "phonetic": "/ˌɪnˈdaɪt/",
+      "translation": "起訴"
+    },
+    {
+      "word": "lime-forward",
+      "phonetic": "",
+      "translation": "石灰前進"
+    },
+    {
+      "word": "anger",
+      "phonetic": "/ˈæŋɡə(ɹ)/",
+      "translation": "憤怒"
+    }
   ]
 }
