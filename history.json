@@ -9395,5 +9395,42 @@
       "phonetic": "/ˈæŋɡə(ɹ)/",
       "translation": "憤怒"
     }
+  ],
+  "2026-08-14": [
+    {
+      "word": "helicopter",
+      "phonetic": "/ˈheliˌkɔptə(ɹ)/",
+      "translation": "直升機"
+    },
+    {
+      "word": "covid-19",
+      "phonetic": "",
+      "translation": "新冠肺炎"
+    },
+    {
+      "word": "quake",
+      "phonetic": "/kweɪk/",
+      "translation": "地震"
+    },
+    {
+      "word": "allocution",
+      "phonetic": "/alə(ʊ)ˈkjuːʃən/",
+      "translation": "旁白"
+    },
+    {
+      "word": "dismiss",
+      "phonetic": "/dɪsˈmɪs/",
+      "translation": "解僱"
+    },
+    {
+      "word": "breakout",
+      "phonetic": "",
+      "translation": "突破"
+    },
+    {
+      "word": "convict",
+      "phonetic": "/ˈkɒnvɪkt/",
+      "translation": "定罪"
+    }
   ]
 }
