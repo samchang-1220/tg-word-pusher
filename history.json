@@ -9432,5 +9432,47 @@
       "phonetic": "/ˈkɒnvɪkt/",
       "translation": "定罪"
     }
+  ],
+  "2026-08-15": [
+    {
+      "word": "vessel",
+      "phonetic": "/ˈvɛs.l̩/",
+      "translation": "血管"
+    },
+    {
+      "word": "uncover",
+      "phonetic": "/ʌnˈkʌvə(ɹ)/",
+      "translation": "揭露"
+    },
+    {
+      "word": "seize",
+      "phonetic": "/siːz/",
+      "translation": "搶佔"
+    },
+    {
+      "word": "wildfire",
+      "phonetic": "",
+      "translation": "野火"
+    },
+    {
+      "word": "partially",
+      "phonetic": "",
+      "translation": "部分地"
+    },
+    {
+      "word": "magnitude",
+      "phonetic": "/ˈmæɡnɪtjuːd/",
+      "translation": "規模"
+    },
+    {
+      "word": "heist",
+      "phonetic": "/ˈhaɪst/",
+      "translation": "搶劫"
+    },
+    {
+      "word": "declare",
+      "phonetic": "",
+      "translation": "宣告"
+    }
   ]
 }
