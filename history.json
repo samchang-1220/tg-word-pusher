@@ -9474,5 +9474,27 @@
       "phonetic": "",
       "translation": "宣告"
     }
+  ],
+  "2026-08-16": [
+    {
+      "word": "elbow",
+      "phonetic": "/ˈɛl.bəʊ/",
+      "translation": "彎頭"
+    },
+    {
+      "word": "revolutionary",
+      "phonetic": "/-ˈljuː-/",
+      "translation": "革命性的"
+    },
+    {
+      "word": "second-largest",
+      "phonetic": "",
+      "translation": "第二大"
+    },
+    {
+      "word": "drought-hit",
+      "phonetic": "",
+      "translation": "遭遇乾旱"
+    }
   ]
 }
