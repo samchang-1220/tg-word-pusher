@@ -9496,5 +9496,42 @@
       "phonetic": "",
       "translation": "遭遇乾旱"
     }
+  ],
+  "2026-08-17": [
+    {
+      "word": "merger",
+      "phonetic": "/ˈmɜːdʒə/",
+      "translation": "合併"
+    },
+    {
+      "word": "referee",
+      "phonetic": "/ˌɹɛf.əˈɹiː/",
+      "translation": "裁判"
+    },
+    {
+      "word": "elaborate",
+      "phonetic": "/ɪˈlæbəɹeɪt/",
+      "translation": "精心製作的"
+    },
+    {
+      "word": "battleground",
+      "phonetic": "/ˈbætəlˌɡɹaʊnd/",
+      "translation": "戰場"
+    },
+    {
+      "word": "reservoir",
+      "phonetic": "/ˈɹɛz.ə.vwɑː(ɹ)/",
+      "translation": "水庫"
+    },
+    {
+      "word": "testify",
+      "phonetic": "/ˈtɛstɪfaɪ/",
+      "translation": "作證"
+    },
+    {
+      "word": "lifeguard",
+      "phonetic": "",
+      "translation": "救生員"
+    }
   ]
 }
