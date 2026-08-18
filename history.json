@@ -9533,5 +9533,37 @@
       "phonetic": "",
       "translation": "救生員"
     }
+  ],
+  "2026-08-18": [
+    {
+      "word": "terrible",
+      "phonetic": "/ˈtɛ.ɹə.bl̩/",
+      "translation": "糟糕的"
+    },
+    {
+      "word": "unsolved",
+      "phonetic": "",
+      "translation": "未解決的"
+    },
+    {
+      "word": "capitol",
+      "phonetic": "",
+      "translation": "國會大廈"
+    },
+    {
+      "word": "six-minute",
+      "phonetic": "",
+      "translation": "六分鐘"
+    },
+    {
+      "word": "courtroom",
+      "phonetic": "",
+      "translation": "法庭"
+    },
+    {
+      "word": "emerge",
+      "phonetic": "/iˈmɜːd͡ʒ/",
+      "translation": "出現"
+    }
   ]
 }
