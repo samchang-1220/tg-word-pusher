@@ -9565,5 +9565,47 @@
       "phonetic": "/iˈmɜːd͡ʒ/",
       "translation": "出現"
     }
+  ],
+  "2026-08-19": [
+    {
+      "word": "fda-approved",
+      "phonetic": "",
+      "translation": "FDA 核准"
+    },
+    {
+      "word": "sudden",
+      "phonetic": "/ˈsʌdən/",
+      "translation": "突然的"
+    },
+    {
+      "word": "observatory",
+      "phonetic": "/əbˈzəːvət(ə)ɹi/",
+      "translation": "天文台"
+    },
+    {
+      "word": "unveil",
+      "phonetic": "/ʌnˈveɪl/",
+      "translation": "揭幕"
+    },
+    {
+      "word": "vaccine",
+      "phonetic": "/vækˈsaɪn/",
+      "translation": "疫苗"
+    },
+    {
+      "word": "cocktail",
+      "phonetic": "/ˈkɒkteɪl/",
+      "translation": "雞尾酒"
+    },
+    {
+      "word": "frenemies",
+      "phonetic": "/fɹɛ.nɪ.miz/",
+      "translation": "亦敵亦友"
+    },
+    {
+      "word": "stardom",
+      "phonetic": "",
+      "translation": "明星地位"
+    }
   ]
 }
