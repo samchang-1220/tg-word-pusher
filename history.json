@@ -9607,5 +9607,52 @@
       "phonetic": "",
       "translation": "明星地位"
     }
+  ],
+  "2026-08-20": [
+    {
+      "word": "chaplain",
+      "phonetic": "/ˈtʃæp.lɪn/",
+      "translation": "牧師"
+    },
+    {
+      "word": "testifies",
+      "phonetic": "",
+      "translation": "作證"
+    },
+    {
+      "word": "assault",
+      "phonetic": "/əˈsɔːlt/",
+      "translation": "突擊"
+    },
+    {
+      "word": "tycoon",
+      "phonetic": "/taɪˈkuːn/",
+      "translation": "巨頭"
+    },
+    {
+      "word": "upend",
+      "phonetic": "/ʌpˈɛnd/",
+      "translation": "顛覆"
+    },
+    {
+      "word": "keynote",
+      "phonetic": "/ˈkiːˌnoʊt/",
+      "translation": "基調"
+    },
+    {
+      "word": "alleged",
+      "phonetic": "",
+      "translation": "據稱"
+    },
+    {
+      "word": "unveil",
+      "phonetic": "/ʌnˈveɪl/",
+      "translation": "揭幕"
+    },
+    {
+      "word": "deadly",
+      "phonetic": "/ˈdɛd.li/",
+      "translation": "致命"
+    }
   ]
 }
