@@ -9654,5 +9654,37 @@
       "phonetic": "/ˈdɛd.li/",
       "translation": "致命"
     }
+  ],
+  "2026-08-21": [
+    {
+      "word": "mid-atlantic",
+      "phonetic": "",
+      "translation": "大西洋中部"
+    },
+    {
+      "word": "cling",
+      "phonetic": "/ˈklɪŋ/",
+      "translation": "緊貼"
+    },
+    {
+      "word": "d-bag",
+      "phonetic": "",
+      "translation": "d-袋"
+    },
+    {
+      "word": "arrest",
+      "phonetic": "/əˈɹɛst/",
+      "translation": "逮捕"
+    },
+    {
+      "word": "tornado",
+      "phonetic": "/tɔː(ɹ)ˈneɪ.dəʊ/",
+      "translation": "龍捲風"
+    },
+    {
+      "word": "blockbuster",
+      "phonetic": "/ˈblɒkˌbʌstə(ɹ)/",
+      "translation": "重磅炸彈"
+    }
   ]
 }
